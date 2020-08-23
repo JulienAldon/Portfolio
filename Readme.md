@@ -3,15 +3,15 @@
 
 # Projets Solo
 ## EscapeTheVolcano
-Jeu réalisé avec Unity [lien vers le github](https://github.com/JulienAldon/EscapeTheVolcano)
+Jeu Designé et Réalisé, en Russie en parallèle de mes études à St-Petersbourg, avec Unity [lien vers le github](https://github.com/JulienAldon/EscapeTheVolcano)
 ![](ressources/Menu.png)
 
 ## Raytracer1
-Projet réalisé en C dans le cadre de ma première année
+Projet réalisé en C dans le cadre de ma première année.
 [lien vers le github](https://github.com/JulienAldon/Epitech_Raytracer1)
 
 ## Publify
-Projet utilisant l'api spotify pour simplifier la gestion de playlists publiques et collaborative
+Projet réalisé en Python utilisant l'api spotify pour simplifier la gestion de playlists publiques et collaboratives.
 Le premier outil permet de synchroniser une playlist publique et une playlist colaborative, cette action supprime les doublons dans la playlist publique nouvellement synchronisée.
 ![]()
 
@@ -24,7 +24,8 @@ Un second outil est disponible, il s'agit de la "radio", en selectionnant une pl
 # Projets fait en groupe
 
 ## JAMMEE
-Projet de fin d'étude réalisé dans le cadre de mes études a EPITECH, projet réalisé sur 3ans (de la 3eme année à la 5eme année).
+Projet Web
+Projet de fin d'étude EPITECH ou EIP (Epitech Innovative Project), projet réalisé sur 3ans (de la 3eme année à la 5eme année).
 [lien vers le site](jammee.io)
 ![]()
 
