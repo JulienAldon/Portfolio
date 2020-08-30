@@ -30,7 +30,7 @@ Projet de fin d'étude EPITECH ou EIP (Epitech Innovative Project), projet réal
 
 Il s'agit d'un logiciel de Musique assisté par ordinateur (minimal) dans un navigateur, il s'axe sur la simplicitée de son UI pour permettre à un novice de découvrir la production musicale facilement.
 [lien vers le site](jammee.io)
-![]()
+![](ressources/Jammee.png)
 
 ## Raytracer1 (C)
 Projet réalisé en C dans le cadre de ma première année.
