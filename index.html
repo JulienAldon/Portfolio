@@ -4,15 +4,18 @@
 <head>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<body>   
-    <h1>Julien Aldon</h1>
-    <h1>Port-Folio</h1>
+<body> 
+    <div class="h1Context" style="margin-top: 5rem">
+        <h1 class="h1Title">Julien Aldon</h1>
+        <h1 class="h1Title" style="text-align: right;">Port-Folio</h1>
+        <!-- <h1 class="h1Context" style="padding-bottom: 2rem;">Liste des projets</h1> -->
+    </div>
     <!-- New Article -->
     <div class="article">
         <div class="item">
             <img src="ressources/ETV/Menu.png">
             <!-- TODO: Link to game in webGL -->
-            <h1>EscapeTheVolcano (jeu vidéo)</h1>
+            <h1 class="h1Article">EscapeTheVolcano (jeu vidéo)</h1>
         </div>
         <div class="item">
             <p>Jeu Designé et Réalisé, en Russie, en parallèle de mes études à St-Petersbourg, avec Unity 
@@ -24,11 +27,11 @@
             <img src="ressources/ETV/InGameLava.png">
         </div>
     </div>
-     <!-- New Article -->
-     <div class="article">
+    <!-- New Article -->
+    <div class="article">
         <div class="item">
             <img src="ressources/JAMMEE/Jammee.png">
-            <h1>JAMMEE <a class="noDecoration" href="https://www.jammee.io">(site web) <i class="fa fa-external-link" aria-hidden="true"></i></a></h1>
+            <h1 class="h1Article">JAMMEE <a class="noDecoration" href="https://www.jammee.io">(site web) <i class="fa fa-external-link" aria-hidden="true"></i></a></h1>
         </div>
         <div class="item">
             <p>
@@ -49,7 +52,7 @@
     <div class="article">
         <div class="item">
             <img src="ressources/Publify/publify_home.png">
-            <h1>Publify (site web)</h1>
+            <h1 class="h1Article">Publify (site web)</h1>
         </div>
         <div class="item">
             <p>
@@ -68,12 +71,12 @@
             <img src="ressources/Publify/publify_home.png">
         </div>
     </div>
-   
-     <!-- New Article -->
-     <div class="article">
+
+    <!-- New Article -->
+    <div class="article">
         <div class="item">
             <img src="ressources/Raytracer/raytracer2_screen.png">
-            <h1>Raytracer 2 (en C)</h1>
+            <h1 class="h1Article">Raytracer 2 (en C)</h1>
         </div>
         <div class="item">
             <p>
@@ -87,42 +90,20 @@
             <img src="ressources/Raytracer/raytracer2_screen3.png">
         </div>
     </div>
-     <!-- New Article -->
-     <div class="article">
-        <div class="item">
-            <img src="ressources/C-language.jpg">
-            <h1>MinilibC (ASM)</h1>
-        </div>
-        <div class="item">
-            <p>
-                Projet réalisé en Assembleur, l’objectif était de recréer une petite libC en assembleur. Projet réalisé dans le cadre de ma deuxième année à Epitech.
-                <br/><a style="text-align:center;" class="noDecoration" href="https://github.com/JulienAldon/Epitech_Minilibc">Lien vers le github <i class="fa fa-external-link" aria-hidden="true"></i></a>
-            </p>
-        </div>
-        <!-- <div class="item">
-            <img src="ressources/Raytracer/raytracer2_screen1.png">
-            <img src="ressources/Raytracer/raytracer2_screen2.png">
-            <img src="ressources/Raytracer/raytracer2_screen3.png">
-        </div> -->
     </div>
-     <!-- New Article -->
-     <div class="article">
+    <!-- New Article -->
+    <div class="article">
         <div class="item">
             <img src="ressources/nanotekspice.png">
-            <h1>NanoTekSpice (C++)</h1>
+            <h1 class="h1Article">NanoTekSpice (C++)</h1>
         </div>
         <div class="item">
             <p>
-                Projet réalisé en C++. Il s’agit d’un simulateur de composant electroniques (de circuits simples).
+                Projet réalisé en C++. Il s’agit d’un simulateur de composant électroniques (de circuits simples).
                 Réalisé en deuxième année à Epitech.
                 <br/><a style="text-align:center;" class="noDecoration" href="https://github.com/JulienAldon/Epitech_NanoTekSpice">Lien vers le github <i class="fa fa-external-link" aria-hidden="true"></i></a>
             </p>
         </div>
-        <!-- <div class="item">
-            <img src="ressources/Raytracer/raytracer2_screen1.png">
-            <img src="ressources/Raytracer/raytracer2_screen2.png">
-            <img src="ressources/Raytracer/raytracer2_screen3.png">
-        </div> -->
     </div>
 
     <footer class="footerBox">
@@ -132,6 +113,19 @@
 </body>
 </html>
 <style>
+p {
+    padding-left: .5rem;
+}
+body {
+	background: top/cover fixed url("ressources/background_blur.jpg");
+	margin: 0;
+	font-family: 'DM Sans', sans-serif;
+	height: 100vh;
+
+	display: flex;
+	flex-flow: column;
+}
+
 .footerButton {
     flex: 0 1 auto;
     padding-left: 1rem;
@@ -148,31 +142,44 @@
     height: 3rem;
     color:  #ffffff;
     /* background: #555555; */
-    width: 100%;
     left: 0;
 }
 .article {
     display: flex;
     justify-content: center;
     flex-flow: column;
-    padding-bottom: 15rem;
+    background-color: rgba(11, 11, 11, .75);
+    margin-left: 12rem;
+    margin-right: 12rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 5rem;
 }
 .item {
     display: flex;
-    display: flex;
-    justify-content: center;
     align-items: center;
-    padding-left: 10rem;
-    padding-right: 10rem;
-
 }
-h1 {
+.h1Title {
+    flex: 1 1 auto;
+}
+.h1Context {
+    background-color: rgba(11, 11, 11, .75);
+    margin-left: 12rem;
+    margin-right: 12rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    display:flex; 
+    justify-content: center;
+}
+.h1Article {
     margin-left: 2rem;
     width: 30rem;
 }
 .noDecoration, a:link, a:visited {
     text-decoration: none;
-    color:blanchedalmond;
+    color: #B2E8F4;
     font-size: 120%;
 }
 img {
@@ -182,7 +189,8 @@ img {
   width: 30rem;
 }
 body {
-    color:blanchedalmond;
-    background-color: black;
+    color: #B2E8F4;
 }
 </style>
+
+<!-- #ECC7F2; -->
