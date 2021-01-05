@@ -9,17 +9,17 @@
 </head>
 <body>
     <title>Julien Aldon / Portfolio</title>
-    <div id="myModal" class="modal">
+    <modal id="myModal" class="modal">
         <span class="close">&times;</span>
         <img class="img modal-content" id="img01">
         <div id="caption"></div>
-    </div>
+    </modal>
+    
     <header class="h1Context">
         <h1 class="h1Title">Julien Aldon // Portfolio</h1>
-        <h1 class="h1Title" style="text-align: right;">Contactez moi</h1>
-        <!-- <h1 class="h1Context" style="padding-bottom: 2rem;">Liste des projets</h1> -->
+        <h1 id="contactMe" class="h1Title" style="text-align: right;">Contactez moi</h1>
     </header>
-    <!-- New Article -->
+    
     <article class="project">
         <div class="item">
             <img alt="Menu du jeu" class="img imgTitle" src="ressources/ETV/Menu.png">
@@ -53,7 +53,7 @@
 
         </div>
     </article>
-    <!-- New Article -->
+
     <article class="project">
         <div class="item">
             <img alt="Le studio Jammee" class="img imgTitle" src="ressources/JAMMEE/Jammee.png">
@@ -74,7 +74,7 @@
             <img alt="Ajoute des effets, change les couleurs des pistes..." class="img itemImg" src="ressources/JAMMEE/Full.png">
         </div>
     </article>
-    <!-- New Article -->
+
     <article class="project">
         <div class="item">
             <img alt="Page d'accueil de publify" class="img imgTitle" src="ressources/Publify/publify_home.png">
@@ -96,7 +96,7 @@
             <img alt="Publify" class="img itemImg" src="ressources/Publify/publify_home.png">
         </div>
     </article>
-    <!-- New Article -->
+
     <article class="project">
         <div class="item">
             <img alt="Rendu du raytracer2 : quatre cylindres rouges, quatre sphères réfléchissantes, deux plans quadriés" class="img imgTitle" src="ressources/Raytracer/raytracer2_screen.png">
@@ -115,7 +115,7 @@
         </div>
     </div>
     </article>
-    <!-- New Article -->
+
     <article class="project">
         <div class="item">
             <img alt="Consignes du nanotekspice : Simuler des connexions éléctroniques, reproduire des portes logiques, améliorer ses connaissances en électronique" class="img imgTitle" src="ressources/nanotekspice.png">
@@ -372,5 +372,22 @@ body {
     span.onclick = function() { 
       modal.style.display = "none";
     }
+
+    var contactMe = document.getElementById("contactMe");
+    contactMe.onclick = function() {
+        if (contactMe.innerHTML == "Contactez moi") {
+            contactMe.innerHTML = "julien.aldon@epitech.eu"
+        } else {
+            contactMe.innerHTML = "Contactez moi"
+        }
+    }
+    window.onscroll = function(ev) {
+        var header = document.getElementsByClassName('h1Context')[0];
+        if (window.scrollY > 0) {
+            header.style.backgroundColor = "rgba(11, 11, 11, 1)"
+        } else {
+            header.style.backgroundColor = "rgba(11, 11, 11, .75)"
+        }
+};
 </script>
 <!-- #ECC7F2; -->
