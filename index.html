@@ -1,22 +1,25 @@
 <!DOCTYPE html>
-<meta charset="UTF-8">
-<html>
-<head>
+<html lang="fr">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<body> 
+<body>
+    <title>Julien Aldon / Portfolio</title>
     <div id="myModal" class="modal">
         <span class="close">&times;</span>
         <img class="img modal-content" id="img01">
         <div id="caption"></div>
     </div>
-    <div class="h1Context" style="margin-top: 5rem">
-        <h1 class="h1Title">Julien Aldon</h1>
-        <h1 class="h1Title" style="text-align: right;">Port-Folio</h1>
+    <header class="h1Context">
+        <h1 class="h1Title">Julien Aldon / Portfolio</h1>
+        <h1 class="h1Title" style="text-align: right;">Contactez moi</h1>
         <!-- <h1 class="h1Context" style="padding-bottom: 2rem;">Liste des projets</h1> -->
-    </div>
+    </header>
     <!-- New Article -->
-    <div class="article">
+    <article class="project">
         <div class="item">
             <img class="img imgTitle" src="ressources/ETV/Menu.png">
             
@@ -36,16 +39,16 @@
             <br/><a style="text-align:center;" class="noDecoration" href="https://github.com/JulienAldon/EscapeTheVolcano">Lien vers le github <i class="fa fa-external-link" aria-hidden="true"></i></a></p>
         </div>
         <div class="item">
-            <img class="img itemImg" src="ressources/ETV/Climber.png">
+            <img alt="Archetype climber" class="img itemImg" src="ressources/ETV/Climber.png">
 
-            <img class="img itemImg" src="ressources/ETV/InGameBlob.png">
+            <img alt="Archetype climber" class="img itemImg" src="ressources/ETV/InGameBlob.png">
 
-            <img class="img itemImg" src="ressources/ETV/InGameLava.png">
+            <img alt="Archetype climber" class="img itemImg" src="ressources/ETV/InGameLava.png">
 
         </div>
-    </div>
+    </article>
     <!-- New Article -->
-    <div class="article">
+    <article class="project">
         <div class="item">
             <img class="img imgTitle" src="ressources/JAMMEE/Jammee.png">
             <h1 class="h1Article">JAMMEE <a class="noDecoration" href="https://www.jammee.io">(site web) <i class="fa fa-external-link" aria-hidden="true"></i></a></h1>
@@ -64,9 +67,9 @@
             <img class="img itemImg" src="ressources/JAMMEE/Home.png">
             <img class="img itemImg" src="ressources/JAMMEE/Full.png">
         </div>
-    </div>
+    </article>
     <!-- New Article -->
-    <div class="article">
+    <article class="project">
         <div class="item">
             <img class="img imgTitle" src="ressources/Publify/publify_home.png">
             <h1 class="h1Article">Publify (site web)</h1>
@@ -86,10 +89,9 @@
             <img class="img itemImg" src="ressources/Publify/publify_playlist.png">
             <img class="img itemImg" src="ressources/Publify/publify_home.png">
         </div>
-    </div>
-
+    </article>
     <!-- New Article -->
-    <div class="article">
+    <article class="project">
         <div class="item">
             <img class="img imgTitle" src="ressources/Raytracer/raytracer2_screen.png">
             <h1 class="h1Article">Raytracer 2 (en C)</h1>
@@ -106,9 +108,9 @@
             <img class="img itemImg" src="ressources/Raytracer/raytracer2_screen3.png">
         </div>
     </div>
-    </div>
+    </article>
     <!-- New Article -->
-    <div class="article">
+    <article class="project">
         <div class="item">
             <img class="img imgTitle" src="ressources/nanotekspice.png">
             <h1 class="h1Article">NanoTekSpice (C++)</h1>
@@ -131,27 +133,42 @@
                 <br/><a style="text-align:center;" class="noDecoration" href="https://github.com/JulienAldon/Epitech_NanoTekSpice">Lien vers le github <i class="fa fa-external-link" aria-hidden="true"></i></a>
             </p>
         </div>
-    </div>
+    </article>
 
     <footer class="footerBox">
         <!-- <div class="footerButton">A propos de moi</div> -->
-        <div class="footerButton"><a class="noDecoration" href="mailto:julien.aldon@epitech.eu">Me contacter <i class="fa fa-external-link" aria-hidden="true"></i></a></div>
     </footer>
 </body>
 </html>
 <style>
+header {
+    position:          sticky;
+    top:               0;
+    box-sizing:        border-box;
+    background-color:rgba(11, 11, 11, .75);
+    box-sizing:        border-box;
+    align-self:        stretch;
+}
+header.h1Context {
+    display:         flex; 
+    justify-content: center;
+    padding-left:    1rem;
+    padding-right:   1rem;
+    /* margin-top: 5rem; */
+}
 .img {
 }
 .imgTitle {
   /* border: 1px solid #ddd;
   border-radius: 4px; */
   padding: 5px;
-  max-width: 30vw;
+  max-width: 50%;
 }
 .itemImg {
     flex: 1 1 auto;
     width: 20%;
-    padding-left: 1rem;
+    padding-right: .5rem;
+    padding-left: .5rem;
 }
 p {
     padding-left: .5rem;
@@ -162,6 +179,7 @@ body {
 	font-family: 'DM Sans', sans-serif;
     height: auto;
 	display: flex;
+    justify-content: center;
 	flex-flow: column;
 }
 
@@ -179,21 +197,28 @@ body {
     /* position: fixed; */
     bottom: 0;
     height: 3rem;
-    color:  #ECF2CA;
+    color: #EEE ;
     /* background: #555555; */
     left: 0;
 }
-.article {
-    display: flex;
-    justify-content: center nowrap;
-    flex-flow: column;
+article {
     background-color: rgba(11, 11, 11, .75);
-    margin-left: 12rem;
-    margin-right: 12rem;
+    /* margin-left: 15rem;
+    margin-right: 15rem; */
+    width: 60rem;
     padding-left: 1rem;
     padding-top: 1rem;
     padding-right: 1rem;
+    align-self: center;
+    box-sizing: border-box
+}
+
+article.project {
+    display: flex;
+    justify-content: center nowrap;
+    flex-flow: column;
     padding-bottom: 5rem;
+    margin-bottom: 1rem;
 }
 .item {
     display: flex;
@@ -201,17 +226,9 @@ body {
 }
 .h1Title {
     flex: 1 1 auto;
+    margin: .5rem;
 }
-.h1Context {
-    background-color: rgba(11, 11, 11, .75);
-    margin-left: 12rem;
-    margin-right: 12rem;
-    padding-left: 1rem;
-    padding-top: 1rem;
-    padding-right: 1rem;
-    display:flex; 
-    justify-content: center;
-}
+
 .h1Article {
     flex: 1 1 auto;
     text-align: center;
@@ -219,27 +236,27 @@ body {
 }
 .noDecoration, a:link, a:visited {
     /* text-decoration: none; */
-    color: #ECF2CA;
-    font-size: 120%;
+    color:#EEE ;
+    /* font-size: 120%; */
 }
 
 body {
-    color: #ECF2CA;
+    color:#EEE ;
 }
 
 /* IMG MODAL */
 .modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px; 
   left: 0;
   top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.9); 
 }
 
 /* Modal Content (image) */
@@ -304,6 +321,17 @@ body {
     width: 100%;
   }
 }
+@media (max-width: 62rem) {
+    article {
+        width: calc(100vw - 1rem);
+    }
+    article.h1Context {
+        margin-top: 1rem;
+    }
+    .h1Article {
+        font-size: 4vw;
+    }
+}
 </style>
 
 <script>
@@ -325,7 +353,15 @@ body {
     
     // Get the <span> element that closes the modal
     var span = document.getElementsByClassName("close")[0];
+    var modal = document.getElementById("myModal");
+    var modalImg = document.getElementById("img01");
     
+    modalImg.onclick = function() {
+        event.stopPropagation();
+    }
+    modal.onclick = function() {
+      modal.style.display = "none";
+    }
     // When the user clicks on <span> (x), close the modal
     span.onclick = function() { 
       modal.style.display = "none";
