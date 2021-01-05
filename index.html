@@ -5,6 +5,11 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body> 
+    <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img01">
+        <div id="caption"></div>
+    </div>
     <div class="h1Context" style="margin-top: 5rem">
         <h1 class="h1Title">Julien Aldon</h1>
         <h1 class="h1Title" style="text-align: right;">Port-Folio</h1>
@@ -14,6 +19,7 @@
     <div class="article">
         <div class="item">
             <img src="ressources/ETV/Menu.png">
+            
             <!-- TODO: Link to game in webGL -->
             <h1 class="h1Article">EscapeTheVolcano (jeu vidéo)</h1>
         </div>
@@ -30,9 +36,12 @@
             <br/><a style="text-align:center;" class="noDecoration" href="https://github.com/JulienAldon/EscapeTheVolcano">Lien vers le github <i class="fa fa-external-link" aria-hidden="true"></i></a></p>
         </div>
         <div class="item">
-            <img class="itemImg" src="ressources/ETV/Climber.png">
-            <img class="itemImg" src="ressources/ETV/InGameBlob.png">
-            <img class="itemImg" src="ressources/ETV/InGameLava.png">
+            <img id="myImg" class="itemImg" src="ressources/ETV/Climber.png">
+
+            <img id="myImg" class="itemImg" src="ressources/ETV/InGameBlob.png">
+
+            <img id="myImg" class="itemImg" src="ressources/ETV/InGameLava.png">
+
         </div>
     </div>
     <!-- New Article -->
@@ -201,7 +210,7 @@ body {
     font-size: 2vw;
 }
 .noDecoration, a:link, a:visited {
-    text-decoration: none;
+    /* text-decoration: none; */
     color: #ECF2CA;
     font-size: 120%;
 }
@@ -214,6 +223,109 @@ img {
 body {
     color: #ECF2CA;
 }
+
+/* IMG MODAL */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
 </style>
 
+<script>
+    // Get the modal
+    var modal = document.getElementById("myModal");
+    
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var img = document.getElementsByClassName("itemImg");
+    var modalImg = document.getElementById("img01");
+    var captionText = document.getElementById("caption");
+    for(var i = 0; i < img.length; i++) { 
+        var a = img[i];
+        a.onclick = function(){
+            modal.style.display = "block";
+            modalImg.src = this.src;
+            captionText.innerHTML = this.alt;
+        }
+    }
+    
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+    
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() { 
+      modal.style.display = "none";
+    }
+</script>
 <!-- #ECC7F2; -->
