@@ -22,9 +22,9 @@
             <br/><a style="text-align:center;" class="noDecoration" href="https://github.com/JulienAldon/EscapeTheVolcano">Lien vers le github <i class="fa fa-external-link" aria-hidden="true"></i></a></p>
         </div>
         <div class="item">
-            <img src="ressources/ETV/Climber.png">
-            <img src="ressources/ETV/InGameBlob.png">
-            <img src="ressources/ETV/InGameLava.png">
+            <img class="itemImg" src="ressources/ETV/Climber.png">
+            <img class="itemImg" src="ressources/ETV/InGameBlob.png">
+            <img class="itemImg" src="ressources/ETV/InGameLava.png">
         </div>
     </div>
     <!-- New Article -->
@@ -43,9 +43,9 @@
             </p>
         </div>
         <div class="item">
-            <img src="ressources/JAMMEE/load.png">
-            <img src="ressources/JAMMEE/Home.png">
-            <img src="ressources/JAMMEE/Full.png">
+            <img class="itemImg" src="ressources/JAMMEE/load.png">
+            <img class="itemImg" src="ressources/JAMMEE/Home.png">
+            <img class="itemImg" src="ressources/JAMMEE/Full.png">
         </div>
     </div>
     <!-- New Article -->
@@ -66,9 +66,9 @@
             </p>
         </div>
         <div class="item">
-            <img src="ressources/Publify/publify_link.png">
-            <img src="ressources/Publify/publify_playlist.png">
-            <img src="ressources/Publify/publify_home.png">
+            <img class="itemImg" src="ressources/Publify/publify_link.png">
+            <img class="itemImg" src="ressources/Publify/publify_playlist.png">
+            <img class="itemImg" src="ressources/Publify/publify_home.png">
         </div>
     </div>
 
@@ -85,9 +85,9 @@
             </p>
         </div>
         <div class="item">
-            <img src="ressources/Raytracer/raytracer2_screen1.png">
-            <img src="ressources/Raytracer/raytracer2_screen2.png">
-            <img src="ressources/Raytracer/raytracer2_screen3.png">
+            <img class="itemImg" src="ressources/Raytracer/raytracer2_screen1.png">
+            <img class="itemImg" src="ressources/Raytracer/raytracer2_screen2.png">
+            <img class="itemImg" src="ressources/Raytracer/raytracer2_screen3.png">
         </div>
     </div>
     </div>
@@ -113,6 +113,11 @@
 </body>
 </html>
 <style>
+.itemImg {
+    flex: 1 1 auto;
+    width: 20%;
+
+}
 p {
     padding-left: .5rem;
 }
@@ -120,8 +125,7 @@ body {
 	background: top/cover fixed url("ressources/background_blur.jpg");
 	margin: 0;
 	font-family: 'DM Sans', sans-serif;
-	height: 100vh;
-
+    height: auto;
 	display: flex;
 	flex-flow: column;
 }
@@ -146,7 +150,7 @@ body {
 }
 .article {
     display: flex;
-    justify-content: center;
+    justify-content: center nowrap;
     flex-flow: column;
     background-color: rgba(11, 11, 11, .75);
     margin-left: 12rem;
@@ -174,8 +178,9 @@ body {
     justify-content: center;
 }
 .h1Article {
-    margin-left: 2rem;
-    width: 30rem;
+    flex: 1 1 auto;
+    text-align: center;
+    font-size: 2vw;
 }
 .noDecoration, a:link, a:visited {
     text-decoration: none;
@@ -186,7 +191,7 @@ img {
   /* border: 1px solid #ddd;
   border-radius: 4px; */
   padding: 5px;
-  width: 30rem;
+  max-width: 30vw;
 }
 body {
     color: #B2E8F4;
