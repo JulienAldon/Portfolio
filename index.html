@@ -17,7 +17,7 @@
     
     <header class="h1Context">
         <h1 class="h1Title">Julien Aldon // Portfolio</h1>
-        <h1 id="contactMe" class="h1Title" style="text-align: right;">Contactez moi</h1>
+        <button id="contactMe" style="flex: 0 1 auto; order:0; text-align: right;">Contactez moi</button>
     </header>
     
     <article class="project">
@@ -147,6 +147,18 @@
 </body>
 </html>
 <style>
+button {
+  background-color: rgba(11, 11, 11, 0);
+  border: 2px solid #EEE;
+  color: #EEE;
+  /* padding: 15px 32px; */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: .5rem;
+  padding: .5rem;
+}
 header {
     position:          sticky;
     top:               0;
@@ -161,6 +173,15 @@ header.h1Context {
     padding-left:    1rem;
     padding-right:   1rem;
     /* margin-top: 5rem; */
+    -webkit-transition-duration: 1s;
+    -moz-transition-duration: 1s;
+    -o-transition-duration: 1s;
+    transition-duration: 1s;
+    -webkit-transition-property: -webkit-background-color;
+    -moz-transition-property: -moz-background-color;
+    -o-transition-property: -o-background-color;
+    transition-property: background-color;
+    outline: 0;
 }
 .img {
 }
@@ -230,10 +251,21 @@ article.project {
     display: flex;
     align-items: center;
 }
+button.h1Title {
+    flex: 1 1 auto;
+    margin: .5rem;
+    background: none;
+    color: #EEE;
+    border: none;
+    font-size: 2rem;
+}
 .h1Title {
     flex: 1 1 auto;
     margin: .5rem;
+    align-self: center;
 }
+
+
 
 .h1Article {
     flex: 1 1 auto;
@@ -248,6 +280,11 @@ article.project {
 
 body {
     color:#EEE ;
+}
+
+/* Scroll anim */
+.scroll {
+    background-color: #282828;
 }
 
 /* IMG MODAL */
@@ -337,6 +374,9 @@ body {
     .h1Article {
         font-size: 4vw;
     }
+    .h1Title {
+        font-size: 4vw
+    }
 }
 </style>
 
@@ -384,9 +424,10 @@ body {
     window.onscroll = function(ev) {
         var header = document.getElementsByClassName('h1Context')[0];
         if (window.scrollY > 0) {
-            header.style.backgroundColor = "rgba(11, 11, 11, 1)"
+            header.classList.add("scroll");
         } else {
-            header.style.backgroundColor = "rgba(11, 11, 11, .75)"
+            header.classList.remove("scroll");
+
         }
 };
 </script>
