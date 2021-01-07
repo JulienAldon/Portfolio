@@ -210,11 +210,13 @@
     font-size: 2rem;
     padding-left: 1rem;
     padding-right: 1rem;
+    transition: background-color .5s;
 }
 
 .technoIcons:hover {
     background-color: #EEE;
-    color: #222222
+    color: #222222;
+    transition: background-color .5s;
 }
 
 header section {
@@ -242,10 +244,15 @@ a.iconLink {
     font-size:2rem;
     height: 2rem;
     width: 2rem;
+    outline-color: rgba(0,0,0,0);
+    transition: outline-color 1s;
 }
 a.iconLink:hover {
     outline: 1px solid #EEE;
+    outline-color: #EEE;
+    transition: outline-color 1s;
 }
+
 button {
   background-color: rgba(11, 11, 11, 0);
   border: 2px solid #EEE;
@@ -260,6 +267,13 @@ button {
   overflow: hidden;
   max-width: 8rem;
   transition: max-width 1s;
+  transition: background-color 1s;
+}
+
+button:hover {
+    color: #282828;
+    background-color: #EEE;
+    transition: background-color 1s;
 }
 
 button.clicked {
