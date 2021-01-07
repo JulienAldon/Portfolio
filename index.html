@@ -523,7 +523,7 @@ body {
     var contactMe = document.getElementById("contactMe");
     var copy = document.getElementById("copy");
     contactMe.onclick = function() {
-        if (contactMe.innerHTML == "Contactez moi") {
+        if (contactMe.innerHTML == "<span>Contactez moi</span>") {
             contactMe.innerHTML = "julien.aldon@epitech.eu"
             copyStringToClipboard("julien.aldon@epitech.eu");
             copy.classList.add('active');
@@ -533,7 +533,7 @@ body {
             }, 2000);
             /* Select the text field */
         } else {
-            contactMe.innerHTML = "Contactez moi"
+            contactMe.innerHTML = "<span>Contactez moi</span>";
             copy.classList.remove('active');
             contactMe.classList.remove('clicked');
         }
