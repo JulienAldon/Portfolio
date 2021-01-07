@@ -22,100 +22,132 @@
     </header>
     
     <article class="project">
-        <div class="item">
+        <header class="item">
             <img alt="Menu du jeu" class="img imgTitle" src="ressources/ETV/Menu.png">
             
             <!-- TODO: Link to game in webGL -->
-            <h1 class="h1Article">Jeu vidéo : EscapeTheVolcano</h1>
-        </div>
-        <div class="item">
-            <p> Jeu vidéo réalisé avec Unity.<br/>
+            <section>
+                <div>
+                    <i title="Prototypé en python." class="technoIcons fab fa-python"></i>
+                    <i title="Réalisé avec le moteur Unity." class="technoIcons fab fa-unity"></i>
+                    <b title="Language C#." class="technoIcons">C#</b>
+                </div>
+                <h1 class="h1Article">EscapeTheVolcano</h1>
+            </section>
+        </header>
+        <section class="item" style="flex-flow: column;">
+                <h2>Jeu vidéo réalisé avec Unity</h2>
+                <p>
                 En quatrième année, en Russie j'ai eu l'occasion de suivre des cours de game design.
-                Nous avions à designer un jeu à l'aide de mots aléatoirement choisis. Pour ma part j'ai eu les thèmes suivants :<br/>
+                Nous avions à designer un jeu à l'aide de mots aléatoirement choisis. Pour ma part j'ai travaillé sur les thèmes suivants :<br/>
                 <br/>
-                &nbsp; &nbsp; &nbsp;- Volcano<br/>
-                &nbsp; &nbsp; &nbsp;- Cyberpunk<br/>
-                &nbsp; &nbsp; &nbsp;- Cross-platform<br/>
-                &nbsp; &nbsp; &nbsp;- RPG<br/><br/>
-                Le but du jeu est de créer son équipe de robots, d'entrer dans le volcan, récupérer le trésor et enfin s'échapper avant que la lave ne nous rattrape !<br/>
+                &nbsp;&nbsp;&nbsp;- Volcano<br/>
+                &nbsp;&nbsp;&nbsp;- Cyberpunk<br/>
+                &nbsp;&nbsp;&nbsp;- Cross-platform<br/>
+                &nbsp;&nbsp;&nbsp;- RPG<br/><br/>
+                Le but du jeu est de :<br/>
+                &nbsp;&nbsp;&nbsp;- créer son équipe de robots <br/>
+                &nbsp;&nbsp;&nbsp;- entrer dans le volcan <br/>
+                &nbsp;&nbsp;&nbsp;- récupérer le trésor <br/>
+                &nbsp;&nbsp;&nbsp;- s'échapper avant que la lave ne nous rattrape !<br/><br/>
                 Le thème cyberpunk se retrouve dans les graphismes du jeu, les personnages sont des robots.<br/>
                 L'aspect RPG est évoqué par les statistiques des personnages robots que nous recrutons. Les robots que nous recrutons peuvent être gardés sur plusieurs parties.<br/>
                 Le jeu se veut "simple" dans ses contrôles pour permettre une possibilitée de cross-platform entre PC et mobile. Le jeu est cependant disponible sur linux, mac et windows.<br/>
                 <br/>
-                Une fois le jeu designé j'ai décidé de le réaliser en <a target="_blank" href="https://github.com/JulienAldon/VolcanoCyberBreakage">python <i class="fa fa-external-link" aria-hidden="true"></i></a>, puis avec Unity constatant les limitations de pygame.
+                Une fois que les mécaniques du jeu on été pensées, j'ai décidé de le réaliser en <a target="_blank" href="https://github.com/JulienAldon/VolcanoCyberBreakage">python <i class="fa fa-external-link" aria-hidden="true"></i></a>, puis avec Unity constatant les limitations de pygame.
                 <br/>
             </p>
-        </div>
-        <div class="item">
+        </section>
+        <section class="item">
             <img alt="Pouvoir du climber" class="img itemImg" src="ressources/ETV/Climber.png">
 
             <img alt="Ennemi Blob et Pouvoir du tracker" class="img itemImg" src="ressources/ETV/InGameBlob.png">
 
             <img alt="Salle du trésor et la Lave" class="img itemImg" src="ressources/ETV/InGameLava.png">
-
-        </div>
-        <div style="display:flex; flex-flow:row;justify-content: center;">
-            <a class="iconLink noDecoration" target="_blank" href="https://github.com/JulienAldon/VolcanoCyberBreakage"><i class="fab fa-python"></i></a>
-            <a class="iconLink noDecoration" target="_blank" href="https://github.com/JulienAldon/EscapeTheVolcano"><i class="fab fa-unity"></i></i></a>
-        </div>
+        </section>
+        <footer style="display:flex; flex-flow:row;justify-content: center;">
+            <a class="iconLink noDecoration" title="Lien vers le github Unity" target="_blank" href="https://github.com/JulienAldon/EscapeTheVolcano"><i class="fab fa-github"></i></a>
+        </footer>
     </article>
 
     <article class="project">
-        <div class="item">
-            <img alt="Le studio Jammee" class="img imgTitle" src="ressources/JAMMEE/Jammee.png">
-            <h1 class="h1Article">Web : JAMMEE <a class="noDecoration" href="https://www.jammee.io"></a></h1>
-        </div>
-        <div class="item">
+        <header class="item">
+            <img alt="Le studio JAMMEE" class="img imgTitle" src="ressources/JAMMEE/Jammee.png">
+           
+            <section>
+                <div>
+                    <i title="Framework front-end : React." class="technoIcons fab fa-react"></i>
+                    <i title="Framework backend : Python Django." class="technoIcons fab fa-python"></i>
+                    <i title="Javascript pour la modélisation du graph audio." class="technoIcons fab fa-js"></i>
+                </div>
+                <h1 class="h1Article">JAMMEE <a class="noDecoration" href="https://www.jammee.io"></a></h1>
+            </section>
+        </header>
+        <section class="item" style="flex-flow: column;">
+            <h2>Logiciel de M.A.O. (musique assistée par ordinateur) dans le navigateur</h2>
             <p>
                 Site Web réalisé en python (backend), React (front end), et javascript (calculs audio).<br/>
                 Projet de fin d’étude <em>EIP</em> (Epitech Innovative Project) réalisé sur trois ans (de la 3ème année à la 5ème année) en groupe de 8 personnes. <br/>
                 Le projet vise à reproduire un logiciel de musique assistée par ordinateur dans un navigateur. <br/>
-                Ce projet se destine à un public novice apeuré par la complexité d'un logiciel moderne. 
+                Ce projet se destine à un public novice apeuré par la complexité d'un logiciel moderne (Ableton, FL studio...). 
             </p>
-        </div>
-        <div class="item">
+        </section>
+        <section class="item">
             <img alt="Charge des samples" class="img itemImg" src="ressources/JAMMEE/load.png">
             <img alt="Organise des samples facilement" class="img itemImg" src="ressources/JAMMEE/Home.png">
             <img alt="Ajoute des effets, change les couleurs des pistes..." class="img itemImg" src="ressources/JAMMEE/Full.png">
-        </div>
-        <div style="display:flex; flex-flow:row;justify-content: center;">
-            <a class="iconLink noDecoration" target="_blank" href="https://github.com/JulienAldon/VolcanoCyberBreakage"><i class="fa fa-globe"></i></a>
-        </div>
+        </section>
+        <footer style="display:flex; flex-flow:row;justify-content: center;">
+            <a class="iconLink noDecoration" target="_blank" title="Lien vers le site internet jammee.io" href="https://jammee.io"><i class="fa fa-globe"></i></a>
+        </footer>
     </article>
 
     <article class="project">
-        <div class="item">
+        <header class="item">
             <img alt="Page d'accueil de publify" class="img imgTitle" src="ressources/Publify/publify_home.png">
-            <h1 class="h1Article">Web : Publify</h1>
-        </div>
-        <div class="item">
+            <section>
+                <div>
+                    <i title="Framework front-end : VueJS." class="technoIcons fab fa-vuejs"></i>
+                    <i title="Framework backend : Python Flask." class="technoIcons fab fa-python"></i>
+                    <i title="API Call en Javascript." class="technoIcons fab fa-js"></i>
+                </div>
+                <h1 class="h1Article">Publify</h1>
+            </section>
+        </header>
+        <section class="item" style="flex-flow: column;">
+            <h2>Synchronisation de playlist spotify</h2>
             <p>
-                Projet réalisé en Python utilisant l’api spotify pour simplifier la gestion de playlists publiques et collaboratives.<br/>
+                Projet réalisé en Python utilisant l'API spotify pour simplifier la gestion de playlists publiques et collaboratives.<br/>
                 L'application contient deux outils :<br/>
                 &nbsp;&nbsp;&nbsp;- Le premier outil synchronise une playlist publique et une playlist collaborative, cette action supprime les doublons dans la playlist publique nouvellement synchronisée. <br/>
                 &nbsp;&nbsp;&nbsp;- Le second outil crée une nouvelle playlist avec tous les nouveaux morceaux des artistes présents dans la playlist.<br/><br/>
-                <!-- <br/><a style="text-align:center;" class="noDecoration" href="">Lien vers le Site (not available) <i class="fa fa-external-link" aria-hidden="true"></i></a> -->
             </p>
-        </div>
-        <div class="item">
+        </section>
+        <section class="item">
             <img alt="Crée un lien entre une playlist collaborative et publique" class="img itemImg" src="ressources/Publify/publify_link.png">
             <img alt="Le lien apparait dans la liste, on peut synchroniser les playlists" class="img itemImg" src="ressources/Publify/publify_playlist.png">
             <img alt="Publify" class="img itemImg" src="ressources/Publify/publify_home.png">
-        </div>
-        <div style="display:flex; flex-flow:row;justify-content: center;">
-            <a class="iconLink noDecoration" target="_blank" href="https://github.com/JulienAldon/Publify"><i class="fab fa-python"></i></a>
-        </div>
+        </section>
+        <footer style="display:flex; flex-flow:row;justify-content: center;">
+            <a class="iconLink noDecoration" target="_blank" title="Lien vers le github" href="https://github.com/JulienAldon/Publify"><i class="fab fa-github"></i></a>
+        </footer>
     </article>
 
     <article class="project">
-        <div class="item">
-            <img alt="Rendu du raytracer2 : quatre cylindres rouges, quatre sphères réfléchissantes, deux plans quadriés" class="img imgTitle" src="ressources/Raytracer/raytracer2_screen.png">
-            <h1 class="h1Article">Programme : Raytracer 2</h1>
-        </div>
-        <div class="item">
+        <header class="item">
+            <img alt="Rendu du raytracer2 : quatre cylindres rouges, quatre sphères réfléchissantes, deux plans quadrillés" class="img imgTitle" src="ressources/Raytracer/raytracer2_screen.png">
+            <section>
+                <div>
+                    <b title="Langage C." class="technoIcons">C</b>
+                </div>
+                <h1 class="h1Article">Raytracer 2</h1>
+            </section>
+        </header>
+        <section class="item" style="flex-flow: column; align-items: flex-start;">
+            <h2>Modelisation 3D Raytracing</h2>
             <p>
                 Projet réalisé en C dans le cadre de ma première année, nous étions quatre sur le projet.<br/>
-                Le but du projet était de modéliser des formes géométriques à l'aide d'une méthode de rendu donnée : Le raytracing.
+                Le but du projet était de modéliser des formes géométriques à l'aide d'une méthode de rendu donnée : le Raytracing.<br/>
                 Ce Raytracer implémente ces formes géométriques : <br/>
                 &nbsp;&nbsp;&nbsp;- Sphère<br/>
                 &nbsp;&nbsp;&nbsp;- Cône<br/>
@@ -123,42 +155,48 @@
                 &nbsp;&nbsp;&nbsp;- Cylindre<br/>
                 Ainsi que certains effets comme la réflexion, les lumières et les ombres.<br/>
             </p>
-        </div>
-        <div class="item">
-            <img alt="Un plan quadrié noir et blanc, quatre spheres, une bleu peu réfléchissante, une verte peu réfléchissante, une rouge moyennement réfléchissante, enfin une completement réfléchissante" class="img itemImg" src="ressources/Raytracer/raytracer2_screen1.png">
-            <img alt="Trois spheres réfléchissantes quatre plan quadriés autours formant une boite" class="img itemImg" src="ressources/Raytracer/raytracer2_screen2.png">
-            <img alt="Cone rouge, cone bleu, sphere, plan, imbriqués" class="img itemImg" src="ressources/Raytracer/raytracer2_screen3.png">
-        </div>
-        <div style="display:flex; flex-flow:row;justify-content: center;">
-            <a class="iconLink noDecoration" target="_blank" style="text-decoration: none;"href="https://github.com/JulienAldon/Epitech_Raytracer2"><b>C</b></i></a>
-        </div>
+        </section>
+        <section class="item">
+            <img alt="Un plan quadrillé noir et blanc, quatre sphères, une bleu peu réfléchissante, une verte peu réfléchissante, une rouge moyennement réfléchissante, enfin une completement réfléchissante" class="img itemImg" src="ressources/Raytracer/raytracer2_screen1.png">
+            <img alt="Trois sphères réfléchissantes quatre plan quadrillés autours formant une boite" class="img itemImg" src="ressources/Raytracer/raytracer2_screen2.png">
+            <img alt="Cone rouge, cone bleu, sphère, plan, imbriqués" class="img itemImg" src="ressources/Raytracer/raytracer2_screen3.png">
+        </section>
+        <footer style="display:flex; flex-flow:row;justify-content: center;">
+            <a class="iconLink noDecoration" target="_blank" title="Lien vers le github" style="text-decoration: none;"href="https://github.com/JulienAldon/Epitech_Raytracer2"><i class="fab fa-github"></i></a>
+        </footer>
     </article>
 
     <article class="project">
-        <div class="item">
+        <header class="item">
             <img alt="Consignes du nanotekspice : Simuler des connexions éléctroniques, reproduire des portes logiques, améliorer ses connaissances en électronique" class="img imgTitle" src="ressources/nanotekspice.png">
-            <h1 class="h1Article">Programme : NanoTekSpice (C++)</h1>
-        </div>
-        <div class="item">
+            <section>
+                <div>
+                    <b title="Langage C++." class="technoIcons">C++</b>
+                </div>
+                <h1 class="h1Article">NanoTekSpice</h1>
+            </section>
+        </header>
+        <section class="item" style="flex-flow: column; align-items: flex-start;">
+            <h2>Simulateur de composants éléctroniques</h2>
             <p>
                 Réalisé en C++ en deuxième année à Epitech.<br/> 
                 Ce projet est un simulateur de composants électroniques (de circuits simples).<br/>
                 Les portes implémentées sont les suivantes : <br/>
-                &nbsp; &nbsp; &nbsp; - Input<br/>
-                &nbsp; &nbsp; &nbsp; - Output<br/>
-                &nbsp; &nbsp; &nbsp; - Clock<br/>
-                &nbsp; &nbsp; &nbsp; - True<br/>
-                &nbsp; &nbsp; &nbsp; - False<br/>
-                &nbsp; &nbsp; &nbsp; - comp4081 : 2 input AND<br/>
-                &nbsp; &nbsp; &nbsp; - comp4001 : 2 input NOR<br/>
-                &nbsp; &nbsp; &nbsp; - comp4011 : 2 input CMOS NAND<br/>
-                &nbsp; &nbsp; &nbsp; - comp4071 : 2 input OR<br/>
-                &nbsp; &nbsp; &nbsp; - comp4030 : 2 input EXCLUSIVE-OR<br/>
+                &nbsp;&nbsp;&nbsp;- Input<br/>
+                &nbsp;&nbsp;&nbsp;- Output<br/>
+                &nbsp;&nbsp;&nbsp;- Clock<br/>
+                &nbsp;&nbsp;&nbsp;- True<br/>
+                &nbsp;&nbsp;&nbsp;- False<br/>
+                &nbsp;&nbsp;&nbsp;- comp4081 : 2 input AND<br/>
+                &nbsp;&nbsp;&nbsp;- comp4001 : 2 input NOR<br/>
+                &nbsp;&nbsp;&nbsp;- comp4011 : 2 input CMOS NAND<br/>
+                &nbsp;&nbsp;&nbsp;- comp4071 : 2 input OR<br/>
+                &nbsp;&nbsp;&nbsp;- comp4030 : 2 input EXCLUSIVE-OR<br/>
             </p>
-        </div>
-        <div style="display:flex; flex-flow:row;justify-content: center;">
-            <a class="iconLink noDecoration" style="text-decoration: none;" target="_blank" href="https://github.com/JulienAldon/Epitech_NanoTekSpice"><b>C++</b></a>
-        </div>
+        </section>
+        <footer style="display:flex; flex-flow:row;justify-content: center;">
+            <a class="iconLink noDecoration" style="text-decoration: none;" title="Lien vers le github" target="_blank" href="https://github.com/JulienAldon/Epitech_NanoTekSpice"><i class="fab fa-github"></i></a>
+        </footer>
     </article>
 
     <footer class="footerBox">
@@ -167,6 +205,35 @@
 </body>
 </html>
 <style>
+.technoIcons {
+    text-align: center;
+    font-size: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.technoIcons:hover {
+    background-color: #EEE;
+    color: #222222
+}
+
+header section {
+    display: flex; 
+    flex-flow: column;
+    flex: 1 1 auto;
+}
+header section div {
+    display: flex; 
+    flex-flow: row; 
+    justify-content: center;
+}
+section h2 {
+    text-align: left;
+    flex: 0 1 auto;
+    align-self: flex-start;
+    padding-left: .5rem;
+    margin-bottom: 0px;
+}
 a.iconLink {
     flex: 0 1 auto;
     text-align:center;
@@ -183,7 +250,7 @@ button {
   background-color: rgba(11, 11, 11, 0);
   border: 2px solid #EEE;
   color: #EEE;
-  /* padding: 15px 32px; */
+
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -192,13 +259,12 @@ button {
   padding: .5rem;
   overflow: hidden;
   max-width: 8rem;
-  transition: max-width .2s;
-  /* transition: opacity .6s; */
+  transition: max-width 1s;
 }
 
 button.clicked {
     max-width: 12rem;
-    transition: max-width .2s;
+    transition: max-width 1s;
 }
 
 span.copy {
@@ -212,21 +278,19 @@ span.copy.active {
     align-self: center;
 }
 
-header {
+header.h1Context {
     position:          sticky;
     top:               0;
     box-sizing:        border-box;
     background-color:rgba(11, 11, 11, .75);
     box-sizing:        border-box;
     align-self:        stretch;
-}
 
-header.h1Context {
     display:         flex; 
     justify-content: center;
     padding-left:    1rem;
     padding-right:   1rem;
-    /* margin-top: 5rem; */
+
     -webkit-transition-duration: 1s;
     -moz-transition-duration: 1s;
     -o-transition-duration: 1s;
@@ -240,8 +304,6 @@ header.h1Context {
 .img {
 }
 .imgTitle {
-  /* border: 1px solid #ddd;
-  border-radius: 4px; */
   padding: 5px;
   max-width: 50%;
 }
@@ -267,7 +329,6 @@ body {
 .footerButton {
     flex: 0 1 auto;
     padding-left: 1rem;
-    /* align-self: flex-end; */
 }
 .footerBox {
     flex-flow: row;
@@ -275,17 +336,13 @@ body {
     justify-content: center;
     padding: 1rem;
     display: flex;
-    /* position: fixed; */
     bottom: 0;
     height: 3rem;
     color: #EEE ;
-    /* background: #555555; */
     left: 0;
 }
 article {
     background-color: rgba(11, 11, 11, .75);
-    /* margin-left: 15rem;
-    margin-right: 15rem; */
     width: 60rem;
     padding-left: 1rem;
     padding-top: 1rem;
@@ -327,16 +384,13 @@ button.h1Title {
     font-size: 2vw;
 }
 .noDecoration, a:link, a:visited {
-    /* text-decoration: none; */
     color:#EEE ;
-    /* font-size: 120%; */
 }
 
 body {
     color:#EEE ;
 }
 
-/* Scroll anim */
 .scroll {
     background-color: #282828;
 }
@@ -361,7 +415,6 @@ body {
   margin: auto;
   display: block;
   width: 80%;
-  /* max-width: 700px; */
 }
 
 /* Caption of Modal Image */
@@ -482,6 +535,7 @@ body {
         } else {
             contactMe.innerHTML = "Contactez moi"
             copy.classList.remove('active');
+            contactMe.classList.remove('clicked');
         }
     }
     window.onscroll = function(ev) {
