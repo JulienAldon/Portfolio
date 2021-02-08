@@ -107,9 +107,16 @@
             <img alt="Page d'accueil de publify" class="img imgTitle" src="ressources/Publify/publify_home.png">
             <section>
                 <div>
-                    <i title="Framework front-end : VueJS." class="technoIcons fab fa-vuejs"></i>
-                    <i title="Framework backend : Python Flask." class="technoIcons fab fa-python"></i>
-                    <i title="API Call en Javascript." class="technoIcons fab fa-js"></i>
+                    <div class="technoIconsSection">
+                        <p>V1</p>
+                        <i title="Framework front-end : VueJS." class="technoIcons fab fa-vuejs"></i>
+                        <i title="Framework backend : Python Flask." class="technoIcons fab fa-python"></i>
+                    </div>
+                    <div class="technoIconsSection">
+                        <p>V2</p>
+                        <i title="Framework front-end : Preact." class="technoIcons fab fa-react"></i>
+                        <i title="Framework backend : Python FastAPI." class="technoIcons fab fa-python"></i>
+                    </div>
                 </div>
                 <h1 class="h1Article">Publify</h1>
             </section>
@@ -121,15 +128,19 @@
                 L'application contient deux outils :<br/>
                 &nbsp;&nbsp;&nbsp;- Le premier outil synchronise une playlist publique et une playlist collaborative, cette action supprime les doublons dans la playlist publique nouvellement synchronisée. <br/>
                 &nbsp;&nbsp;&nbsp;- Le second outil crée une nouvelle playlist avec tous les nouveaux morceaux des artistes présents dans la playlist.<br/><br/>
+                Voulant déployer l'outil, j'ai décidé recoder l'integralité du site avec des technologies différentes : FastAPI et Preact.
             </p>
         </section>
         <section class="item">
             <img alt="Crée un lien entre une playlist collaborative et publique" class="img itemImg" src="ressources/Publify/publify_link.png">
             <img alt="Le lien apparait dans la liste, on peut synchroniser les playlists" class="img itemImg" src="ressources/Publify/publify_playlist.png">
-            <img alt="Publify" class="img itemImg" src="ressources/Publify/publify_home.png">
+            <img alt="Publify" class="img itemImg" src="ressources/Publify/publify_about.png">
         </section>
         <footer style="display:flex; flex-flow:row;justify-content: center;">
-            <a rel="noopener" class="iconLink noDecoration" target="_blank" title="Lien vers le github" href="https://github.com/JulienAldon/Publify"><i class="fab fa-github"></i></a>
+            <a rel="noopener" class="iconLink noDecoration" target="_blank" title="Lien vers le github de la V1" href="https://github.com/JulienAldon/Publify"><i class="fab fa-github"></i></a>
+            <a rel="noopener" class="iconLink noDecoration" target="_blank" title="Lien vers le github de la V2" href="https://github.com/JulienAldon/Publify.alpha"><i class="fab fa-github"></i></a>
+            <a class="iconLink noDecoration" target="_blank" title="Lien vers le site internet jammee.io" rel="noopener" href="https://publify.aldon.info"><i class="fa fa-globe"></i></a>
+
         </footer>
     </article>
 
@@ -212,6 +223,14 @@
     padding-right: 1rem;
 }
 
+.technoIconsSection {
+    display: flex;
+    flex-flow: row;
+}
+
+.technoIconsSection:hover{
+    border: #EEE 1px solid;
+}
 
 header section {
     display: flex; 
