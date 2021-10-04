@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
     <script src="https://kit.fontawesome.com/08db035529.js" crossorigin="anonymous"></script></head>
-<body>
+<body style="width: 100vw; min-height: 100vh">
     <title>Julien Aldon / Portfolio</title>
     <modal id="myModal" class="modal">
         <span class="close">&times;</span>
@@ -36,8 +36,8 @@
             </section>
         </header>
         <section class="item" style="flex-flow: column;">
-                <h2>Jeu vidéo réalisé avec Unity</h2>
-                <p>
+            <h2>Jeu vidéo réalisé avec Unity</h2>
+            <p>
                 En quatrième année, en Russie j'ai eu l'occasion de suivre des cours de game design.
                 Nous avions à designer un jeu à l'aide de mots aléatoirement choisis. Pour ma part j'ai travaillé sur les thèmes suivants :<br/>
                 <br/>
@@ -73,7 +73,6 @@
     <article class="project">
         <header class="item">
             <img alt="Le studio JAMMEE" class="img imgTitle" src="ressources/JAMMEE/Jammee.png">
-           
             <section>
                 <div>
                     <i title="Framework front-end : React." class="technoIcons fab fa-react"></i>
@@ -101,7 +100,6 @@
             <a class="iconLink noDecoration" target="_blank" title="Lien vers le site internet jammee.io" rel="noopener" href="https://jammee.io"><i class="fa fa-globe"></i></a>
         </footer>
     </article>
-
     <article class="project">
         <header class="item">
             <img alt="Page d'accueil de publify" class="img imgTitle" src="ressources/Publify/publify_home.png">
@@ -143,7 +141,6 @@
 
         </footer>
     </article>
-
     <article class="project">
         <header class="item">
             <img alt="Rendu du raytracer2 : quatre cylindres rouges, quatre sphères réfléchissantes, deux plans quadrillés" class="img imgTitle" src="ressources/Raytracer/raytracer2_screen.png">
@@ -176,7 +173,6 @@
             <a rel="noopener" class="iconLink noDecoration" target="_blank" title="Lien vers le github" style="text-decoration: none;"href="https://github.com/JulienAldon/Epitech_Raytracer2"><i class="fab fa-github"></i></a>
         </footer>
     </article>
-
     <article class="project">
         <header class="item">
             <img alt="Consignes du nanotekspice : Simuler des connexions éléctroniques, reproduire des portes logiques, améliorer ses connaissances en électronique" class="img imgTitle" src="ressources/nanotekspice.png">
@@ -209,7 +205,6 @@
             <a rel="noopener" class="iconLink noDecoration" style="text-decoration: none;" title="Lien vers le github" target="_blank" href="https://github.com/JulienAldon/Epitech_NanoTekSpice"><i class="fab fa-github"></i></a>
         </footer>
     </article>
-
     <footer class="footerBox">
         <!-- <div class="footerButton">A propos de moi</div> -->
     </footer>
@@ -514,6 +509,9 @@ body {
     }
     .imgTitle {
         max-width: 40%;
+    }
+    header section div {
+        flex-flow: column;
     }
 }
 </style>
