@@ -23,7 +23,7 @@
     </header>
     <article class="project" style="margin-top:1rem;">
         <header class="item">
-            <img alt="Menu du jeu" class="img imgTitle" src="ressources/Albus/Albus.png">
+            <img alt="Menu du jeu" class="img imgTitle" src="ressources/Albus/AlbusPoints.png">
             
             <section>
                 <div>
@@ -48,12 +48,13 @@
                 Je me suis occupé de la partie backend : l'API.
             </p>
         </section>
-        <section class="item">
-            <img alt="Albus Dashboard" class="img itemImg" src="ressources/Albus/Albus.png">
-            <img alt="Les logs ne sont gardés que un jour" class="img itemImg" src="ressources/Albus/AlbusPoints.png">
+        <section class="itemFooterImg">
+            <img alt="Albus Dashboard" class="img itemImg" src="ressources/Albus/AlbusPoints.png">
+            <img alt="Les logs ne sont gardés que un jour" class="img itemImg" src="ressources/Albus/Albus.png">
             <img alt="Ajout de points" class="img itemImg" src="ressources/Albus/AddPoints.png">
         </section>
         <footer style="display:flex; flex-flow:row;justify-content: center;">
+            <a class="iconLink noDecoration" target="_blank" title="Lien vers le site internet albus.owlish.io" rel="noopener" href="https://albus.owlish.io"><i class="fa fa-globe"></i></a>
             <a rel="noopener" class="iconLink noDecoration" title="Lien vers le github" target="_blank" href="https://github.com/JulienAldon/EpitechPool_HPPointCounter"><i class="fab fa-github"></i></a>
         </footer>
     </article>
@@ -95,7 +96,7 @@
                 <br/>
             </p>
         </section>
-        <section class="item">
+        <section class="itemFooterImg">
             <img alt="Pouvoir du climber" class="img itemImg" src="ressources/ETV/Climber.png">
 
             <img alt="Ennemi Blob et Pouvoir du tracker" class="img itemImg" src="ressources/ETV/InGameBlob.png">
@@ -128,7 +129,7 @@
                 Ce projet se destine à un public novice apeuré par la complexité d'un logiciel moderne (Ableton, FL studio...). 
             </p>
         </section>
-        <section class="item">
+        <section class="itemFooterImg">
             <img alt="Charge des samples" class="img itemImg" src="ressources/JAMMEE/load.png">
             <img alt="Organise des samples facilement" class="img itemImg" src="ressources/JAMMEE/Home.png">
             <img alt="Ajoute des effets, change les couleurs des pistes..." class="img itemImg" src="ressources/JAMMEE/Full.png">
@@ -166,7 +167,7 @@
                 Voulant déployer l'outil, j'ai décidé recoder l'integralité du site avec des technologies différentes : FastAPI et Preact.
             </p>
         </section>
-        <section class="item">
+        <section class="itemFooterImg">
             <img alt="Crée un lien entre une playlist collaborative et publique" class="img itemImg" src="ressources/Publify/publify_link.png">
             <img alt="Le lien apparait dans la liste, on peut synchroniser les playlists" class="img itemImg" src="ressources/Publify/publify_playlist.png">
             <img alt="Publify" class="img itemImg" src="ressources/Publify/publify_about.png">
@@ -201,7 +202,7 @@
                 Ainsi que certains effets comme la réflexion, les lumières et les ombres.<br/>
             </p>
         </section>
-        <section class="item">
+        <section class="itemFooterImg">
             <img alt="Un plan quadrillé noir et blanc, quatre sphères, une bleu peu réfléchissante, une verte peu réfléchissante, une rouge moyennement réfléchissante, enfin une completement réfléchissante" class="img itemImg" src="ressources/Raytracer/raytracer2_screen1.png">
             <img alt="Trois sphères réfléchissantes quatre plan quadrillés autours formant une boite" class="img itemImg" src="ressources/Raytracer/raytracer2_screen2.png">
             <img alt="Cone rouge, cone bleu, sphère, plan, imbriqués" class="img itemImg" src="ressources/Raytracer/raytracer2_screen3.png">
@@ -253,6 +254,7 @@
     font-size: 2rem;
     padding-left: 1rem;
     padding-right: 1rem;
+    align-self: center;
 }
 
 .technoIconsSection {
@@ -426,8 +428,9 @@ article.project {
 .item {
     display: flex;
     /* align-items: center; */
-    padding: 2rem;
-
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
 }
 button.h1Title {
     flex: 1 1 auto;
@@ -496,6 +499,12 @@ body {
   height: 150px;
 }
 
+.itemFooterImg {
+    flex-flow: row;
+    display: flex;
+    padding: 2rem;
+}
+
 /* Add Animation */
 .modal-content, #caption {  
   -webkit-animation-name: zoom;
@@ -552,9 +561,16 @@ body {
         font-size: 4vw
     }
     .imgTitle {
-        max-width: 40%;
+        align-self: center;
+        max-width: 80%;
+        padding: 2rem;
     }
-    header section div {
+    .itemFooterImg {
+        flex-flow: row;
+        display: flex;
+        padding: 2rem;
+    }
+    .item {
         flex-flow: column;
     }
 }
