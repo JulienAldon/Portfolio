@@ -15,14 +15,27 @@
         <div id="caption"></div>
     </modal>
     
-    <header class="h1Context">
-        <h1 class="h1Title">Julien Aldon // Portfolio</h1>
+    <header class="h2Context">
+        <h2 class="h2Title">Julien Aldon // Portfolio</h2>
         
         <span id="copy" class="copy">Copié</span>
-        <button id="contactMe" style="flex: 0 0 auto; order:0; text-align: right;"><span>Contactez moi</span></button>
+        <button id="contactMe" class="contactme"><span>Contactez moi</span></button>
     </header>
-
-    <article class="project" style="margin-top:1rem;">
+    <article id="summary" style="margin-top:1rem;">
+        <h2>Sommaire</h2>
+        <section>
+            <ul class="summary">
+                <li><a href="#EventPlanner">Epitech Event Planner</a></li>
+                <li><a href="#AlbusDumbledore">Albus Dumbledore</a></li>
+                <li><a href="#EscapeTheVolcano">Escape The volcano</a></li>
+                <li><a href="#Publify">Publify</a></li>
+                <li><a href="#Jammee">JAMMEE</a></li>
+                <li><a href="#Raytracer">Raytracer 2</a></li>
+                <li><a href="#Nanotekspice">NanoTekSpice</a></li>
+            </ul>
+        </section>
+    </article>
+    <article id="EventPlanner" class="project" style="margin-top:1rem;">
         <header class="item">
             <img alt="Menu du jeu" class="img imgTitle" src="ressources/EventPlanner/EventPlannerVue.png">
             <section>
@@ -30,7 +43,7 @@
                     <i title="Python" class="technoIcons fab fa-python"></i>
                     <i title="GUI made with PyGTK" class="technoIcons fa fa-television"></i>
                 </div>
-                <h1 class="h1Article">Epitech Event Planner</h1>
+                <h2 class="h1Article">Epitech Event Planner</h2>
             </section>
         </header>
         <section class="item" style="flex-flow: column;">
@@ -39,12 +52,13 @@
             <p>
                 Cet outil sert à planifier des événements en masse pour une activité donnée. On peut selectionner les promotions à
                 inscrire aux activités créées et choisir les dates et les heures auquelles les activités seront planifiés.
-                L'outil contient un wrapper sur l'intranet epitech <b>(interface)</b> permettant à d'autres membres de l'équipe pédagogique
-                de developper des outils autours de l'intranet EPITECH.
-                L'outil est fourni avec un <b>GUI (Graphical User Interface)</b> et un <b>CLI (Command Line Interface)</b>.
+                L'outil contient un wrapper sur l'intranet EPITECH <b>(interface)</b> permettant à d'autres membres de l'équipe pédagogique
+                de developper des outils autours de ce dernier.
             </p>
+                
+                <p>L'outil est fourni avec un <b>GUI (Graphical User Interface)</b> et un <b>CLI (Command Line Interface)</b>.</p>
             <ul class="realized">
-                <li><label>Interface & CLI réalisé par Julien Aldon</label></li>
+                <li><label><b>Interface</b> & <b>CLI</b> réalisé par Julien Aldon</label></li>
             </ul>
         </section>
         <section class="itemFooterImg">
@@ -56,9 +70,7 @@
             <a rel="noopener" class="iconLink noDecoration" title="Lien vers le github" target="_blank" href="https://github.com/JulienAldon/EpitechEventPlanner"><i class="fab fa-github"></i></a>
         </footer>
     </article>
-
-
-    <article class="project" style="margin-top:1rem;">
+    <article id="AlbusDumbledore" class="project" style="margin-top:1rem;">
         <header class="item">
             <img alt="Menu du jeu" class="img imgTitle" src="ressources/Albus/AlbusPoints.png">
             <section>
@@ -66,7 +78,7 @@
                     <i title="Python FastAPI" class="technoIcons fab fa-python"></i>
                     <i title="Framework front-end : React." class="technoIcons fab fa-react"></i>
                 </div>
-                <h1 class="h1Article">Albus Dumbledore</h1>
+                <h2 class="h1Article">Albus Dumbledore</h2>
             </section>
         </header>
         <section class="item" style="flex-flow: column;">
@@ -98,8 +110,7 @@
             <a rel="noopener" class="iconLink noDecoration" title="Lien vers le github" target="_blank" href="https://github.com/JulienAldon/EpitechPool_HPPointCounter"><i class="fab fa-github"></i></a>
         </footer>
     </article>
-
-    <article class="project" style="margin-top:1rem;">
+    <article id="EscapeTheVolcano" class="project" style="margin-top:1rem;">
         <header class="item">
             <img alt="Menu du jeu" class="img imgTitle" src="ressources/ETV/Menu.png">
             
@@ -110,7 +121,7 @@
                     <i title="Réalisé avec le moteur Unity." class="technoIcons fab fa-unity"></i>
                     <b title="Language C#." class="technoIcons">C#</b>
                 </div>
-                <h1 class="h1Article">EscapeTheVolcano</h1>
+                <h2 class="h1Article">EscapeTheVolcano</h2>
             </section>
         </header>
         <section class="item" style="flex-flow: column;">
@@ -153,7 +164,7 @@
             <a rel="noopener" class="iconLink noDecoration" title="Lien vers le github Unity" target="_blank" href="https://github.com/JulienAldon/EscapeTheVolcano"><i class="fab fa-github"></i></a>
         </footer>
     </article>
-    <article class="project">
+    <article id="Publify" class="project">
         <header class="item">
             <img alt="Page d'accueil de publify" class="img imgTitle" src="ressources/Publify/v2/home.png">
             <section>
@@ -169,7 +180,7 @@
                         <i title="Framework backend : Python FastAPI." class="technoIcons fab fa-python"></i>
                     </div>
                 </div>
-                <h1 class="h1Article">Publify</h1>
+                <h2 class="h1Article">Publify</h2>
             </section>
         </header>
         <section class="item" style="flex-flow: column;">
@@ -200,7 +211,7 @@
     
         </footer>
     </article>
-    <article class="project">
+    <article id="Jammee" class="project">
         <header class="item">
             <img alt="Le studio JAMMEE" class="img imgTitle" src="ressources/JAMMEE/Jammee.png">
             <section>
@@ -209,7 +220,7 @@
                     <i title="Framework backend : Python Django." class="technoIcons fab fa-python"></i>
                     <i title="Javascript pour la modélisation du graph audio." class="technoIcons fab fa-js"></i>
                 </div>
-                <h1 class="h1Article">JAMMEE</h1>
+                <h2 class="h1Article">JAMMEE</h2>
             </section>
         </header>
         <section class="item" style="flex-flow: column;">
@@ -231,14 +242,14 @@
             <a class="iconLink noDecoration" target="_blank" title="Lien vers le site internet jammee.io" rel="noopener" href="https://jammee.io"><i class="fa fa-globe"></i></a>
         </footer>
     </article>
-    <article class="project">
+    <article id="Raytracer" class="project">
         <header class="item">
             <img alt="Rendu du raytracer2 : quatre cylindres rouges, quatre sphères réfléchissantes, deux plans quadrillés" class="img imgTitle" src="ressources/Raytracer/raytracer2_screen.png">
             <section>
                 <div>
                     <b title="Langage C." class="technoIcons">C</b>
                 </div>
-                <h1 class="h1Article">Raytracer 2</h1>
+                <h2 class="h1Article">Raytracer 2</h2>
             </section>
         </header>
         <section class="item" style="flex-flow: column; align-items: flex-start;">
@@ -267,14 +278,14 @@
             <a rel="noopener" class="iconLink noDecoration" target="_blank" title="Lien vers le github" style="text-decoration: none;"href="https://github.com/JulienAldon/Epitech_Raytracer2"><i class="fab fa-github"></i></a>
         </footer>
     </article>
-    <article class="project">
+    <article id="Nanotekspice" class="project">
         <header class="item">
             <img alt="Consignes du nanotekspice : Simuler des connexions éléctroniques, reproduire des portes logiques, améliorer ses connaissances en électronique" class="img imgTitle" src="ressources/nanotekspice.png">
             <section>
                 <div>
                     <b title="Langage C++." class="technoIcons">C++</b>
                 </div>
-                <h1 class="h1Article">NanoTekSpice</h1>
+                <h2 class="h1Article">NanoTekSpice</h2>
             </section>
         </header>
         <section class="item" style="flex-flow: column; align-items: flex-start;">
@@ -302,8 +313,9 @@
         </footer>
     </article>
     <footer class="footerBox">
-        <!-- <div class="footerButton">A propos de moi</div> -->
+        <div class="footerButton">A propos de moi</div>
     </footer>
+    <a class="fixedbutton" href="#summary">Back to top</a>
 </body>
 </html>
 <style>
@@ -313,6 +325,31 @@
     padding-left: 1rem;
     padding-right: 1rem;
     align-self: center;
+}
+
+.fixedbutton {
+    position: fixed;
+    bottom: 0vh;
+    right: 0vw; 
+}
+
+.summary {
+    list-style-type: none;
+}
+
+.summary li {
+    font-size: 1.5rem;
+}
+
+.summary li a {
+    text-decoration: none;
+}
+
+.contactme {
+    flex: 0 0 auto;
+    order:0;
+    text-align: right;
+    max-width: 12rem;
 }
 
 .technoIconsSection {
@@ -366,6 +403,23 @@ a.iconLink:hover {
     transition: outline-color 1s;
 }
 
+.fixedbutton {
+  background-color: rgba(11, 11, 11, 0);
+  border: 2px solid #EEE;
+  color: #EEE;
+
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: .5rem;
+  padding: .5rem;
+  overflow: hidden;
+  max-width: 8rem;
+  transition: max-width 1s;
+  transition: background-color 1s;
+}
+
 button {
   background-color: rgba(11, 11, 11, 0);
   border: 2px solid #EEE;
@@ -409,7 +463,7 @@ span.copy.active {
     align-self: center;
 }
 
-header.h1Context {
+header.h2Context {
     position:          sticky;
     top:               0;
     box-sizing:        border-box;
@@ -497,11 +551,12 @@ article.project {
 .item {
     display: flex;
     /* align-items: center; */
-    padding-left: 2rem;
+    /* padding-left: 2rem;
     padding-right: 2rem;
-    padding-bottom: 2rem;
+    padding-bottom: 2rem; */
+    padding: 2rem;
 }
-button.h1Title {
+button.h2Title {
     flex: 1 1 auto;
     margin: .5rem;
     background: none;
@@ -509,18 +564,17 @@ button.h1Title {
     border: none;
     font-size: 2rem;
 }
-.h1Title {
+.h2Title {
     flex: 1 1 auto;
     margin: .5rem;
     align-self: center;
 }
 
-
-
 .h1Article {
     flex: 1 1 auto;
     text-align: center;
     font-size: 2vw;
+    align-self: center;
 }
 .noDecoration, a:link, a:visited {
     color:#EEE ;
@@ -620,14 +674,15 @@ body {
     article {
         width: calc(100vw - 1rem);
     }
-    article.h1Context {
+    article.h2Context {
         margin-top: 1rem;
     }
     .h1Article {
         font-size: 4vw;
     }
-    .h1Title {
-        font-size: 4vw
+    .h2Title {
+        font-size: 4vw;
+        text-align: center
     }
     .imgTitle {
         align-self: center;
@@ -696,7 +751,7 @@ body {
         }
     }
     window.onscroll = function(ev) {
-        var header = document.getElementsByClassName('h1Context')[0];
+        var header = document.getElementsByClassName('h2Context')[0];
         if (window.scrollY > 0) {
             header.classList.add("scroll");
         } else {
