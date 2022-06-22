@@ -22,12 +22,12 @@
         <button id="contactMe" class="contactme"><span>Contactez moi</span></button>
     </header>
     <article id="summary" style="margin-top:1rem;">
-        <h2>Sommaire</h2>
+        <h2 style="text-align: center;">Sommaire</h2>
         <section>
             <ul class="summary">
                 <li><a href="#EventPlanner">Epitech Event Planner</a></li>
                 <li><a href="#AlbusDumbledore">Albus Dumbledore</a></li>
-                <li><a href="#EscapeTheVolcano">Escape The volcano</a></li>
+                <li><a href="#EscapeTheVolcano">Escape the volcano</a></li>
                 <li><a href="#Publify">Publify</a></li>
                 <li><a href="#Jammee">JAMMEE</a></li>
                 <li><a href="#Raytracer">Raytracer 2</a></li>
@@ -47,16 +47,15 @@
             </section>
         </header>
         <section class="item" style="flex-flow: column;">
-            <h2>Outil de planification d'evenements</h2>
+            <h2>Outil de planification d'événements</h2>
             <h3>Pour l'intranet EPITECH</h3>
             <p>
                 Cet outil sert à planifier des événements en masse pour une activité donnée. On peut selectionner les promotions à
                 inscrire aux activités créées et choisir les dates et les heures auquelles les activités seront planifiés.
                 L'outil contient un wrapper sur l'intranet EPITECH <b>(interface)</b> permettant à d'autres membres de l'équipe pédagogique
                 de developper des outils autours de ce dernier.
-            </p>
-                
-                <p>L'outil est fourni avec un <b>GUI (Graphical User Interface)</b> et un <b>CLI (Command Line Interface)</b>.</p>
+            </p>    
+            <p>L'outil est fourni avec un <b>GUI (Graphical User Interface)</b> et un <b>CLI (Command Line Interface)</b>.</p>
             <ul class="realized">
                 <li><label><b>Interface</b> & <b>CLI</b> réalisé par Julien Aldon</label></li>
             </ul>
@@ -335,13 +334,31 @@
 
 .summary {
     list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px;
+    justify-content: center;
 }
 
 .summary li {
     font-size: 1.5rem;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    width: 15rem;
+    border: 1px solid #eee;
+}
+
+
+.summary li:hover {
+    background-color: #eee;
+    color: rgba(11, 11, 11, .75)
 }
 
 .summary li a {
+    text-align: center;
+    color: inherit;
+    margin: 1rem;
     text-decoration: none;
 }
 
@@ -358,7 +375,7 @@
 }
 
 .technoIconsSection:hover{
-    border: #EEE 1px solid;
+    border: 2px solid #EEE;
 }
 
 header section {
@@ -486,8 +503,7 @@ header.h2Context {
     transition-property: background-color;
     outline: 0;
 }
-.img {
-}
+
 .imgTitle {
   padding: 5px;
   max-width: 50%;
@@ -498,6 +514,9 @@ header.h2Context {
     padding-right: .5rem;
     padding-left: .5rem;
 }
+
+
+
 p {
     padding-left: .5rem;
 }
