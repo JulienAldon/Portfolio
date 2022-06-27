@@ -1,0 +1,25 @@
+{% include head.html %}
+<body style="max-width: 100vw; min-height: 100vh">
+{% include modal.html %}
+{% include header.html %}
+{% include sommaire.html %}
+{% for post in site.posts %}
+<article id="{{ post.title }}">
+    <a href="{{ post.url }}">
+        <h2>{{ post.title }}</h2>
+    </a>
+    <header class="articleHeader">
+        <img alt="{{ post.images-title[0] }}" class="img imgHeader" src="{{ post.images[0] }}">
+        <section>            
+            {{ post.excerpt }}
+        </section>
+    </header>
+</article>
+    {% endfor %}
+
+
+{% include footer.html %}
+</body>
+
+<script>
+</script>

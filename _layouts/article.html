@@ -1,0 +1,34 @@
+
+{% include head.html %}
+{% include header.html %}
+{% include modal.html %}
+<!-- TODO: front img : hero -->
+<article id="{{ page.title }}" class="project" style="margin-top:1rem;">
+    <header class="item">
+        <img alt="{{ page.images-title[0] }}" class="img imgHero" src="{{ page.images[0] }}">
+        <section>
+            <div>
+                {% for icon-title in page.icons-title %}
+                    <i title="{{ icon-title }}" class="technoIcons {{ page.icons[forloop.index0] }}"></i>
+                {% endfor %}
+            </div>
+            <h2 class="h1Article">{{ page.title }}</h2>
+        </section>
+    </header>
+    <section class="item" style="flex-flow: column;">
+        {{ content }}
+        <ul class="realized">
+            <li><label>{{ page.made-by }}</label></li>
+        </ul>
+    </section>
+    <section class="itemFooterImg">
+        {% for image in page.images offset:1 %}
+        <img alt="{{ page.images-title[forloop.index] }}" class="img itemImg" src="{{ image }}">
+        {% endfor %}
+    </section>
+    <footer style="display:flex; flex-flow:row;justify-content: center;">
+        {% for homepage in page.homepages %}
+        <a rel="noopener" class="iconLink noDecoration" title="{{ page.homepages-title[forloop.index0] }}" target="_blank" href="{{ homepage }}"><i class="{{ page.homepages-icons[forloop.index0] }}"></i></a>
+        {% endfor %}
+    </footer>
+</article>
