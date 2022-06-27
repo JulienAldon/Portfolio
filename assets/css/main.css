@@ -18,6 +18,7 @@
     display: flex;
 }
 
+
 .imgHeader {
     padding: 2rem;
     max-width: 15rem;
@@ -40,12 +41,12 @@
 }
 
 .summary li {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     display: flex;
     justify-content: center;
     flex-flow: column;
-    width: 15rem;
-    height: 6.5rem;
+    width: 10rem;
+    max-height: 4rem;
     border: 1px solid #eee
 }
 
@@ -426,3 +427,18 @@ body {
         flex-flow: column;
     }
 }
+
+
+@font-face {
+    font-family: nrd;
+    src: url("/assets/fonts/Fira Code Retina Nerd Font Complete.ttf") format('truetype');
+}
+
+.nrd {
+    font-family: "nrd";
+}
+
+.nrd.nf-mdi-test_tube::after {
+    content: "ﭧ";
+}
+

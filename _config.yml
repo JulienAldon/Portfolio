@@ -23,7 +23,7 @@ email: julien.aldon@epitech.eu
 description: >- # this means to ignore newlines until "baseurl:"
   Portfolio de Julien Aldon
 domain: julien.aldon.fr
-baseurl: "/Port-Folio/" # the subpath of your site, e.g. /blog
+# baseurl: "/Port-Folio/" # the subpath of your site, e.g. /blog
 url: "https://julien.aldon.fr" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  JulienAldon
 
