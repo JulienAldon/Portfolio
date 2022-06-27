@@ -1,0 +1,41 @@
+---
+layout:         article
+title:          "JAMMEE"
+date:           2021-01-01
+images:         [
+    "/assets/images/ressources/JAMMEE/Home.png",
+    "/assets/images/ressources/JAMMEE/Jammee.png",
+    "/assets/images/ressources/JAMMEE/load.png",
+    "/assets/images/ressources/JAMMEE/Full.png"
+]
+images-title:   [
+    "Organise des samples facilement.",
+    "Le studio JAMMEE.",
+    "Charge des samples.",
+    "Ajoute des effets, change les couleurs des pistes...",
+]
+icons:          ["fab fa-python", "fab fa-react", "fab fa-js"]
+icons-title:    [
+    "Framework backend : Python Django.",
+    "Framework front-end : React.",
+    "Javascript pour la modélisation du graph audio."
+]
+made-by:        "Projet réalisé en groupe dans le cadre de l'EIP (Epitech Innovative Project)."
+homepages:      [
+    "https://jammee.io"
+]
+homepages-title: [
+    'Lien vers la landing page',
+]
+homepages-icons: [
+    'fa fa-globe'
+]
+excerpt_separator: <!--more-->
+---
+## Logiciel de M.A.O. dans le navigateur
+### (Musique Assistée par Ordinateur)
+Site Web réalisé en python (backend), React (front end), et javascript (calculs audio).
+Projet de fin d’étude <em>EIP</em> (Epitech Innovative Project) réalisé sur trois ans (de la 3ème année à la 5ème année) en groupe de 8 personnes. 
+<!--more-->
+Le projet vise à reproduire un logiciel de musique assistée par ordinateur dans un navigateur. 
+Ce projet se destine à un public novice apeuré par la complexité d'un logiciel moderne (Ableton, FL studio...). 

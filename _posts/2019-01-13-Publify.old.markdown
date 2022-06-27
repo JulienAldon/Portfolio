@@ -1,0 +1,39 @@
+---
+layout:         article
+title:          "Publify.old"
+date:           2019-01-13
+images:         [
+    "/assets/images/ressources/Publify/publify_home.png",
+    "/assets/images/ressources/Publify/publify_about.png",
+    "/assets/images/ressources/Publify/publify_link.png",
+    "/assets/images/ressources/Publify/publify_playlist.png"
+]
+images-title:   [
+    "Page d'accueil de publify.",
+    "À propos.",
+    "Ajouter un lien.",
+    "Vue des synchornisations."
+]
+icons:          ["fab fa-python", "fab fa-vuejs"]
+icons-title:    ["Framework backend : Python Flask.", "Framework front-end : VueJS."]
+made-by:        "Réalisé par <a href='https://github.com/JulienAldon'>Julien Aldon</a>"
+homepages:      [
+    "https://github.com/JulienAldon/Publify.old",
+]
+homepages-title: [
+    'Lien vers le github',
+]
+homepages-icons: [
+    'fab fa-github',
+]
+excerpt_separator: <!--more-->
+---
+## Outil de gestion de playlist Spotify
+### Synchronisation de playlists collaboratives vers des playlists publiques
+Première version d'un projet réalisé en Python utilisant l'API spotify pour simplifier la gestion de playlists publiques et collaboratives.
+<!--more-->
+Dans cette version, l'application contient deux outils :
+- Le premier outil synchronise une playlist publique et une playlist collaborative, cette action supprime les doublons dans la playlist publique nouvellement synchronisée.
+- Le second outil crée une nouvelle playlist avec toutes les nouvelles sorties des 7 derniers jours des artistes présents dans la playlist selectionnée.
+
+Une seconde version à été réalisé plus tard. Disponible <a href="/2021/05/27/Publify.alpha.html">ici</a>

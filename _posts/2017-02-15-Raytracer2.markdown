@@ -1,0 +1,41 @@
+---
+layout:         article
+title:          "Raytracer 2"
+date:           2017-02-15
+images:         [
+    "/assets/images/ressources/Raytracer/raytracer2_screen.png",
+    "/assets/images/ressources/Raytracer/raytracer2_screen1.png",
+    "/assets/images/ressources/Raytracer/raytracer2_screen2.png",
+    "/assets/images/ressources/Raytracer/raytracer2_screen3.png"
+]
+images-title:   [
+    "Rendu du raytracer2 : quatre cylindres rouges, quatre sphères réfléchissantes, deux plans quadrillés",
+    "Un plan quadrillé noir et blanc, quatre sphères, une bleu peu réfléchissante, une verte peu réfléchissante, une rouge moyennement  réfléchissante, enfin une completement réfléchissante",
+    "Trois sphères réfléchissantes quatre plan quadrillés autours formant une boite",
+    "Cone rouge, cone bleu, sphère, plan, imbriqués"
+]
+icons:          ["fa-solid fa-c"]
+icons-title:    ["Langage C."]
+made-by:        "Réalisé par <a href='https://github.com/JulienAldon'>Julien Aldon</a>"
+homepages:      [
+    "https://github.com/JulienAldon/Epitech_Raytracer2",
+]
+homepages-title: [
+    'Lien vers le github',
+]
+homepages-icons: [
+    'fab fa-github',
+]
+excerpt_separator: <!--more-->
+---
+## Modelisation 3D Raytracing
+Projet réalisé en C dans le cadre de ma première année, en groupe de 4 personnes.
+<!--more-->
+Le but du projet était de modéliser des formes géométriques à l'aide d'une méthode de rendu donnée : le Raytracing.
+Ce Raytracer implémente les formes géométriques suivantes
+- Sphère
+- Cône
+- Plan
+- Cylindre
+
+Ainsi que certains effets comme la réflexion, les lumières et les ombres.

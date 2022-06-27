@@ -1,0 +1,45 @@
+---
+layout:         article
+title:          "Publify.alpha"
+date:           2021-05-27
+images:         [
+    "/assets/images/ressources/Publify/v2/home.png",
+    "/assets/images/ressources/Publify/v2/Radio.png",
+    "/assets/images/ressources/Publify/v2/publify.png",
+    "/assets/images/ressources/Publify/v2/statify.png"
+]
+images-title:   [
+    "Page d'accueil de publify.",
+    "Scanify permet de créer des playlist de découvertes avec une playlist donnée",
+    "Crée un lien entre une playlist collaborative et publique, Le lien apparait dans la liste, on peut synchroniser les playlists.",
+    "Génère des graphiques de collaboration en fonction du temps pour les playlists collaboratives."
+]
+icons:          ["fab fa-python", "fab fa-react"]
+icons-title:    ["Framework backend : Python Flask.", "Framework front-end : Preact."]
+made-by:        "Réalisé par <a href='https://github.com/JulienAldon'>Julien Aldon</a>"
+homepages:      [
+    "https://github.com/JulienAldon/Publify.alpha",
+    "https://spotils.aldon.fr/"
+]
+homepages-title: [
+    'Lien vers le github',
+    'Deploy in progress',
+]
+homepages-icons: [
+    'fab fa-github',
+    'fa fa-globe'
+]
+excerpt_separator: <!--more-->
+---
+## Outil de gestion de playlist Spotify
+### Ensembles d'outils destinés à la gestion de playlists spotify
+Seconde iteration d'un projet réalisé en Python utilisant l'API spotify pour simplifier la gestion de playlists publiques et collaboratives. Les besoins ont évolués c'est pourquoi un outil supplémentaire à été ajouté à la collection.
+<!--more-->
+L'application contient trois outils :
+- Le premier outil synchronise une playlist publique et une playlist collaborative, cette action supprime les doublons dans la playlist publique nouvellement synchronisée.
+- Le second outil crée une nouvelle playlist avec toutes les nouvelles sorties des 7 derniers jours des artistes présents dans la playlist selectionnée.
+- Le troisième outil affiche les statistiques de contribution sur une playlist collaborative selectionnée.
+
+Voulant déployer l'outil, j'ai décidé de refaire l'integralitée du site avec des technologies différentes : FastAPI et Preact.
+
+Une première version éxiste et est disponible <a href="/2021/01/13/Publify.old">ici</a>

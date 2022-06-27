@@ -1,0 +1,10 @@
+<article id="summary" style="margin-top:1rem;">
+    <h2 style="text-align: center;">Sommaire</h2>
+    <section>
+        <ul class="summary">
+            {% for post in site.posts %}
+            <li><a href="#{{ post.title }}">{{ post.title }}</a></li>
+            {% endfor %}
+        </ul>
+    </section>
+</article>
