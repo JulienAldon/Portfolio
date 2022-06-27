@@ -22,14 +22,15 @@ title: Portfolio
 email: julien.aldon@epitech.eu
 description: >- # this means to ignore newlines until "baseurl:"
   Portfolio de Julien Aldon
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+domain: julien.aldon.fr
+baseurl: "/Port-Folio/" # the subpath of your site, e.g. /blog
+url: "https://julien.aldon.fr" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  JulienAldon
 
 # Build settings
-theme: minima
-plugins:
-  - jekyll-feed
+# theme: minima
+# plugins:
+#   - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default.
