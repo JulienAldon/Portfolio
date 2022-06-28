@@ -1,4 +1,5 @@
 ---
+permalink:      /publify/old
 layout:         article
 title:          "Publify.old"
 date:           2019-01-13

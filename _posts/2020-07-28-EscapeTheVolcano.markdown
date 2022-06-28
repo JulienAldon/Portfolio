@@ -1,4 +1,5 @@
 ---
+permalink:      /escapethevolcano
 layout:         article
 title:          "Escape The Volcano"
 date:           2020-07-28

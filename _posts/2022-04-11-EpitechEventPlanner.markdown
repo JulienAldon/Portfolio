@@ -1,4 +1,5 @@
 ---
+permalink:      /epitecheventplanner
 layout:         article
 title:          "Epitech Event Planner"
 date:           2022-04-11

@@ -1,4 +1,5 @@
 ---
+permalink:      /jammee
 layout:         article
 title:          "JAMMEE"
 date:           2021-01-01
@@ -20,7 +21,7 @@ icons-title:    [
     "Framework front-end : React.",
     "Javascript pour la modélisation du graph audio."
 ]
-made-by:        "Projet réalisé en groupe dans le cadre de l'EIP (Epitech Innovative Project)."
+made-by:        "Projet réalisé en groupe de 8 dans le cadre de l'EIP (Epitech Innovative Project)."
 homepages:      [
     "https://jammee.io"
 ]

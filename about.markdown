@@ -1,17 +1,19 @@
 ---
 title: About
 permalink: /about/
+layout: page
 ---
+<!-- # Julien Aldon
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+## Ma formation
+Epitech École d'informatique.
+4ème année en Russie.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+## Où ai-je travaillé ?
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+- Juillet 2017 – Dec. 2017 : Stage à Adecco IT Services Capacity management 
+- Sept. 2018 – Mars 2019 : Stage en alternance à la Code Academy Assistant pédagogique 
+- Mars. 2019 - Aout 2020 : Stage à Wecandoo Fullstack web 
+- Oct. 2020 - Mars 2021 : Stage à Stackeo Fullstack web 
+- Mars 2021 - Aout 2021 : Stage à Grame CNCM Recherche & developpement INScore 
+- Septembre 2021 - Septembre 2022 : CDD temps plein en tant qu'Accompagnateur pédagogique à Epitech -->

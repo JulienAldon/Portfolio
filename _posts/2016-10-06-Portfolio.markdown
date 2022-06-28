@@ -1,4 +1,5 @@
 ---
+permalink:      /portfolio
 layout:         article
 title:          "This port folio"
 date:           2016-10-06
@@ -14,21 +15,35 @@ images-title:   [
     "Page of one project.",
     "Les projets sont listés du plus ancien au plus récent.",
 ]
-icons:          ["nrd nf-mdi-test_tube"]
-icons-title:    ["Jekyll"]
+icons:          [
+    "nrd nf-mdi-test_tube",
+    "fa-brands fa-js",
+    "fa-brands fa-html5",
+    "fa-brands fa-css3-alt"
+]
+icons-title:    [
+    "Jekyll",
+    "Javascript",
+    "HTML5",
+    "CSS",
+]
 made-by:        "Réalisé par <a href='https://github.com/JulienAldon'>Julien Aldon</a>"
 homepages:      [
     "https://github.com/JulienAldon/Port-Folio",
+    "https://julien.aldon.fr",
 ]
 homepages-title: [
     'Lien vers le github',
+    'Lien vers le site'
 ]
 homepages-icons: [
     'fab fa-github',
+    'fa fa-globe'
 ]
 excerpt_separator: <!--more-->
 ---
-## Portfolio réalisé avec Jekyll
-S'agissant d'une page statique, j'ai préféré l'utilisation de Jekyll pour la génération de ce port-folio.
-Cela me permet de n'avoir que très peu de travail à effectuer pour ajouter un nouveau projet à ce port folio.
+## Ce Portfolio
+Portfolio réalisé entièrement en html & css (avec une petite touche de Javascript) le tout orchestré dans un constructeur de sites statiques : Jekyll.
 <!--more-->
+
+Cette techno me permet d'ajouter de nouveaux projets à ce portfolio sans avoir à copier coller du code html en écrivant simplement mon contenu dans un fichier markdown. Le site est regenéré automatiquement lorsqu'on push dans le dépot.

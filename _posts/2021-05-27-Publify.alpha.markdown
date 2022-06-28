@@ -1,4 +1,5 @@
 ---
+permalink:      /publify/alpha
 layout:         article
 title:          "Publify.alpha"
 date:           2021-05-27

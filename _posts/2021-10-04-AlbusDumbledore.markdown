@@ -1,4 +1,5 @@
 ---
+permalink:      /albusdumbledore
 layout:         article
 title:          "Albus Dumbledore"
 date:           2021-10-4
