@@ -1,7 +1,7 @@
 ---
 permalink:      /portfolio
 layout:         article
-title:          "This port folio"
+title:          "Ce portfolio"
 date:           2016-10-06
 images:         [
     "/assets/images/ressources/ThisPortFolio/Main.png",
@@ -42,7 +42,6 @@ homepages-icons: [
 ]
 excerpt_separator: <!--more-->
 ---
-## Ce Portfolio
 Portfolio réalisé entièrement en html & css (avec une petite touche de Javascript) le tout orchestré dans un constructeur de sites statiques : Jekyll.
 <!--more-->
 
