@@ -2,7 +2,7 @@
 permalink:      /epitecheventplanner
 layout:         article
 title:          "Epitech Event Planner"
-date:           2022-04-11
+date:           2022-01-12
 images:         [
     "/assets/images/ressources/EventPlanner/EventPlannerVue.png",
     "/assets/images/ressources/EventPlanner/EventPlannerEnCour.png",

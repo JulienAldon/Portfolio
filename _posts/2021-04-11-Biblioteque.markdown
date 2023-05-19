@@ -2,7 +2,7 @@
 permalink:      /biblio
 layout:         article
 title:          "Aldon Biblio"
-date:           2022-04-11
+date:           2021-04-11
 images:         [
     "/assets/images/ressources/HomeBiblio/Books.png",
     "/assets/images/ressources/HomeBiblio/Films.png",
