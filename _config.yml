@@ -19,7 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Portfolio
-email: julien.aldon@epitech.eu
+email: julien.aldon@wanadoo.fr
 description: >- # this means to ignore newlines until "baseurl:"
   Portfolio de Julien Aldon
 domain: julien.aldon.fr

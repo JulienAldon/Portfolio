@@ -35,8 +35,8 @@ window.addEventListener('load', (event) => {
     var copy = document.getElementById("copy");
     contactMe.onclick = function() {
         if (contactMe.innerHTML == "<span>Contactez moi</span>") {
-            contactMe.innerHTML = "julien.aldon@epitech.eu"
-            copyStringToClipboard("julien.aldon@epitech.eu");
+            contactMe.innerHTML = "julien.aldon@wanadoo.fr"
+            copyStringToClipboard("julien.aldon@wanadoo.fr");
             copy.classList.add('active');
             contactMe.classList.add('clicked');
             window.setTimeout(() => {

@@ -3,6 +3,7 @@ permalink:      /publify/old
 layout:         article
 title:          "Publify.old"
 date:           2019-01-13
+description:    "Première version de l'outil publify."
 images:         [
     "/assets/images/ressources/Publify/publify_home.png",
     "/assets/images/ressources/Publify/publify_about.png",

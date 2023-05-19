@@ -3,6 +3,7 @@ permalink:      /jammee
 layout:         article
 title:          "JAMMEE"
 date:           2021-01-01
+description:    "."
 images:         [
     "/assets/images/ressources/JAMMEE/Home.png",
     "/assets/images/ressources/JAMMEE/Jammee.png",

@@ -3,6 +3,7 @@ permalink:      /portfolio
 layout:         article
 title:          "Ce portfolio"
 date:           2016-10-06
+description:    "Portfolio réalisé en HTML/CSS avec Jekyll."
 images:         [
     "/assets/images/ressources/ThisPortFolio/Main.png",
     "/assets/images/ressources/ThisPortFolio/Main.png",

@@ -3,6 +3,7 @@ permalink:      /raytracer
 layout:         article
 title:          "Raytracer 2"
 date:           2017-02-15
+description:    "Projet Raytracer fait en première année Epitech."
 images:         [
     "/assets/images/ressources/Raytracer/raytracer2_screen.png",
     "/assets/images/ressources/Raytracer/raytracer2_screen1.png",

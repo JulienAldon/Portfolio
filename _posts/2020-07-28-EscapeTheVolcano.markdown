@@ -3,6 +3,7 @@ permalink:      /escapethevolcano
 layout:         article
 title:          "Escape The Volcano"
 date:           2020-07-28
+description:    "Jeu de plateforme en 2D."
 images:         [
     "/assets/images/ressources/ETV/Menu.png",
     "/assets/images/ressources/ETV/Climber.png",
