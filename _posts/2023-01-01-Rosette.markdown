@@ -1,0 +1,44 @@
+---
+permalink:      /rosette
+layout:         article
+title:          "Rosette-restaurant.fr"
+date:           2023-01-01
+images:         [
+    "/assets/images/ressources/Rosette/homepage.png",
+    "/assets/images/ressources/Rosette/presentation.png",
+    "/assets/images/ressources/Rosette/table.png",
+    "/assets/images/ressources/Rosette/adresse.png",
+]
+
+images-title:   [
+    "Page d'accueil de rosette.",
+    "Page de présentation des gérants : Camille & Arthur.",
+    "Page correspondant à la description de la table.",
+    "Page de l'adresse du restaurant.",
+]
+
+icons:          ["fa-solid fa-vial", "fa-brands fa-square-github"]
+icons-title:    ["Fait avec Jekyll", "Hosté sur Github Pages"]
+made-by:        "Réalisé par <a href='https://github.com/JulienAldon'>Julien Aldon</a>"
+homepages:      [
+    "https://github.com/JulienAldon/Rosette-clichy",
+    "https://www.rosette-restaurant.fr",
+]
+homepages-title: [
+    'Lien vers le github',
+    'Lien vers le site web',
+]
+homepages-icons: [
+    'fab fa-github',
+    'fa-solid fa-globe',
+]
+excerpt_separator: <!--more-->
+---
+## Site Internet Rosette
+### Pour un restaurant à Clichy
+Ce projet est un site web pour le restaurant Rosette situé au coeur de Clichy ! 
+Il à été réalisé en quelques semaine sur mon temps libre.
+
+
+<!--more-->
+Le site est fait à l'aide de Jekyll, HTML, CSS & Javascript, une attention particulière à été apportée pour permettre une modification du site par une personne non technique. Un `Readme.md` avec un guide est disponible, et l'integralité du moteur de templating est utilisé afin de simplifier l'écriture de nouvelles pages.

@@ -24,6 +24,7 @@
     max-width: 15rem;
     height: 10rem;
     align-self: center;
+    width: 100vw;
 } 
 
 .fixedbutton {
@@ -235,7 +236,12 @@ p {
     font-size: 1.2rem;
 }
 
+img {
+    max-width: 10rem;
+}
+
 .footerButton {
+    color: black;
     flex: 0 1 auto;
     padding-left: 1rem;
 }
@@ -394,7 +400,8 @@ body {
     .imgHeader {
         max-width: -moz-available;          /* WebKit-based browsers will ignore this. */
         max-width: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
-        max-width: fill-available;        
+        max-width: fill-available;
+        width: unset;
     }
     article {
         width: calc(100vw);

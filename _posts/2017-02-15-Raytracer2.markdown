@@ -30,7 +30,8 @@ homepages-icons: [
 ]
 excerpt_separator: <!--more-->
 ---
-## Modelisation 3D Raytracing
+## Modélisation 3D 
+### À l'aide du Raytracing
 Projet réalisé en C dans le cadre de ma première année, en groupe de 4 personnes.
 <!--more-->
 Le but du projet était de modéliser des formes géométriques à l'aide d'une méthode de rendu donnée : le Raytracing.

@@ -32,7 +32,8 @@ homepages-icons: [
 ]
 excerpt_separator: <!--more-->
 ---
-# Outil de gestion de base de donnée de livres
+## Outil de gestion de base de donnée de livres
+### Pour enregistrer la bibliotèque de la maison
 À la maison on à une grande bibliotèque et on se perd lorsqu'on cherche une référence en particulier. 
 On a alors décidé de créer une base de donnée avec tous les livres présents, et un outil permettant de gérer cette base de donnée facilement.
 <!--more-->

@@ -27,9 +27,10 @@ homepages-icons: [
 ]
 excerpt_separator: <!--more-->
 ---
-# Wrapper Edusign
+## Client facilitant l'usage d'edusign
+### Pour la pédagogie Epitech MSC
 Ce projet concentre tout le processus d'emargement Epitech MSC (Bac +5 Alternance). L'idée étant de simplifier la vie de la pédagogie
-en automatisant le plus de tâches et en introduisant des élément d'UX importants.
+en automatisant le plus de tâches et en introduisant des éléments d'UX importants.
 <!--more-->
 Le projet à été fait avec Fast API et React pour le front. Il accomplit 2 tâches au seins du processus d'émargement:
 - Les sessions : Récupération des listes de présences depuis l'intranet Epitech. Permet de visualiser les élèves présents et absents. Le pédago peut mettre en retard ou présent un élève en cochant son statut. Il peut valider la session puis envoyer les mails de présence à tous les élèves qu'il gere.

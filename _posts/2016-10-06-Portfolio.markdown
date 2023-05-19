@@ -43,6 +43,8 @@ homepages-icons: [
 ]
 excerpt_separator: <!--more-->
 ---
+## Mon port folio
+### pour mettre en avant mon travail
 Portfolio réalisé entièrement en html & css (avec une petite touche de Javascript) le tout orchestré dans un constructeur de sites statiques : Jekyll.
 <!--more-->
 
