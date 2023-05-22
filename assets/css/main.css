@@ -236,10 +236,6 @@ p {
     font-size: 1.2rem;
 }
 
-img {
-    max-width: 10rem;
-}
-
 .footerButton {
     color: black;
     flex: 0 1 auto;
