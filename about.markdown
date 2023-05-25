@@ -7,7 +7,7 @@ layout: page
 
 <img class="about-img" src="/assets/images/ressources/about.jpg" alt="Photo de Julien Aldon">
 
-[Mon LinkedIn](https://www.linkedin.com/in/julien-aldon-a95311277/)
+[Mon LinkedIn](https://www.linkedin.com/in/julien-aldon/)
 
 ## Mes formations
 École d'informatique Epitech PGE (programme grandes écoles).
