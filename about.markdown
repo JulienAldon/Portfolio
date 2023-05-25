@@ -23,3 +23,7 @@ layout: page
 - **Mars 2021 - Aout 2021** : Stage à Grame CNCM Recherche & developpement INScore.
 - **Septembre 2021 - Septembre 2022** : CDD temps plein en tant qu'Accompagnateur pédagogique à Epitech.
 - **Septembre 2022 - Septembre 2024** : CDI temps plein en tant que Responsable pédagogique des Master 1 & 2 en alternance à Epitech.
+
+## Utilisation des Images de ce site
+
+Vous êtes libres d'utiliser les images de ce site ! Vous avez juste à me créditer !
