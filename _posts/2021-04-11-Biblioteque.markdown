@@ -31,6 +31,27 @@ homepages-icons: [
     'fa fa-globe'
 ]
 excerpt_separator: <!--more-->
+google-seo-data-markup: |
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Aldon Biblio",
+        "image": [
+            "https://julien.aldon.fr/assets/images/ressources/HomeBiblio/Books.png",
+            "https://julien.aldon.fr/assets/images/ressources/HomeBiblio/Films.png",
+            "https://julien.aldon.fr/assets/images/ressources/HomeBiblio/Home.png",
+            "https://julien.aldon.fr/assets/images/ressources/HomeBiblio/About.png"
+        ],
+        "author": {
+            "@type": "Person",
+            "name": "Julien Aldon",
+            "url": "https://julien.aldon.fr"
+        },
+        "description": "À la maison on à une grande bibliotèque et on se perd lorsqu'on cherche une référence en particulier. On a alors décidé de créer une base de donnée avec tous les livres présents, et un outil permettant de gérer cette base de donnée facilement.",
+    }
+    </script>
+
 ---
 ## Outil de gestion de base de donnée de livres
 ### Pour enregistrer la bibliotèque de la maison

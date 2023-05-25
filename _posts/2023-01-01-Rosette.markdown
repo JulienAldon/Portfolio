@@ -33,12 +33,31 @@ homepages-icons: [
     'fa-solid fa-globe',
 ]
 excerpt_separator: <!--more-->
+google-seo-data-markup: |
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Rosette-restaurant.fr",
+        "image": [
+            "https://julien.aldon.fr/assets/images/ressources/Rosette/homepage.png",
+            "https://julien.aldon.fr/assets/images/ressources/Rosette/presentation.png",
+            "https://julien.aldon.fr/assets/images/ressources/Rosette/table.png",
+            "https://julien.aldon.fr/assets/images/ressources/Rosette/adresse.png",
+        ],
+        "author": {
+            "@type": "Person",
+            "name": "Julien Aldon",
+            "url": "https://julien.aldon.fr"
+        },
+        "description": "Ce projet est un site web pour le restaurant Rosette situé au coeur de Clichy ! Il à été réalisé en quelques semaine sur mon temps libre.",
+    }
+    </script>
 ---
 ## Site Internet Rosette
 ### Pour un restaurant à Clichy
 Ce projet est un site web pour le restaurant Rosette situé au coeur de Clichy ! 
 Il à été réalisé en quelques semaine sur mon temps libre.
-
 
 <!--more-->
 Le site est fait à l'aide de Jekyll, HTML, CSS & Javascript, une attention particulière à été apportée pour permettre une modification du site par une personne non technique. Un `Readme.md` avec un guide est disponible, et l'integralité du moteur de templating est utilisé afin de simplifier l'écriture de nouvelles pages.

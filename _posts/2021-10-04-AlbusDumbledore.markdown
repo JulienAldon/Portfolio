@@ -31,6 +31,26 @@ homepages-icons: [
     'fa fa-globe'
 ]
 excerpt_separator: <!--more-->
+google-seo-data-markup: |
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Albus Dumbledore",
+        "image": [
+            "/assets/images/ressources/Albus/AlbusPoints.png",
+            "/assets/images/ressources/Albus/AlbusPoints.png",
+            "/assets/images/ressources/Albus/Albus.png",
+            "/assets/images/ressources/Albus/AddPoints.png",
+        ],
+        "author": {
+            "@type": "Person",
+            "name": "Julien Aldon",
+            "url": "https://julien.aldon.fr"
+        },
+        "description": "Le thème de la piscine cette année était Harry Potter, nous avons donc mis en place un site à afficher sur les télévisions de l'école pour garder le compte des points des maisons.",
+    }
+    </script>
 ---
 ## Outil de gestion des points de maisons
 ### Pour la Piscine EPITECH

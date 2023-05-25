@@ -41,6 +41,27 @@ homepages-icons: [
     'fab fa-github',
     'fa fa-globe'
 ]
+google-seo-data-markup: |
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Ce portfolio",
+        "image": [
+               "https://julien.aldon.fr/assets/images/ressources/ThisPortFolio/Main.png",
+               "https://julien.aldon.fr/assets/images/ressources/ThisPortFolio/Main.png",
+               "https://julien.aldon.fr/assets/images/ressources/ThisPortFolio/Article.png",
+               "https://julien.aldon.fr/assets/images/ressources/ThisPortFolio/Home.png"
+        ],
+        "author": {
+            "@type": "Person",
+            "name": "Julien Aldon",
+            "url": "https://julien.aldon.fr"
+        },
+        "description": "Portfolio réalisé entièrement en html & css (avec une petite touche de Javascript) le tout orchestré dans un constructeur de sites statiques : Jekyll.",
+    }
+    </script>
+
 excerpt_separator: <!--more-->
 ---
 ## Mon port folio

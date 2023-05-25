@@ -33,6 +33,26 @@ homepages-icons: [
     'fa fa-globe'
 ]
 excerpt_separator: <!--more-->
+google-seo-data-markup: |
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "JAMMEE",
+        "image": [
+            "/assets/images/ressources/JAMMEE/Home.png",
+            "/assets/images/ressources/JAMMEE/Jammee.png",
+            "/assets/images/ressources/JAMMEE/load.png",
+            "/assets/images/ressources/JAMMEE/Full.png"
+        ],
+        "author": {
+            "@type": "Person",
+            "name": "Julien Aldon",
+            "url": "https://julien.aldon.fr"
+        },
+        "description": "Site Web réalisé en python (backend), React (front end), et javascript (calculs audio). Projet de fin d’étude EIP (Epitech Innovative Project) réalisé sur trois ans (de la 3ème année à la 5ème année) en groupe de 8 personnes.",
+    }
+    </script>
 ---
 ## Logiciel de M.A.O. dans le navigateur
 ### (Musique Assistée par Ordinateur)

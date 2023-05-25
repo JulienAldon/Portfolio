@@ -31,6 +31,27 @@ homepages-icons: [
     'fa fa-globe'
 ]
 excerpt_separator: <!--more-->
+google-seo-data-markup: |
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Publify.alpha",
+        "image": [
+            "https://julien.aldon.fr/assets/images/ressources/Publify/v2/home.png",
+            "https://julien.aldon.fr/assets/images/ressources/Publify/v2/Radio.png",
+            "https://julien.aldon.fr/assets/images/ressources/Publify/v2/publify.png",
+            "https://julien.aldon.fr/assets/images/ressources/Publify/v2/statify.png"
+        ],
+        "author": {
+            "@type": "Person",
+            "name": "Julien Aldon",
+            "url": "https://julien.aldon.fr"
+        },
+        "description": "Seconde iteration d'un projet réalisé en Python utilisant l'API spotify pour simplifier la gestion de playlists publiques et collaboratives. Les besoins ont évolués c'est pourquoi un outil supplémentaire à été ajouté à la collection.",
+    }
+    </script>
+
 ---
 ## Outil de gestion de playlist Spotify
 ### Ensembles d'outils destinés à la gestion de playlists spotify

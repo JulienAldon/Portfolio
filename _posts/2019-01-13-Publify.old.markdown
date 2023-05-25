@@ -29,6 +29,26 @@ homepages-icons: [
     'fab fa-github',
 ]
 excerpt_separator: <!--more-->
+google-seo-data-markup: |
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Publify.old",
+        "image": [
+            "https://julien.aldon.fr/assets/images/ressources/Publify/publify_home.png",
+            "https://julien.aldon.fr/assets/images/ressources/Publify/publify_about.png",
+            "https://julien.aldon.fr/assets/images/ressources/Publify/publify_link.png",
+            "https://julien.aldon.fr/assets/images/ressources/Publify/publify_playlist.png"
+        ],
+        "author": {
+            "@type": "Person",
+            "name": "Julien Aldon",
+            "url": "https://julien.aldon.fr"
+        },
+        "description": "Première version d'un projet réalisé en Python utilisant l'API spotify pour simplifier la gestion de playlists publiques et collaboratives.",
+    }
+    </script>
 ---
 ## Outil de gestion de playlist Spotify
 ### Synchronisation de playlists collaboratives vers des playlists publiques

@@ -28,6 +28,26 @@ homepages-title: [
 homepages-icons: [
     'fab fa-github',
 ]
+google-seo-data-markup: |
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Raytracer 2",
+        "image": [
+            "https://julien.aldon.fr/assets/images/ressources/Raytracer/raytracer2_screen.png",
+            "https://julien.aldon.fr/assets/images/ressources/Raytracer/raytracer2_screen1.png",
+            "https://julien.aldon.fr/assets/images/ressources/Raytracer/raytracer2_screen2.png",
+            "https://julien.aldon.fr/assets/images/ressources/Raytracer/raytracer2_screen3.png"
+        ],
+        "author": {
+            "@type": "Person",
+            "name": "Julien Aldon",
+            "url": "https://julien.aldon.fr"
+        },
+        "description": "Projet réalisé en C dans le cadre de ma première année, en groupe de 4 personnes.",
+    }
+    </script>
 excerpt_separator: <!--more-->
 ---
 ## Modélisation 3D 

@@ -26,6 +26,25 @@ homepages-icons: [
     'fab fa-github',
 ]
 excerpt_separator: <!--more-->
+google-seo-data-markup: |
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Le clikodrome",
+        "image": [
+            "https://julien.aldon.fr/assets/images/ressources/Clikodrome/demo_sessions.png",
+            "https://julien.aldon.fr/assets/images/ressources/Clikodrome/demo_session.png",
+            "https://julien.aldon.fr/assets/images/ressources/Clikodrome/demo_remote.png",
+        ],
+        "author": {
+            "@type": "Person",
+            "name": "Julien Aldon",
+            "url": "https://julien.aldon.fr"
+        },
+        "description": "Ce projet concentre tout le processus d'emargement Epitech MSC (Bac +5 Alternance). L'idée étant de simplifier la vie de la pédagogie en automatisant le plus de tâches et en introduisant des éléments d'UX importants.",
+    }
+    </script>
 ---
 ## Client facilitant l'usage d'edusign
 ### Pour la pédagogie Epitech MSC

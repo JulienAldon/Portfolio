@@ -29,6 +29,26 @@ homepages-icons: [
     'fab fa-github',
 ]
 excerpt_separator: <!--more-->
+google-seo-data-markup: |
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Escape The Volcano",
+        "image": [
+            "https://julien.aldon.fr/assets/images/ressources/ETV/Menu.png",
+            "https://julien.aldon.fr/assets/images/ressources/ETV/Climber.png",
+            "https://julien.aldon.fr/assets/images/ressources/ETV/InGameBlob.png",
+            "https://julien.aldon.fr/assets/images/ressources/ETV/InGameLava.png"
+        ],
+        "author": {
+            "@type": "Person",
+            "name": "Julien Aldon",
+            "url": "https://julien.aldon.fr"
+        },
+        "description": "En quatrième année, en Russie j'ai eu l'occasion de suivre des cours de game design. Nous avions à designer un jeu à l'aide de mots aléatoirement choisis.",
+    }
+    </script>
 ---
 ## Jeu vidéo
 ### Réalisé avec Unity
