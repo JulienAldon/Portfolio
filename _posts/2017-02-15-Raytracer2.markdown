@@ -5,10 +5,10 @@ title:          "Raytracer 2"
 date:           2017-02-15
 description:    "Projet Raytracer fait en première année Epitech."
 images:         [
-    "/assets/images/ressources/Raytracer/raytracer2_screen.png",
-    "/assets/images/ressources/Raytracer/raytracer2_screen1.png",
-    "/assets/images/ressources/Raytracer/raytracer2_screen2.png",
-    "/assets/images/ressources/Raytracer/raytracer2_screen3.png"
+    "/assets/images/ressources/Raytracer/raytracer2_screen.webp",
+    "/assets/images/ressources/Raytracer/raytracer2_screen1.webp",
+    "/assets/images/ressources/Raytracer/raytracer2_screen2.webp",
+    "/assets/images/ressources/Raytracer/raytracer2_screen3.webp"
 ]
 images-title:   [
     "Rendu du raytracer2 : quatre cylindres rouges, quatre sphères réfléchissantes, deux plans quadrillés",
@@ -35,10 +35,10 @@ google-seo-data-markup: |
         "@type": "Article",
         "headline": "Raytracer 2",
         "image": [
-            "https://julien.aldon.fr/assets/images/ressources/Raytracer/raytracer2_screen.png",
-            "https://julien.aldon.fr/assets/images/ressources/Raytracer/raytracer2_screen1.png",
-            "https://julien.aldon.fr/assets/images/ressources/Raytracer/raytracer2_screen2.png",
-            "https://julien.aldon.fr/assets/images/ressources/Raytracer/raytracer2_screen3.png"
+            "https://julien.aldon.fr/assets/images/ressources/Raytracer/raytracer2_screen.webp",
+            "https://julien.aldon.fr/assets/images/ressources/Raytracer/raytracer2_screen1.webp",
+            "https://julien.aldon.fr/assets/images/ressources/Raytracer/raytracer2_screen2.webp",
+            "https://julien.aldon.fr/assets/images/ressources/Raytracer/raytracer2_screen3.webp"
         ],
         "author": {
             "@type": "Person",

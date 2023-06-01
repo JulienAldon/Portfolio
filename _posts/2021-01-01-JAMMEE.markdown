@@ -5,10 +5,10 @@ title:          "JAMMEE"
 date:           2021-01-01
 description:    "."
 images:         [
-    "/assets/images/ressources/JAMMEE/Home.png",
-    "/assets/images/ressources/JAMMEE/Jammee.png",
-    "/assets/images/ressources/JAMMEE/load.png",
-    "/assets/images/ressources/JAMMEE/Full.png"
+    "/assets/images/ressources/JAMMEE/Home.webp",
+    "/assets/images/ressources/JAMMEE/Jammee.webp",
+    "/assets/images/ressources/JAMMEE/load.webp",
+    "/assets/images/ressources/JAMMEE/Full.webp"
 ]
 images-title:   [
     "Organise des samples facilement.",
@@ -40,10 +40,10 @@ google-seo-data-markup: |
         "@type": "Article",
         "headline": "JAMMEE",
         "image": [
-            "/assets/images/ressources/JAMMEE/Home.png",
-            "/assets/images/ressources/JAMMEE/Jammee.png",
-            "/assets/images/ressources/JAMMEE/load.png",
-            "/assets/images/ressources/JAMMEE/Full.png"
+            "/assets/images/ressources/JAMMEE/Home.webp",
+            "/assets/images/ressources/JAMMEE/Jammee.webp",
+            "/assets/images/ressources/JAMMEE/load.webp",
+            "/assets/images/ressources/JAMMEE/Full.webp"
         ],
         "author": {
             "@type": "Person",

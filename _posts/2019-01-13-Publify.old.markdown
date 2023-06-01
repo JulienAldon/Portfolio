@@ -5,10 +5,10 @@ title:          "Publify.old"
 date:           2019-01-13
 description:    "Première version de l'outil publify."
 images:         [
-    "/assets/images/ressources/Publify/publify_home.png",
-    "/assets/images/ressources/Publify/publify_about.png",
-    "/assets/images/ressources/Publify/publify_link.png",
-    "/assets/images/ressources/Publify/publify_playlist.png"
+    "/assets/images/ressources/Publify/publify_home.webp",
+    "/assets/images/ressources/Publify/publify_about.webp",
+    "/assets/images/ressources/Publify/publify_link.webp",
+    "/assets/images/ressources/Publify/publify_playlist.webp"
 ]
 images-title:   [
     "Page d'accueil de publify.",
@@ -36,10 +36,10 @@ google-seo-data-markup: |
         "@type": "Article",
         "headline": "Publify.old",
         "image": [
-            "https://julien.aldon.fr/assets/images/ressources/Publify/publify_home.png",
-            "https://julien.aldon.fr/assets/images/ressources/Publify/publify_about.png",
-            "https://julien.aldon.fr/assets/images/ressources/Publify/publify_link.png",
-            "https://julien.aldon.fr/assets/images/ressources/Publify/publify_playlist.png"
+            "https://julien.aldon.fr/assets/images/ressources/Publify/publify_home.webp",
+            "https://julien.aldon.fr/assets/images/ressources/Publify/publify_about.webp",
+            "https://julien.aldon.fr/assets/images/ressources/Publify/publify_link.webp",
+            "https://julien.aldon.fr/assets/images/ressources/Publify/publify_playlist.webp"
         ],
         "author": {
             "@type": "Person",

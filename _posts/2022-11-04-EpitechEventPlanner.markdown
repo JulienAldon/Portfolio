@@ -4,10 +4,10 @@ layout:         article
 title:          "Epitech Event Planner"
 date:           2022-01-12
 images:         [
-    "/assets/images/ressources/EventPlanner/EventPlannerVue.png",
-    "/assets/images/ressources/EventPlanner/EventPlannerEnCour.png",
-    "/assets/images/ressources/EventPlanner/EventPlannerError.png",
-    "/assets/images/ressources/EventPlanner/EventPlannerFinished.png"
+    "/assets/images/ressources/EventPlanner/EventPlannerVue.webp",
+    "/assets/images/ressources/EventPlanner/EventPlannerEnCour.webp",
+    "/assets/images/ressources/EventPlanner/EventPlannerError.webp",
+    "/assets/images/ressources/EventPlanner/EventPlannerFinished.webp"
 ]
 images-title:   [
     "Menu du logiciel",
@@ -35,10 +35,10 @@ google-seo-data-markup: |
         "@type": "Article",
         "headline": "Epitech Event Planner",
         "image": [
-            "https://julien.aldon.fr/assets/images/ressources/EventPlanner/EventPlannerVue.png",
-            "https://julien.aldon.fr/assets/images/ressources/EventPlanner/EventPlannerEnCour.png",
-            "https://julien.aldon.fr/assets/images/ressources/EventPlanner/EventPlannerError.png",
-            "https://julien.aldon.fr/assets/images/ressources/EventPlanner/EventPlannerFinished.png"
+            "https://julien.aldon.fr/assets/images/ressources/EventPlanner/EventPlannerVue.webp",
+            "https://julien.aldon.fr/assets/images/ressources/EventPlanner/EventPlannerEnCour.webp",
+            "https://julien.aldon.fr/assets/images/ressources/EventPlanner/EventPlannerError.webp",
+            "https://julien.aldon.fr/assets/images/ressources/EventPlanner/EventPlannerFinished.webp"
         ],
         "author": {
             "@type": "Person",

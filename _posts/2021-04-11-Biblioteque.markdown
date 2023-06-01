@@ -4,10 +4,10 @@ layout:         article
 title:          "Aldon Biblio"
 date:           2021-04-11
 images:         [
-    "/assets/images/ressources/HomeBiblio/Books.png",
-    "/assets/images/ressources/HomeBiblio/Films.png",
-    "/assets/images/ressources/HomeBiblio/Home.png",
-    "/assets/images/ressources/HomeBiblio/About.png"
+    "/assets/images/ressources/HomeBiblio/Books.webp",
+    "/assets/images/ressources/HomeBiblio/Films.webp",
+    "/assets/images/ressources/HomeBiblio/Home.webp",
+    "/assets/images/ressources/HomeBiblio/About.webp"
 ]
 images-title:   [
     "Books view, filter, search, edit and suppress books entries.",
@@ -38,10 +38,10 @@ google-seo-data-markup: |
         "@type": "Article",
         "headline": "Aldon Biblio",
         "image": [
-            "https://julien.aldon.fr/assets/images/ressources/HomeBiblio/Books.png",
-            "https://julien.aldon.fr/assets/images/ressources/HomeBiblio/Films.png",
-            "https://julien.aldon.fr/assets/images/ressources/HomeBiblio/Home.png",
-            "https://julien.aldon.fr/assets/images/ressources/HomeBiblio/About.png"
+            "https://julien.aldon.fr/assets/images/ressources/HomeBiblio/Books.webp",
+            "https://julien.aldon.fr/assets/images/ressources/HomeBiblio/Films.webp",
+            "https://julien.aldon.fr/assets/images/ressources/HomeBiblio/Home.webp",
+            "https://julien.aldon.fr/assets/images/ressources/HomeBiblio/About.webp"
         ],
         "author": {
             "@type": "Person",

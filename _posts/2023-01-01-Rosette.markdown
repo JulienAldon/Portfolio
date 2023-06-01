@@ -4,10 +4,10 @@ layout:         article
 title:          "Rosette-restaurant.fr"
 date:           2023-01-01
 images:         [
-    "/assets/images/ressources/Rosette/homepage.png",
-    "/assets/images/ressources/Rosette/presentation.png",
-    "/assets/images/ressources/Rosette/table.png",
-    "/assets/images/ressources/Rosette/adresse.png",
+    "/assets/images/ressources/Rosette/homepage.webp",
+    "/assets/images/ressources/Rosette/presentation.webp",
+    "/assets/images/ressources/Rosette/table.webp",
+    "/assets/images/ressources/Rosette/adresse.webp",
 ]
 
 images-title:   [
@@ -40,10 +40,10 @@ google-seo-data-markup: |
         "@type": "Article",
         "headline": "Rosette-restaurant.fr",
         "image": [
-            "https://julien.aldon.fr/assets/images/ressources/Rosette/homepage.png",
-            "https://julien.aldon.fr/assets/images/ressources/Rosette/presentation.png",
-            "https://julien.aldon.fr/assets/images/ressources/Rosette/table.png",
-            "https://julien.aldon.fr/assets/images/ressources/Rosette/adresse.png",
+            "https://julien.aldon.fr/assets/images/ressources/Rosette/homepage.webp",
+            "https://julien.aldon.fr/assets/images/ressources/Rosette/presentation.webp",
+            "https://julien.aldon.fr/assets/images/ressources/Rosette/table.webp",
+            "https://julien.aldon.fr/assets/images/ressources/Rosette/adresse.webp",
         ],
         "author": {
             "@type": "Person",

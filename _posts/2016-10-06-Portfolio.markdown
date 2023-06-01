@@ -5,10 +5,10 @@ title:          "Ce portfolio"
 date:           2016-10-06
 description:    "Portfolio réalisé en HTML/CSS avec Jekyll."
 images:         [
-    "/assets/images/ressources/ThisPortFolio/Main.png",
-    "/assets/images/ressources/ThisPortFolio/Main.png",
-    "/assets/images/ressources/ThisPortFolio/Article.png",
-    "/assets/images/ressources/ThisPortFolio/Home.png"
+    "/assets/images/ressources/ThisPortFolio/Main.webp",
+    "/assets/images/ressources/ThisPortFolio/Main.webp",
+    "/assets/images/ressources/ThisPortFolio/Article.webp",
+    "/assets/images/ressources/ThisPortFolio/Home.webp"
 ]
 images-title:   [
     "Main page where all projects are listed.",
@@ -48,10 +48,10 @@ google-seo-data-markup: |
         "@type": "Article",
         "headline": "Ce portfolio",
         "image": [
-               "https://julien.aldon.fr/assets/images/ressources/ThisPortFolio/Main.png",
-               "https://julien.aldon.fr/assets/images/ressources/ThisPortFolio/Main.png",
-               "https://julien.aldon.fr/assets/images/ressources/ThisPortFolio/Article.png",
-               "https://julien.aldon.fr/assets/images/ressources/ThisPortFolio/Home.png"
+               "https://julien.aldon.fr/assets/images/ressources/ThisPortFolio/Main.wepb",
+               "https://julien.aldon.fr/assets/images/ressources/ThisPortFolio/Main.wepb",
+               "https://julien.aldon.fr/assets/images/ressources/ThisPortFolio/Article.wepb",
+               "https://julien.aldon.fr/assets/images/ressources/ThisPortFolio/Home.wepb"
         ],
         "author": {
             "@type": "Person",

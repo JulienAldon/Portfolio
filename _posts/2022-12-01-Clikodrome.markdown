@@ -4,9 +4,9 @@ layout:         article
 title:          "Le clikodrome"
 date:           2022-01-12
 images:         [
-    "/assets/images/ressources/Clikodrome/demo_sessions.png",
-    "/assets/images/ressources/Clikodrome/demo_session.png",
-    "/assets/images/ressources/Clikodrome/demo_remote.png",
+    "/assets/images/ressources/Clikodrome/demo_sessions.webp",
+    "/assets/images/ressources/Clikodrome/demo_session.webp",
+    "/assets/images/ressources/Clikodrome/demo_remote.webp",
 ]
 images-title:   [
     "Liste de toutes les sessions, depuis cette vue, les sessions du jour peuvent être ajoutés.",
@@ -33,9 +33,9 @@ google-seo-data-markup: |
         "@type": "Article",
         "headline": "Le clikodrome",
         "image": [
-            "https://julien.aldon.fr/assets/images/ressources/Clikodrome/demo_sessions.png",
-            "https://julien.aldon.fr/assets/images/ressources/Clikodrome/demo_session.png",
-            "https://julien.aldon.fr/assets/images/ressources/Clikodrome/demo_remote.png",
+            "https://julien.aldon.fr/assets/images/ressources/Clikodrome/demo_sessions.webp",
+            "https://julien.aldon.fr/assets/images/ressources/Clikodrome/demo_session.webp",
+            "https://julien.aldon.fr/assets/images/ressources/Clikodrome/demo_remote.webp",
         ],
         "author": {
             "@type": "Person",

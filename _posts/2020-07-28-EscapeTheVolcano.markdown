@@ -5,10 +5,10 @@ title:          "Escape The Volcano"
 date:           2020-07-28
 description:    "Jeu de plateforme en 2D."
 images:         [
-    "/assets/images/ressources/ETV/Menu.png",
-    "/assets/images/ressources/ETV/Climber.png",
-    "/assets/images/ressources/ETV/InGameBlob.png",
-    "/assets/images/ressources/ETV/InGameLava.png"
+    "/assets/images/ressources/ETV/Menu.webp",
+    "/assets/images/ressources/ETV/Climber.webp",
+    "/assets/images/ressources/ETV/InGameBlob.webp",
+    "/assets/images/ressources/ETV/InGameLava.webp"
 ]
 images-title:   [
     "Menu du jeu.",
@@ -36,10 +36,10 @@ google-seo-data-markup: |
         "@type": "Article",
         "headline": "Escape The Volcano",
         "image": [
-            "https://julien.aldon.fr/assets/images/ressources/ETV/Menu.png",
-            "https://julien.aldon.fr/assets/images/ressources/ETV/Climber.png",
-            "https://julien.aldon.fr/assets/images/ressources/ETV/InGameBlob.png",
-            "https://julien.aldon.fr/assets/images/ressources/ETV/InGameLava.png"
+            "https://julien.aldon.fr/assets/images/ressources/ETV/Menu.webp",
+            "https://julien.aldon.fr/assets/images/ressources/ETV/Climber.webp",
+            "https://julien.aldon.fr/assets/images/ressources/ETV/InGameBlob.webp",
+            "https://julien.aldon.fr/assets/images/ressources/ETV/InGameLava.webp"
         ],
         "author": {
             "@type": "Person",

@@ -223,7 +223,7 @@ p {
     padding-left: .5rem;
 }
 body {
-    background: top/cover fixed url("/assets/images/ressources/background_blur.jpg");
+    background: top/cover fixed url("/assets/images/ressources/background_blur.webp");
     margin: 0;
     font-family: 'DM Sans', sans-serif;
     height: auto;

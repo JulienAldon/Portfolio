@@ -5,7 +5,7 @@ layout: page
 ---
 # Julien Aldon
 
-<img class="about-img" src="/assets/images/ressources/about.jpg" alt="Photo de Julien Aldon">
+<img class="about-img" src="/assets/images/ressources/about.webp" alt="Photo de Julien Aldon">
 
 [Mon LinkedIn](https://www.linkedin.com/in/julien-aldon/)
 

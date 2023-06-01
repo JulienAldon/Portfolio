@@ -4,10 +4,10 @@ layout:         article
 title:          "Albus Dumbledore"
 date:           2021-10-4
 images:         [
-    "/assets/images/ressources/Albus/AlbusPoints.png",
-    "/assets/images/ressources/Albus/AlbusPoints.png",
-    "/assets/images/ressources/Albus/Albus.png",
-    "/assets/images/ressources/Albus/AddPoints.png",
+    "/assets/images/ressources/Albus/AlbusPoints.webp",
+    "/assets/images/ressources/Albus/AlbusPoints.webp",
+    "/assets/images/ressources/Albus/Albus.webp",
+    "/assets/images/ressources/Albus/AddPoints.webp",
 ]
 images-title:   [
     "Vue des points.",
@@ -38,10 +38,10 @@ google-seo-data-markup: |
         "@type": "Article",
         "headline": "Albus Dumbledore",
         "image": [
-            "/assets/images/ressources/Albus/AlbusPoints.png",
-            "/assets/images/ressources/Albus/AlbusPoints.png",
-            "/assets/images/ressources/Albus/Albus.png",
-            "/assets/images/ressources/Albus/AddPoints.png",
+            "/assets/images/ressources/Albus/AlbusPoints.webp",
+            "/assets/images/ressources/Albus/AlbusPoints.webp",
+            "/assets/images/ressources/Albus/Albus.webp",
+            "/assets/images/ressources/Albus/AddPoints.webp",
         ],
         "author": {
             "@type": "Person",

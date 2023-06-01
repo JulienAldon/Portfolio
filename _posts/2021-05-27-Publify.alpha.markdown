@@ -4,10 +4,10 @@ layout:         article
 title:          "Publify.alpha"
 date:           2021-05-27
 images:         [
-    "/assets/images/ressources/Publify/v2/home.png",
-    "/assets/images/ressources/Publify/v2/Radio.png",
-    "/assets/images/ressources/Publify/v2/publify.png",
-    "/assets/images/ressources/Publify/v2/statify.png"
+    "/assets/images/ressources/Publify/v2/home.webp",
+    "/assets/images/ressources/Publify/v2/Radio.webp",
+    "/assets/images/ressources/Publify/v2/publify.webp",
+    "/assets/images/ressources/Publify/v2/statify.webp"
 ]
 images-title:   [
     "Page d'accueil de publify.",
@@ -38,10 +38,10 @@ google-seo-data-markup: |
         "@type": "Article",
         "headline": "Publify.alpha",
         "image": [
-            "https://julien.aldon.fr/assets/images/ressources/Publify/v2/home.png",
-            "https://julien.aldon.fr/assets/images/ressources/Publify/v2/Radio.png",
-            "https://julien.aldon.fr/assets/images/ressources/Publify/v2/publify.png",
-            "https://julien.aldon.fr/assets/images/ressources/Publify/v2/statify.png"
+            "https://julien.aldon.fr/assets/images/ressources/Publify/v2/home.webp",
+            "https://julien.aldon.fr/assets/images/ressources/Publify/v2/Radio.webp",
+            "https://julien.aldon.fr/assets/images/ressources/Publify/v2/publify.webp",
+            "https://julien.aldon.fr/assets/images/ressources/Publify/v2/statify.webp"
         ],
         "author": {
             "@type": "Person",
