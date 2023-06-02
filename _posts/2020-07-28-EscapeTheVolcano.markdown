@@ -3,7 +3,7 @@ permalink:      /escapethevolcano
 layout:         article
 title:          "Escape The Volcano"
 date:           2020-07-28
-description:    "Jeu de plateforme en 2D."
+description:    "C'est un jeu vidéo en 2D, sur le thème cyberpunk. Un campement de robots se retrouve sans materiel pour maintenir les réparations, le plus courageux d'entre eux décide de monter une équipe pour sauter dans le mysterieux volcan et aller chercher le trésor : des composant méchaniques. Durant la partie vous controlez une équipe de robots, votre but est de surmonter les obstacles se présentant à vous, trouver le chemin vers le trésor, puis sortir du volcan. Le tout en essuyant le moins de pertes possible evidement !"
 images:         [
     "/assets/images/ressources/ETV/Menu.webp",
     "/assets/images/ressources/ETV/Climber.webp",
@@ -11,10 +11,10 @@ images:         [
     "/assets/images/ressources/ETV/InGameLava.webp"
 ]
 images-title:   [
-    "Menu du jeu.",
-    "Pouvoir du Climber.",
-    "Ennemi Blob et Pouvoir du tracker.",
-    "Salle du trésor et la lave."
+    "Menu du jeu Escape the volcano.",
+    "Pouvoir de la classe Climber.",
+    "Ennemi Blob et Pouvoir de la classe tracker.",
+    "La salle du trésor est recouverte de lave !"
 ]
 icons:          ["fa-python", "fab fa-unity"]
 icons-title:    ["Prototypé en python.", "Réalisé avec le moteur Unity en C#."]
@@ -41,16 +41,17 @@ google-seo-data-markup: |
             "name": "Julien Aldon",
             "url": "https://julien.aldon.fr"
         },
-        "description": "En quatrième année, en Russie j'ai eu l'occasion de suivre des cours de game design. Nous avions à designer un jeu à l'aide de mots aléatoirement choisis."
+        "description": "C'est un jeu vidéo en 2D, sur le thème cyberpunk. Un campement de robots se retrouve sans materiel pour maintenir les réparations, le plus courageux d'entre eux décide de monter une équipe pour sauter dans le mysterieux volcan et aller chercher le trésor : des composant méchaniques. Durant la partie vous controlez une équipe de robots, votre but est de surmonter les obstacles se présentant à vous, trouver le chemin vers le trésor, puis sortir du volcan. Le tout en essuyant le moins de pertes possible evidement !"
     }
     </script>
 ---
 ## Jeu vidéo
 ### Réalisé avec Unity
-En quatrième année, en Russie j'ai eu l'occasion de suivre des cours de game design. 
-Nous avions à designer un jeu à l'aide de mots aléatoirement choisis.
+C'est un jeu vidéo en 2D, sur le thème cyberpunk. Un campement de robots se retrouve sans materiel pour maintenir les réparations, le plus courageux d'entre eux décide de monter une équipe pour sauter dans le mysterieux volcan et aller chercher le trésor : des composant méchaniques. Durant la partie vous controlez une équipe de robots, votre but est de surmonter les obstacles se présentant à vous, trouver le chemin vers le trésor, puis sortir du volcan. Le tout en essuyant le moins de pertes possible evidement !
 <!--more-->
 
+En quatrième année, en Russie j'ai eu l'occasion de suivre des cours de game design. 
+Nous avions à designer un jeu à l'aide de mots aléatoirement choisis.
 Pour ma part j'ai travaillé avec les thèmes suivants :
 
 - Volcano

@@ -3,7 +3,7 @@ permalink:      /raytracer
 layout:         article
 title:          "Raytracer 2"
 date:           2017-02-15
-description:    "Projet Raytracer fait en première année Epitech."
+description:    "Projet Raytracer réalisé en C dans le cadre de ma première année à Epitech, en groupe de 4 personnes."
 images:         [
     "/assets/images/ressources/Raytracer/raytracer2_screen.webp",
     "/assets/images/ressources/Raytracer/raytracer2_screen1.webp",
@@ -18,7 +18,7 @@ images-title:   [
 ]
 icons:          ["fa-solid fa-c"]
 icons-title:    ["Langage C."]
-made-by:        "Réalisé en groupe de 4 dans le cadre de l'école."
+made-by:        "Réalisé en groupe de 4 dans le cadre de l'école Epitech."
 homepages:      [
     "https://github.com/JulienAldon/Epitech_Raytracer2",
 ]
@@ -40,14 +40,14 @@ google-seo-data-markup: |
             "name": "Julien Aldon",
             "url": "https://julien.aldon.fr"
         },
-        "description": "Projet réalisé en C dans le cadre de ma première année, en groupe de 4 personnes."
+        "description": "Projet Raytracer réalisé en C dans le cadre de ma première année à Epitech, en groupe de 4 personnes."
     }
     </script>
 excerpt_separator: <!--more-->
 ---
 ## Modélisation 3D 
 ### À l'aide du Raytracing
-Projet réalisé en C dans le cadre de ma première année, en groupe de 4 personnes.
+Projet Raytracer réalisé en C dans le cadre de ma première année à Epitech, en groupe de 4 personnes.
 <!--more-->
 Le but du projet était de modéliser des formes géométriques à l'aide d'une méthode de rendu donnée : le Raytracing.
 Ce Raytracer implémente les formes géométriques suivantes

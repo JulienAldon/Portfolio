@@ -10,14 +10,14 @@ images:         [
     "/assets/images/ressources/EventPlanner/EventPlannerFinished.webp"
 ]
 images-title:   [
-    "Menu du logiciel",
-    "Job en cour",
-    "Erreurs",
-    "Job finit"
+    "Vue principale du logiciel avec GTK.",
+    "Une barre de chargement se remplit au fur et à mesure de la réalisation des tâches.",
+    "Certaines erreurs peuvent survenir durant l'utilisation de l'outil.",
+    "Une fois le travail termniné, l'application."
 ]
 icons:          ["fab fa-python", "fa fa-television"]
 icons-title:    ["Made with Python", "GUI made with PyGTK"]
-made-by:        "<b>Interface</b> & <b>CLI</b> réalisé par <a href='https://github.com/JulienAldon'>Julien Aldon</a>"
+made-by:        "<b>Interface</b> & <b>CLI</b> (Command Line Interface) réalisé par <a href='https://github.com/JulienAldon'>Julien Aldon</a>"
 homepages:      [
     "https://github.com/JulienAldon/EpitechEventPlanner",
 ]

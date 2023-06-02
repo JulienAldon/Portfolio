@@ -14,12 +14,12 @@ images-title:   [
     "Page d'accueil de rosette.",
     "Page de présentation des gérants : Camille & Arthur.",
     "Page correspondant à la description de la table.",
-    "Page de l'adresse du restaurant.",
+    "Page recuillant les informations de contact comme l'adresse du restaurant.",
 ]
 
 icons:          ["fa-solid fa-vial", "fa-brands fa-square-github"]
 icons-title:    ["Fait avec Jekyll", "Hosté sur Github Pages"]
-made-by:        "Réalisé par <a href='https://github.com/JulienAldon'>Julien Aldon</a>"
+made-by:        "Réalisé par <a href='https://github.com/JulienAldon'>Julien Aldon</a> et <a href='https://nohit.studio/'>Bruno Durand</a>"
 homepages:      [
     "https://github.com/JulienAldon/Rosette-clichy",
     "https://www.rosette-restaurant.fr",

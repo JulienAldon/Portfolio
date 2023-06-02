@@ -3,7 +3,7 @@ permalink:      /jammee
 layout:         article
 title:          "JAMMEE"
 date:           2021-01-01
-description:    "."
+description:    "Logiciel de Musique assistée par ordinateur dans le navigateur réalisé en python (backend), React (front end), et javascript (calculs audio). Projet de fin d’étude EIP (Epitech Innovative Project) réalisé sur trois ans (de la 3ème année à la 5ème année) en groupe de 8 personnes."
 images:         [
     "/assets/images/ressources/JAMMEE/Home.webp",
     "/assets/images/ressources/JAMMEE/Jammee.webp",
@@ -11,10 +11,10 @@ images:         [
     "/assets/images/ressources/JAMMEE/Full.webp"
 ]
 images-title:   [
-    "Organise des samples facilement.",
-    "Le studio JAMMEE.",
-    "Charge des samples.",
-    "Ajoute des effets, change les couleurs des pistes...",
+    "Il est possible d'organiser ses samples facilement.",
+    "Interface du studio JAMMEE.",
+    "L'interface JAMMEE permet de charger des samples dans un projet depuis une banque de sample ou une integration drive (google, microsoft...).",
+    "L'interface JAMMEE permet d'ajouter des effets, changer les couleurs des pistes et toutes les fonctionnalités de gestion de pistes audio.",
 ]
 icons:          ["fab fa-python", "fab fa-react", "fab fa-js"]
 icons-title:    [
@@ -45,14 +45,14 @@ google-seo-data-markup: |
             "name": "Julien Aldon",
             "url": "https://julien.aldon.fr"
         },
-        "description": "Site Web réalisé en python (backend), React (front end), et javascript (calculs audio). Projet de fin d’étude EIP (Epitech Innovative Project) réalisé sur trois ans (de la 3ème année à la 5ème année) en groupe de 8 personnes."
+        "description": "Logiciel de Musique assistée par ordinateur dans le navigateur réalisé en python (backend), React (front end), et javascript (calculs audio). Projet de fin d’étude EIP (Epitech Innovative Project) réalisé sur trois ans (de la 3ème année à la 5ème année) en groupe de 8 personnes."
     }
     </script>
 ---
 ## Logiciel de M.A.O. dans le navigateur
 ### (Musique Assistée par Ordinateur)
-Site Web réalisé en python (backend), React (front end), et javascript (calculs audio).
+Logiciel de Musique assistée par ordinateur dans le navigateur réalisé en python (backend), React (front end), et javascript (calculs audio).
 Projet de fin d’étude <em>EIP</em> (Epitech Innovative Project) réalisé sur trois ans (de la 3ème année à la 5ème année) en groupe de 8 personnes. 
 <!--more-->
 Le projet vise à reproduire un logiciel de musique assistée par ordinateur dans un navigateur. 
-Ce projet se destine à un public novice apeuré par la complexité d'un logiciel moderne (Ableton, FL studio...). 
+Ce projet se destine à un public novice apeuré par la complexité d'un logiciel moderne (Ableton, FL studio...). Il devait à la base accueillir une interface simple et évolutive en fonction du niveau de l'utilisateur, cette idée à été écartée en cours de projet par manque de temps pour la réaliser. Si nous devions reprendre le projet, je dirais que l'interface adaptative est une idée à garder.

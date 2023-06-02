@@ -3,7 +3,7 @@ permalink:      /publify/old
 layout:         article
 title:          "Publify.old"
 date:           2019-01-13
-description:    "Première version de l'outil publify."
+description:    "Première version d'un projet réalisé en Python : publify, utilisant l'API spotify pour simplifier la gestion de playlists publiques et collaboratives."
 images:         [
     "/assets/images/ressources/Publify/publify_home.webp",
     "/assets/images/ressources/Publify/publify_about.webp",
@@ -12,9 +12,9 @@ images:         [
 ]
 images-title:   [
     "Page d'accueil de publify.",
-    "À propos.",
-    "Ajouter un lien.",
-    "Vue des synchornisations."
+    "Page À propos de publify.",
+    "L'outil publify permet d'ajouter un lien entre deux playlists (collaboratives et publique).",
+    "Page de gestion des synchronisations entre playlist."
 ]
 icons:          ["fab fa-python", "fab fa-vuejs"]
 icons-title:    ["Framework backend : Python Flask.", "Framework front-end : VueJS."]
@@ -41,13 +41,13 @@ google-seo-data-markup: |
             "name": "Julien Aldon",
             "url": "https://julien.aldon.fr"
         },
-        "description": "Première version d'un projet réalisé en Python utilisant l'API spotify pour simplifier la gestion de playlists publiques et collaboratives."
+        "description": "Première version d'un projet réalisé en Python : publify, utilisant l'API spotify pour simplifier la gestion de playlists publiques et collaboratives."
     }
     </script>
 ---
 ## Outil de gestion de playlist Spotify
 ### Synchronisation de playlists collaboratives vers des playlists publiques
-Première version d'un projet réalisé en Python utilisant l'API spotify pour simplifier la gestion de playlists publiques et collaboratives.
+Première version d'un projet réalisé en Python : publify, utilisant l'API spotify pour simplifier la gestion de playlists publiques et collaboratives.
 <!--more-->
 Dans cette version, l'application contient deux outils :
 - Le premier outil synchronise une playlist publique et une playlist collaborative, cette action supprime les doublons dans la playlist publique nouvellement synchronisée.

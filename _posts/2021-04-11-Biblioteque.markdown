@@ -1,7 +1,7 @@
 ---
 permalink:      /biblio
 layout:         article
-title:          "Aldon Biblio"
+title:          "Gestion de la bibliotèque"
 date:           2021-04-11
 images:         [
     "/assets/images/ressources/HomeBiblio/Books.webp",
@@ -10,10 +10,10 @@ images:         [
     "/assets/images/ressources/HomeBiblio/About.webp"
 ]
 images-title:   [
-    "Books view, filter, search, edit and suppress books entries.",
-    "Film view, filter, search, edit and suppress fimls entries.",
-    "Home",
-    "About"
+    "Vue des livres elle permet de filtrer, chercher et editer des entrées de livres dans la base de donnée.",
+    "Vue des filmes elle permet de filtrer, chercher et editer des entrées de films dans la base de donnée.",
+    "Page d'accueil du site.",
+    "Page à propos du site."
 ]
 icons:          ["fab fa-python", "fa-brands fa-vuejs"]
 icons-title:    ["Fait avec Python FastAPI", "VueJS pour le front"]

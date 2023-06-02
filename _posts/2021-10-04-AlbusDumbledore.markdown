@@ -10,10 +10,10 @@ images:         [
     "/assets/images/ressources/Albus/AddPoints.webp",
 ]
 images-title:   [
-    "Vue des points.",
-    "Dashboard Albus.",
+    "Outil de décompte des points pour la piscine epitech sur le thème Harry potter : Albus dumbledore.",
+    "Vue du dashboard de l'outil.",
     "Les logs ne sont gardés que un jour.",
-    "Ajout de points."
+    "Grave à une interface, le personnel encadrant peut ajouter des points."
 ]
 icons:          ["fab fa-python", "fab fa-react"]
 icons-title:    ["Python FastAPI.", "Framework front-end : React."]

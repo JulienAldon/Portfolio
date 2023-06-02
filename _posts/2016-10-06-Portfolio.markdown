@@ -1,9 +1,9 @@
 ---
 permalink:      /portfolio
 layout:         article
-title:          "Ce portfolio"
+title:          "Portfolio de Julien Aldon"
 date:           2016-10-06
-description:    "Portfolio réalisé en HTML/CSS avec Jekyll."
+description:    "Portfolio réalisé entièrement en html & css natifs (avec une petite touche de Javascript) le tout orchestré dans un constructeur de sites statiques : Jekyll."
 images:         [
     "/assets/images/ressources/ThisPortFolio/Main.webp",
     "/assets/images/ressources/ThisPortFolio/Main.webp",
@@ -11,9 +11,9 @@ images:         [
     "/assets/images/ressources/ThisPortFolio/Home.webp"
 ]
 images-title:   [
-    "Main page where all projects are listed.",
-    "All projects.",
-    "Page of one project.",
+    "Page principale, les projets sont tous listés sur cette page.",
+    "Tous les projets.",
+    "Page d'un projet.",
     "Les projets sont listés du plus ancien au plus récent.",
 ]
 icons:          [
@@ -64,4 +64,4 @@ excerpt_separator: <!--more-->
 Portfolio réalisé entièrement en html & css (avec une petite touche de Javascript) le tout orchestré dans un constructeur de sites statiques : Jekyll.
 <!--more-->
 
-Cette techno me permet d'ajouter de nouveaux projets à ce portfolio sans avoir à copier coller du code html en écrivant simplement mon contenu dans un fichier markdown. Le site est regenéré automatiquement lorsqu'on push dans le dépot.
+Cette techno (Jekyll) me permet d'ajouter de nouveaux projets à ce portfolio sans avoir à copier coller du code html en écrivant simplement mon contenu dans un fichier markdown. Le site est regenéré automatiquement lorsque l'on push dans le dépot github.
