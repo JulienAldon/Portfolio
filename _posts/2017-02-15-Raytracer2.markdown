@@ -34,18 +34,13 @@ google-seo-data-markup: |
         "@context": "https://schema.org",
         "@type": "Article",
         "headline": "Raytracer 2",
-        "image": [
-            "https://julien.aldon.fr/assets/images/ressources/Raytracer/raytracer2_screen.webp",
-            "https://julien.aldon.fr/assets/images/ressources/Raytracer/raytracer2_screen1.webp",
-            "https://julien.aldon.fr/assets/images/ressources/Raytracer/raytracer2_screen2.webp",
-            "https://julien.aldon.fr/assets/images/ressources/Raytracer/raytracer2_screen3.webp"
-        ],
+        "image": "https://julien.aldon.fr/assets/images/ressources/Raytracer/raytracer2_screen.webp",
         "author": {
             "@type": "Person",
             "name": "Julien Aldon",
             "url": "https://julien.aldon.fr"
         },
-        "description": "Projet réalisé en C dans le cadre de ma première année, en groupe de 4 personnes.",
+        "description": "Projet réalisé en C dans le cadre de ma première année, en groupe de 4 personnes."
     }
     </script>
 excerpt_separator: <!--more-->

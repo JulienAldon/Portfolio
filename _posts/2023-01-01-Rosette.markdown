@@ -39,18 +39,13 @@ google-seo-data-markup: |
         "@context": "https://schema.org",
         "@type": "Article",
         "headline": "Rosette-restaurant.fr",
-        "image": [
-            "https://julien.aldon.fr/assets/images/ressources/Rosette/homepage.webp",
-            "https://julien.aldon.fr/assets/images/ressources/Rosette/presentation.webp",
-            "https://julien.aldon.fr/assets/images/ressources/Rosette/table.webp",
-            "https://julien.aldon.fr/assets/images/ressources/Rosette/adresse.webp",
-        ],
+        "image": "https://julien.aldon.fr/assets/images/ressources/Rosette/homepage.webp",
         "author": {
             "@type": "Person",
             "name": "Julien Aldon",
             "url": "https://julien.aldon.fr"
         },
-        "description": "Ce projet est un site web pour le restaurant Rosette situé au coeur de Clichy ! Il à été réalisé en quelques semaine sur mon temps libre.",
+        "description": "Ce projet est un site web pour le restaurant Rosette situé au coeur de Clichy ! Il à été réalisé en quelques semaine sur mon temps libre."
     }
     </script>
 ---

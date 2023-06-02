@@ -37,18 +37,13 @@ google-seo-data-markup: |
         "@context": "https://schema.org",
         "@type": "Article",
         "headline": "Publify.alpha",
-        "image": [
-            "https://julien.aldon.fr/assets/images/ressources/Publify/v2/home.webp",
-            "https://julien.aldon.fr/assets/images/ressources/Publify/v2/Radio.webp",
-            "https://julien.aldon.fr/assets/images/ressources/Publify/v2/publify.webp",
-            "https://julien.aldon.fr/assets/images/ressources/Publify/v2/statify.webp"
-        ],
+        "image": "https://julien.aldon.fr/assets/images/ressources/Publify/v2/home.webp",
         "author": {
             "@type": "Person",
             "name": "Julien Aldon",
             "url": "https://julien.aldon.fr"
         },
-        "description": "Seconde iteration d'un projet réalisé en Python utilisant l'API spotify pour simplifier la gestion de playlists publiques et collaboratives. Les besoins ont évolués c'est pourquoi un outil supplémentaire à été ajouté à la collection.",
+        "description": "Seconde iteration d'un projet réalisé en Python utilisant l'API spotify pour simplifier la gestion de playlists publiques et collaboratives. Les besoins ont évolués c'est pourquoi un outil supplémentaire à été ajouté à la collection."
     }
     </script>
 

@@ -47,18 +47,13 @@ google-seo-data-markup: |
         "@context": "https://schema.org",
         "@type": "Article",
         "headline": "Ce portfolio",
-        "image": [
-               "https://julien.aldon.fr/assets/images/ressources/ThisPortFolio/Main.wepb",
-               "https://julien.aldon.fr/assets/images/ressources/ThisPortFolio/Main.wepb",
-               "https://julien.aldon.fr/assets/images/ressources/ThisPortFolio/Article.wepb",
-               "https://julien.aldon.fr/assets/images/ressources/ThisPortFolio/Home.wepb"
-        ],
+        "image": "https://julien.aldon.fr/assets/images/ressources/ThisPortFolio/Main.wepb",
         "author": {
             "@type": "Person",
             "name": "Julien Aldon",
             "url": "https://julien.aldon.fr"
         },
-        "description": "Portfolio réalisé entièrement en html & css (avec une petite touche de Javascript) le tout orchestré dans un constructeur de sites statiques : Jekyll.",
+        "description": "Portfolio réalisé entièrement en html & css (avec une petite touche de Javascript) le tout orchestré dans un constructeur de sites statiques : Jekyll."
     }
     </script>
 

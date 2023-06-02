@@ -37,18 +37,13 @@ google-seo-data-markup: |
         "@context": "https://schema.org",
         "@type": "Article",
         "headline": "Aldon Biblio",
-        "image": [
-            "https://julien.aldon.fr/assets/images/ressources/HomeBiblio/Books.webp",
-            "https://julien.aldon.fr/assets/images/ressources/HomeBiblio/Films.webp",
-            "https://julien.aldon.fr/assets/images/ressources/HomeBiblio/Home.webp",
-            "https://julien.aldon.fr/assets/images/ressources/HomeBiblio/About.webp"
-        ],
+        "image": "https://julien.aldon.fr/assets/images/ressources/HomeBiblio/Books.webp",
         "author": {
             "@type": "Person",
             "name": "Julien Aldon",
             "url": "https://julien.aldon.fr"
         },
-        "description": "À la maison on à une grande bibliotèque et on se perd lorsqu'on cherche une référence en particulier. On a alors décidé de créer une base de donnée avec tous les livres présents, et un outil permettant de gérer cette base de donnée facilement.",
+        "description": "À la maison on à une grande bibliotèque et on se perd lorsqu'on cherche une référence en particulier. On a alors décidé de créer une base de donnée avec tous les livres présents, et un outil permettant de gérer cette base de donnée facilement."
     }
     </script>
 

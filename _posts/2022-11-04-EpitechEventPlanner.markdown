@@ -34,18 +34,13 @@ google-seo-data-markup: |
         "@context": "https://schema.org",
         "@type": "Article",
         "headline": "Epitech Event Planner",
-        "image": [
-            "https://julien.aldon.fr/assets/images/ressources/EventPlanner/EventPlannerVue.webp",
-            "https://julien.aldon.fr/assets/images/ressources/EventPlanner/EventPlannerEnCour.webp",
-            "https://julien.aldon.fr/assets/images/ressources/EventPlanner/EventPlannerError.webp",
-            "https://julien.aldon.fr/assets/images/ressources/EventPlanner/EventPlannerFinished.webp"
-        ],
+        "image": "https://julien.aldon.fr/assets/images/ressources/EventPlanner/EventPlannerVue.webp",
         "author": {
             "@type": "Person",
             "name": "Julien Aldon",
             "url": "https://julien.aldon.fr"
         },
-        "description": "Cet outil sert à planifier des événements en masse pour une activité donnée. On peut selectionner les promotions à inscrire aux activités créées et choisir les dates et les heures auquelles les activités seront planifiés.",
+        "description": "Cet outil sert à planifier des événements en masse pour une activité donnée. On peut selectionner les promotions à inscrire aux activités créées et choisir les dates et les heures auquelles les activités seront planifiés."
     }
     </script>
 ---

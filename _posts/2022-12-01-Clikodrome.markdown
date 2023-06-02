@@ -32,17 +32,13 @@ google-seo-data-markup: |
         "@context": "https://schema.org",
         "@type": "Article",
         "headline": "Le clikodrome",
-        "image": [
-            "https://julien.aldon.fr/assets/images/ressources/Clikodrome/demo_sessions.webp",
-            "https://julien.aldon.fr/assets/images/ressources/Clikodrome/demo_session.webp",
-            "https://julien.aldon.fr/assets/images/ressources/Clikodrome/demo_remote.webp",
-        ],
+        "image": "https://julien.aldon.fr/assets/images/ressources/Clikodrome/demo_sessions.webp",
         "author": {
             "@type": "Person",
             "name": "Julien Aldon",
             "url": "https://julien.aldon.fr"
         },
-        "description": "Ce projet concentre tout le processus d'emargement Epitech MSC (Bac +5 Alternance). L'idée étant de simplifier la vie de la pédagogie en automatisant le plus de tâches et en introduisant des éléments d'UX importants.",
+        "description": "Ce projet concentre tout le processus d'emargement Epitech MSC (Bac +5 Alternance). L'idée étant de simplifier la vie de la pédagogie en automatisant le plus de tâches et en introduisant des éléments d'UX importants."
     }
     </script>
 ---

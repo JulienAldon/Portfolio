@@ -39,18 +39,13 @@ google-seo-data-markup: |
         "@context": "https://schema.org",
         "@type": "Article",
         "headline": "JAMMEE",
-        "image": [
-            "/assets/images/ressources/JAMMEE/Home.webp",
-            "/assets/images/ressources/JAMMEE/Jammee.webp",
-            "/assets/images/ressources/JAMMEE/load.webp",
-            "/assets/images/ressources/JAMMEE/Full.webp"
-        ],
+        "image": "/assets/images/ressources/JAMMEE/Home.webp",
         "author": {
             "@type": "Person",
             "name": "Julien Aldon",
             "url": "https://julien.aldon.fr"
         },
-        "description": "Site Web réalisé en python (backend), React (front end), et javascript (calculs audio). Projet de fin d’étude EIP (Epitech Innovative Project) réalisé sur trois ans (de la 3ème année à la 5ème année) en groupe de 8 personnes.",
+        "description": "Site Web réalisé en python (backend), React (front end), et javascript (calculs audio). Projet de fin d’étude EIP (Epitech Innovative Project) réalisé sur trois ans (de la 3ème année à la 5ème année) en groupe de 8 personnes."
     }
     </script>
 ---

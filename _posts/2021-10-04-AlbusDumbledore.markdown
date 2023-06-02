@@ -37,18 +37,13 @@ google-seo-data-markup: |
         "@context": "https://schema.org",
         "@type": "Article",
         "headline": "Albus Dumbledore",
-        "image": [
-            "/assets/images/ressources/Albus/AlbusPoints.webp",
-            "/assets/images/ressources/Albus/AlbusPoints.webp",
-            "/assets/images/ressources/Albus/Albus.webp",
-            "/assets/images/ressources/Albus/AddPoints.webp",
-        ],
+        "image": "https://julien.aldon.fr//assets/images/ressources/Albus/Albus.webp",
         "author": {
             "@type": "Person",
             "name": "Julien Aldon",
             "url": "https://julien.aldon.fr"
         },
-        "description": "Le thème de la piscine cette année était Harry Potter, nous avons donc mis en place un site à afficher sur les télévisions de l'école pour garder le compte des points des maisons.",
+        "description": "Le thème de la piscine cette année était Harry Potter, nous avons donc mis en place un site à afficher sur les télévisions de l'école pour garder le compte des points des maisons."
     }
     </script>
 ---

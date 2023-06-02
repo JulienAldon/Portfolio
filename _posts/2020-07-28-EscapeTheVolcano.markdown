@@ -35,18 +35,13 @@ google-seo-data-markup: |
         "@context": "https://schema.org",
         "@type": "Article",
         "headline": "Escape The Volcano",
-        "image": [
-            "https://julien.aldon.fr/assets/images/ressources/ETV/Menu.webp",
-            "https://julien.aldon.fr/assets/images/ressources/ETV/Climber.webp",
-            "https://julien.aldon.fr/assets/images/ressources/ETV/InGameBlob.webp",
-            "https://julien.aldon.fr/assets/images/ressources/ETV/InGameLava.webp"
-        ],
+        "image": "https://julien.aldon.fr/assets/images/ressources/ETV/Menu.webp",
         "author": {
             "@type": "Person",
             "name": "Julien Aldon",
             "url": "https://julien.aldon.fr"
         },
-        "description": "En quatrième année, en Russie j'ai eu l'occasion de suivre des cours de game design. Nous avions à designer un jeu à l'aide de mots aléatoirement choisis.",
+        "description": "En quatrième année, en Russie j'ai eu l'occasion de suivre des cours de game design. Nous avions à designer un jeu à l'aide de mots aléatoirement choisis."
     }
     </script>
 ---

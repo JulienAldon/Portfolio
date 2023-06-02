@@ -3,8 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="google-site-verification" content="S4Va72ccMcgdn90Q_wCsUWRO9aBmVXZdRvEaXvoytGk" />
-    <meta name="Description" content="Portfolio réalisé en HTML/CSS par Julien Aldon, tous mes projets personnels ou professionnels sont listés sur ce portfolio. Retrouvez mes différents projets et leurs liens respectifs." />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="{{ site.description }}" />
+
+    <meta property="og:description" content="{{ site.description }}"/>
+    <meta property="og:title" content="Portfolio de Julien Aldon"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:image" content="{{ site.website_image}}"/>
+    <meta property="og:image:alt" content="{{ site.website_image_alt }}" />
+    <meta property="og:url" content="https://julien.aldon.fr"/>
+    <meta property="og:locale" content="fr_FR"/>
+
+    <meta name="twitter:card" content="website" />
+    <meta name="twitter:title" content="{{ page.title }}" />
+    <meta name="twitter:description" content="{{ site.description }}" />
+    <meta name="twitter:image" content="{{ site.website_image}}" />
+    <meta name="twitter:image:alt" content="{{ site.website_image_alt }}" />
+
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
     <link rel="stylesheet" type="text/css" href="/assets/css/main.css"/>
     <script src="https://kit.fontawesome.com/08db035529.js" crossorigin="anonymous"></script>
@@ -80,7 +95,7 @@
             "@type": "ListItem",
             "position": 11,
             "name": "Portfolio",
-            "image": "https://julien.aldon.fr/assets/images/ressources/Raytracer/Raytracer2_screen.webp",
+            "image": "https://julien.aldon.fr/assets/images/ressources/ThisPortFolio/Home.webp",
             "item": "https://julien.aldon.fr/portfolio"
           }]
       }
