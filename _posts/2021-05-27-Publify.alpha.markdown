@@ -3,6 +3,7 @@ permalink:      /publify/alpha
 layout:         article
 title:          "Publify.alpha"
 date:           2021-05-27
+description:    "Publify Alpha est la seconde iteration d'un projet réalisé en Python utilisant l'API spotify pour simplifier la gestion de playlists publiques et collaboratives. Cet outil regroupe publify, radio et statify, un outil permettant la génération de stats & graphiques à partir des données de collaboration des playlists. Les besoins ont évolués c'est pourquoi un outil supplémentaire à été ajouté à la collection."
 images:         [
     "/assets/images/ressources/Publify/v2/home.webp",
     "/assets/images/ressources/Publify/v2/Radio.webp",
@@ -43,14 +44,14 @@ google-seo-data-markup: |
             "name": "Julien Aldon",
             "url": "https://julien.aldon.fr"
         },
-        "description": "Seconde iteration d'un projet réalisé en Python utilisant l'API spotify pour simplifier la gestion de playlists publiques et collaboratives. Les besoins ont évolués c'est pourquoi un outil supplémentaire à été ajouté à la collection."
+        "description": "Publify Alpha est la seconde iteration d'un projet réalisé en Python utilisant l'API spotify pour simplifier la gestion de playlists publiques et collaboratives. Cet outil regroupe publify, radio et statify, un outil permettant la génération de stats & graphiques à partir des données de collaboration des playlists. Les besoins ont évolués c'est pourquoi un outil supplémentaire à été ajouté à la collection."
     }
     </script>
 
 ---
 ## Outil de gestion de playlist Spotify
 ### Ensembles d'outils destinés à la gestion de playlists spotify
-Seconde iteration d'un projet réalisé en Python utilisant l'API spotify pour simplifier la gestion de playlists publiques et collaboratives. Les besoins ont évolués c'est pourquoi un outil supplémentaire à été ajouté à la collection.
+Publify Alpha est la seconde iteration d'un projet réalisé en Python utilisant l'API spotify pour simplifier la gestion de playlists publiques et collaboratives. Cet outil regroupe publify, radio et statify, un outil permettant la génération de stats & graphiques à partir des données de collaboration des playlists. Les besoins ont évolués c'est pourquoi un outil supplémentaire à été ajouté à la collection.
 <!--more-->
 L'application contient trois outils :
 - Le premier outil synchronise une playlist publique et une playlist collaborative, cette action supprime les doublons dans la playlist publique nouvellement synchronisée.

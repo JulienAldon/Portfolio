@@ -3,7 +3,7 @@ permalink:      /publify/old
 layout:         article
 title:          "Publify.old"
 date:           2019-01-13
-description:    "Première version d'un projet réalisé en Python : publify, utilisant l'API spotify pour simplifier la gestion de playlists publiques et collaboratives."
+description:    "Publify.old est la première version d'un projet réalisé en Python : publify, utilisant l'API spotify pour simplifier la gestion de playlists publiques et collaboratives."
 images:         [
     "/assets/images/ressources/Publify/publify_home.webp",
     "/assets/images/ressources/Publify/publify_about.webp",
@@ -41,16 +41,18 @@ google-seo-data-markup: |
             "name": "Julien Aldon",
             "url": "https://julien.aldon.fr"
         },
-        "description": "Première version d'un projet réalisé en Python : publify, utilisant l'API spotify pour simplifier la gestion de playlists publiques et collaboratives."
+        "description": "Publify.old est la première version d'un projet réalisé en Python : publify, utilisant l'API spotify pour simplifier la gestion de playlists publiques et collaboratives."
     }
     </script>
 ---
 ## Outil de gestion de playlist Spotify
 ### Synchronisation de playlists collaboratives vers des playlists publiques
-Première version d'un projet réalisé en Python : publify, utilisant l'API spotify pour simplifier la gestion de playlists publiques et collaboratives.
+Publify.old est la première version d'un projet réalisé en Python : publify, utilisant l'API spotify pour simplifier la gestion de playlists publique et collaboratives.
 <!--more-->
+Ce projet répond à un besoin que j'avais identifié pendant mes études : partager une playlist collaborative à une connaissance, sans lui donner les droits d'écriture sur la playlist collaborative. L'idée était de synchroniser une playlist publique avec les musiques de la playliste collaborative. L'outil supprime également les doublons automatiquement.
+
 Dans cette version, l'application contient deux outils :
 - Le premier outil synchronise une playlist publique et une playlist collaborative, cette action supprime les doublons dans la playlist publique nouvellement synchronisée.
-- Le second outil crée une nouvelle playlist avec toutes les nouvelles sorties des 7 derniers jours des artistes présents dans la playlist selectionnée.
+- Le second outil crée une nouvelle playlist avec toutes les nouvelles sorties des 7 derniers jours des artistes présents dans la playlist sélectionnée.
 
 Une seconde version à été réalisé plus tard. Disponible <a href="/2021/05/27/Publify.alpha.html">ici</a>

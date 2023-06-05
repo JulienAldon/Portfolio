@@ -3,6 +3,7 @@ permalink:      /albusdumbledore
 layout:         article
 title:          "Albus Dumbledore"
 date:           2021-10-4
+description:    "Le thème de la piscine Epitech Lyon de 2021 était Harry Potter, nous avons donc mis en place un site à afficher sur les télévisions de l'école pour garder le compte des points des maisons."
 images:         [
     "/assets/images/ressources/Albus/AlbusPoints.webp",
     "/assets/images/ressources/Albus/AlbusPoints.webp",
@@ -43,13 +44,13 @@ google-seo-data-markup: |
             "name": "Julien Aldon",
             "url": "https://julien.aldon.fr"
         },
-        "description": "Le thème de la piscine cette année était Harry Potter, nous avons donc mis en place un site à afficher sur les télévisions de l'école pour garder le compte des points des maisons."
+        "description": "Le thème de la piscine Epitech Lyon de 2021 était Harry Potter, nous avons donc mis en place un site à afficher sur les télévisions de l'école pour garder le compte des points des maisons."
     }
     </script>
 ---
 ## Outil de gestion des points de maisons
 ### Pour la Piscine EPITECH
-Le thème de la piscine cette année était Harry Potter, nous avons donc mis en place un site à afficher sur les télévisions de l'école pour garder le compte des points des maisons.
+Le thème de la piscine Epitech Lyon de 2021 était Harry Potter, nous avons donc mis en place un site à afficher sur les télévisions de l'école pour garder le compte des points des maisons.
 <!--more-->
 Il à été developpé dans le cadre de mon travail en tant qu'accompagnateur pédagogique EPITECH Lyon (APE).
 L'outil permet d'ajouter, retirer, et voir le compte de point des différentes maisons :
@@ -57,3 +58,5 @@ L'outil permet d'ajouter, retirer, et voir le compte de point des différentes m
 - Hufflepuff
 - Slytherin
 - Ravenclaw
+
+Des activités étaient organisés autour, et des stickers étaient offerts en fonction des points rapportés à la maison.
