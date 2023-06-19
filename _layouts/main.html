@@ -1,5 +1,4 @@
 {% include headHome.html %}
-{% include modal.html %}
 <body style="max-width: 100vw; min-height: 100vh">
 <main class="about">
     <section>
@@ -58,18 +57,20 @@
 <section id="projets">
     <h1>Mes réalisations et projets personnels</h1>
     {% for post in site.posts %}
-    <a id="{{ post.titre }}" href="{{ post.url }}">
-        <div class="projecttext">
-            {{ post.excerpt }}
-            <div class="techno-info">
-                {% for techno in post.technos %}
-                    <label class="techno-link" rel="external" target="_blank" href="{{ techno.url }}">{{ techno.tech }}</label>
-                {% endfor %}
+        <a id="{{ post.titre }}" href="{{ post.url }}">
+            <div class="projecttext">
+                {{ post.excerpt }}
+                <div class="techno-info">
+                    {% for techno in post.technos %}
+                        <label class="techno-link" rel="external" target="_blank" href="{{ techno.url }}">{{ techno.tech }}</label>
+                    {% endfor %}
+                </div>
             </div>
-        </div>
-        <img alt="{{ post.images-title[0] }}" class="img imgHeader" src="{{ post.images[0].img }}">
-        <img alt="{{ post.images-title[1] }}" class="img secondImg" src="{{ post.images[1].img }}">
-    </a>
+            <div class="img-container">
+                <img alt="{{ post.images-title[0] }}" class="img imgHeader" src="{{ post.images[0].img }}">
+                <img alt="{{ post.images-title[1] }}" class="img secondImg" src="{{ post.images[1].img }}">
+            </div>
+        </a>
     {% endfor %}    
 </section>
 
