@@ -1,33 +1,30 @@
 ---
 permalink:      /raytracer
-layout:         article
+layout:         project
 title:          "Raytracer 2"
 date:           2017-02-15
 description:    "Ce Projet Raytracer a été réalisé en C dans le cadre de ma première année à Epitech, en groupe de 4 personnes. L'objectif du projet était de pouvoir afficher une scène composée d'objet 3D simples (cubes, sphères, cônes...) et complexes (Thor, mesh...), décrit dans un fichier de configuration, grâce à la méthode du raytracing."
-images:         [
-    "/assets/images/ressources/Raytracer/raytracer2_screen.webp",
-    "/assets/images/ressources/Raytracer/raytracer2_screen1.webp",
-    "/assets/images/ressources/Raytracer/raytracer2_screen2.webp",
-    "/assets/images/ressources/Raytracer/raytracer2_screen3.webp"
-]
-images-title:   [
-    "Rendu du raytracer2 : quatre cylindres rouges, quatre sphères réfléchissantes, deux plans quadrillés.",
-    "Un plan quadrillé noir et blanc, quatre sphères, une bleu peu réfléchissante, une verte peu réfléchissante, une rouge moyennement  réfléchissante, enfin une completement réfléchissante.",
-    "Trois sphères réfléchissantes quatre plan quadrillés autours formant une boite.",
-    "Cone rouge, cone bleu, sphère, plan, imbriqués."
-]
-icons:          ["fa-solid fa-c"]
-icons-title:    ["Langage C."]
-made-by:        "Réalisé en groupe de 4 dans le cadre de l'école Epitech."
-homepages:      [
-    "https://github.com/JulienAldon/Epitech_Raytracer2",
-]
-homepages-title: [
-    'Lien vers le github',
-]
-homepages-icons: [
-    'fab fa-github',
-]
+images:
+    - img: "/assets/images/ressources/Raytracer/raytracer2_screen.webp"
+      alt: "Rendu du raytracer2 : quatre cylindres rouges, quatre sphères réfléchissantes, deux plans quadrillés."
+    - img: "/assets/images/ressources/Raytracer/raytracer2_screen1.webp"
+      alt: "Un plan quadrillé noir et blanc, quatre sphères, une bleu peu réfléchissante, une verte peu réfléchissante, une rouge moyennement  réfléchissante, enfin une completement réfléchissante."
+    - img: "/assets/images/ressources/Raytracer/raytracer2_screen2.webp"
+      alt: "Trois sphères réfléchissantes quatre plan quadrillés autours formant une boite."
+    - img: "/assets/images/ressources/Raytracer/raytracer2_screen3.webp"
+      alt: "Cone rouge, cone bleu, sphère, plan, imbriqués."
+
+technos:
+    - tech: "C"
+      url: "https://en.cppreference.com/w/c/language"
+
+homepages:
+    - url: "https://github.com/JulienAldon/Epitech_Raytracer2"
+      alt: "Lien vers le github"
+      icon: "fab fa-github"
+
+made-by: "Réalisé en groupe de 4 dans le cadre de l'école Epitech."
+
 google-seo-data-markup: |
     <script type="application/ld+json">
     {
@@ -45,10 +42,12 @@ google-seo-data-markup: |
     </script>
 excerpt_separator: <!--more-->
 ---
-## Modélisation 3D 
-### À l'aide du Raytracing
-Ce Projet Raytracer a été réalisé en C dans le cadre de ma première année à Epitech, en groupe de 4 personnes. L'objectif du projet était de pouvoir afficher une scène composée d'objet 3D simples (cubes, sphères, cônes...) et complexes (Thor, mesh...), décrit dans un fichier de configuration, grâce à la méthode du raytracing. 
+# Modélisation 3D 
+## À l'aide du Raytracing
+Ce Projet Raytracer a été réalisé en C dans le cadre de ma première année à Epitech, en groupe de 4 personnes.
 <!--more-->
+L'objectif du projet était de pouvoir afficher une scène composée d'objet 3D simples (cubes, sphères, cônes...) et complexes (Thor, mesh...), décrit dans un fichier de configuration, grâce à la méthode du raytracing. 
+
 Le fichier de configuration permet de definir une scene en précisant, le type de forme, les dimmensions et sa position par rapport au centre (offset). On peu également y ajouter des effets comme la réflexion, les lumières et les ombres. Nous voulions ajouter la réfraction et la diffraction de la lumière et potentiellement pouvoir ajouter de la texture aux objets.
 
 Ce projet m'a permis d'en apprendre d'avantage sur les méthodes de rendu 3D et mathématiques cachés derière tout ça.

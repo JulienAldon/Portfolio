@@ -1,33 +1,33 @@
 ---
 permalink:      /epitecheventplanner
-layout:         article
+layout:         project
 title:          "Epitech Event Planner"
 date:           2022-01-12
 description:    "Outil de planification de session pour l'intranet Epitech. L'outil créé des sessions d'une activité donnée et enregistre les apprenants liés à la promotion sélectionnée. EEplanner sert à simplifier la planifification des événements en masse pour les activités d'émmargement. L'outil s'inscrit dans le processus d'émmargement d'epitech MSC."
-images:         [
-    "/assets/images/ressources/EventPlanner/EventPlannerVue.webp",
-    "/assets/images/ressources/EventPlanner/EventPlannerEnCour.webp",
-    "/assets/images/ressources/EventPlanner/EventPlannerError.webp",
-    "/assets/images/ressources/EventPlanner/EventPlannerFinished.webp"
-]
-images-title:   [
-    "Vue principale du logiciel avec GTK.",
-    "Une barre de chargement se remplit au fur et à mesure de la réalisation des tâches.",
-    "Certaines erreurs peuvent survenir durant l'utilisation de l'outil.",
-    "Une fois le travail termniné, l'application."
-]
-icons:          ["fab fa-python", "fa fa-television"]
-icons-title:    ["Made with Python", "GUI made with PyGTK"]
-made-by:        "<b>Interface</b> & <b>CLI</b> (Command Line Interface) réalisé par <a href='https://github.com/JulienAldon'>Julien Aldon</a>"
-homepages:      [
-    "https://github.com/JulienAldon/EpitechEventPlanner",
-]
-homepages-title: [
-    'Lien vers le github',
-]
-homepages-icons: [
-    'fab fa-github',
-]
+
+images:
+    - img: "/assets/images/ressources/EventPlanner/EventPlannerVue.webp"
+      alt: "Vue principale du logiciel avec GTK."
+    - img: "/assets/images/ressources/EventPlanner/EventPlannerEnCour.webp"
+      alt: "Une barre de chargement se remplit au fur et à mesure de la réalisation des tâches."
+    - img: "/assets/images/ressources/EventPlanner/EventPlannerError.webp"
+      alt: "Certaines erreurs peuvent survenir durant l'utilisation de l'outil."
+    - img: "/assets/images/ressources/EventPlanner/EventPlannerFinished.webp"
+      alt: "Une fois le travail termniné, l'application."
+
+technos:
+    - tech: "Python"
+      url: "https://www.python.org/"
+    - tech: "PyGTK"
+      url: "https://wiki.python.org/moin/PyGtk"
+
+homepages:
+    - url: "https://github.com/JulienAldon/EpitechEventPlanner"
+      alt: "Lien vers le github"
+      icon: "fab fa-github"
+
+made-by: "Réalisé par <a rel='author' target='_blank' href='https://github.com/JulienAldon'>Julien Aldon</a>"
+
 excerpt_separator: <!--more-->
 google-seo-data-markup: |
     <script type="application/ld+json">
@@ -45,14 +45,12 @@ google-seo-data-markup: |
     }
     </script>
 ---
-## Outil de planification d'événements
-### Pour l'intranet EPITECH
-Outil de planification d'événements pour l'intranet Epitech. L'outil créé des sessions d'une activité donnée et enregistre les apprenants liés à la promotion sélectionnée. EEplanner sert à simplifier la planification des événements en masse pour les activités d'émargement. L'outil s'inscrit dans le processus d'émargement d'epitech MSC.
+# Outil de planification d'événements
+## Pour l'intranet EPITECH
+Outil de planification d'événements pour l'intranet Epitech. L'outil créé des sessions d'une activité donnée et enregistre les apprenants liés à la promotion sélectionnée.
 <!--more-->
-EEplanner fait partie des 3 outils servant au suivi des présences MSC : 
-- EEplanner : automatise l'instanciation et l'inscription des promotions aux activités d'émargement.
-- Etoken & L'intranet Epitech : sert à scanner les cartes apprenant et stocker le statut de présence des apprenants.
-- Clikodrome : récupère le statut de présence des apprenants depuis l'intranet et demande à l'API edusign d'envoyer les mails de présence.
+EEplanner sert à simplifier la planification des événements en masse pour les activités d'émargement. L'outil s'inscrit dans le processus d'émargement d'epitech MSC.
+EEplanner fait partie des 3 outils servant au suivi des présences MSC, il automatise l'instanciation et l'inscription des promotions aux activités d'émargement. Etoken & L'intranet Epitech : sert à scanner les cartes apprenant et stocker le statut de présence des apprenants. Clikodrome : récupère le statut de présence des apprenants depuis l'intranet et demande à l'API edusign d'envoyer les mails de présence.
 
 Le projet est réalisé avec GTK en python, c'est la première fois que je manipule Glade pour la création de l'interface. L'interface, le CLI et le modèle sont trois parties distinctes de l'application, et ne sont pas interdépendantes.
 

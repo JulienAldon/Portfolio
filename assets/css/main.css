@@ -1,451 +1,411 @@
-.technoIcons {
-    text-align: center;
-    font-size: 2rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    align-self: center;
+:root {
+    scroll-behavior: smooth;
 }
 
-.imgHero {
-    max-width: -moz-available;          /* WebKit-based browsers will ignore this. */
-    max-width: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
-    max-width: fill-available;
-    margin-bottom: 5rem;
-}
-
-.articleHeader {
-    flex-flow: row;
-    display: flex;
-}
-
-
-.imgHeader {
-    padding: 2rem;
-    max-width: 15rem;
-    height: 10rem;
-    align-self: center;
-    width: 100vw;
-} 
-
-.fixedbutton {
-    position: fixed;
-    bottom: 0vh;
-    right: 0vw; 
-}
-
-.summary {
-    list-style-type: none;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0px;
-    justify-content: center;
-}
-
-.summary li {
-    font-size: 1.2rem;
-    display: flex;
-    justify-content: center;
-    flex-flow: column;
-    width: 10rem;
-    max-height: 4rem;
-    border: 1px solid #eee
-}
-
-
-.summary li:hover {
-    background-color: #eee;
-    color: rgba(11, 11, 11, .75)
-}
-
-.summary li a {
-    text-align: center;
-    color: inherit;
-    padding: 1rem;
-    text-decoration: none;
-}
-
-.contactme {
-    flex: 0 0 auto;
-    order:0;
-    text-align: right;
-    max-width: 12rem;
-}
-
-.technoIconsSection {
-    display: flex;
-    flex-flow: row;
-}
-
-.technoIconsSection:hover{
-    border: 2px solid #EEE;
-}
-
-header section {
-    display: flex; 
-    flex-flow: column;
-    flex: 1 1 auto;
-    align-self: center;
-}
-header section div {
-    display: flex; 
-    flex-flow: row; 
-    justify-content: center;
-}
-section h3 {
-    text-align: left;
-    flex: 0 1 auto;
-    padding-left: .5rem;
-    margin-bottom: 0.2rem;
-    margin-top: 0.2rem;
-}
-section h2 {
-    text-align: left;
-    flex: 0 1 auto;
-    align-self: flex-start;
-    padding-left: .5rem;
-    margin-bottom: 0px;
-}
-a.iconLink {
-    flex: 0 1 auto;
-    text-align:center;
-    margin-top: 2rem;
-    margin-left: 1rem;
-    font-size:2rem;
-    height: 2rem;
-    width: 2rem;
-    outline-color: rgba(0,0,0,0);
-    transition: outline-color 1s;
-}
-a.iconLink:hover {
-    outline: 1px solid #EEE;
-    outline-color: #EEE;
-    transition: outline-color 1s;
-}
-
-.fixedbutton {
-    background-color: rgba(11, 11, 11, 0);
-    border: 2px solid #EEE;
-    color: #EEE;
-
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: .5rem;
-    padding: .5rem;
-    overflow: hidden;
-    max-width: 8rem;
-    transition: max-width 1s;
-    transition: background-color 1s;
-}
-
-button {
-    background-color: rgba(11, 11, 11, 0);
-    border: 2px solid #EEE;
-    color: #EEE;
-
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: .5rem;
-    padding: .5rem;
-    overflow: hidden;
-    max-width: 8rem;
-    transition: max-width 1s;
-    transition: background-color 1s;
-}
-.realized {
-    list-style: none;
-    font-size: 1.2rem;
-    padding-left: .5rem;
-}
-button:hover {
-    color: #282828;
-    background-color: #EEE;
-    transition: background-color 1s;
-}
-
-button.clicked {
-    max-width: 15rem;
-    transition: max-width 1s;
-}
-
-span.copy {
-    opacity: 0;
-    transition: opacity .5s;
-    align-self: center;
-}
-span.copy.active {
-    opacity: 1;
-    transition: opacity .5s;
-    align-self: center;
-}
-
-header.h2Context {
-    position:          sticky;
-    top:               0;
-    box-sizing:        border-box;
-    background-color:rgba(11, 11, 11, .75);
-    box-sizing:        border-box;
-    align-self:        stretch;
-
-    display:         flex; 
-    justify-content: center;
-    padding-left:    1rem;
-    padding-right:   1rem;
-
-    -webkit-transition-duration: 1s;
-    -moz-transition-duration: 1s;
-    -o-transition-duration: 1s;
-    transition-duration: 1s;
-    -webkit-transition-property: -webkit-background-color;
-    -moz-transition-property: -moz-background-color;
-    -o-transition-property: -o-background-color;
-    transition-property: background-color;
-    outline: 0;
-}
-
-.imgTitle {
-    padding: 5px;
-    max-width: 50%;
-}
-.itemImg {
-    flex: 1 1 auto;
-    width: 20%;
-    padding-right: .5rem;
-    padding-left: .5rem;
-}
-
-
-
-p {
-    padding-left: .5rem;
-}
 body {
-    background: top/cover fixed url("/assets/images/ressources/background_blur.webp");
-    margin: 0;
-    font-family: 'DM Sans', sans-serif;
-    height: auto;
+    background-color: #BE8C68;
+}
+
+a {
+    color: #F5F5F5;
+    text-decoration: none;
+}
+
+.about {
     display: flex;
-    justify-content: start;
-    flex-flow: column;
 }
 
-.about-img {
-    max-width: 10rem;
+.about section {
+    width: 50vw;
 }
 
-p {
-    font-size: 1.2rem;
+.about aside {
+    width: 50vw;
 }
 
-.footerButton {
-    color: black;
-    flex: 0 1 auto;
-    padding-left: 1rem;
-}
-.footerBox {
-    flex-flow: row;
-    align-content: center;
-    justify-content: center;
-    padding: 1rem;
+.presentation {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top:8.3rem;
     display: flex;
-    bottom: 0;
-    height: 3rem;
-    color: #EEE ;
-    left: 0;
-}
-article {
-    background-color: rgba(11, 11, 11, .75);
-    width: 80rem;
-    padding-left: 1rem;
-    padding-top: 1rem;
-    padding-right: 1rem;
-    align-self: center;
-    box-sizing: border-box
-}
-
-article.project {
-    display: flex;
-    justify-content: center nowrap;
     flex-flow: column;
     padding-bottom: 3rem;
-    margin-bottom: .5rem;
-    margin-top: .5rem;
-}
-.item {
-    /* display: flex; */
-    /* align-items: center; */
-    /* padding-left: 2rem;
-    padding-right: 2rem;
-    padding-bottom: 2rem; */
-    padding: 2rem;
-}
-button.h2Title {
-    flex: 1 1 auto;
-    margin: .5rem;
-    background: none;
-    color: #EEE;
-    border: none;
-    font-size: 2rem;
-}
-.h2Title {
-    flex: 1 1 auto;
-    margin: .5rem;
-    align-self: center;
 }
 
-.h1Article {
-    flex: 1 1 auto;
-    text-align: center;
-    font-size: 2vw;
-    align-self: center;
-}
-.noDecoration, a:link, a:visited {
-    color:#EEE ;
-}
-
-body {
-    color:#EEE ;
-}
-
-.scroll {
-    background-color: #282828!important;
-}
-
-/* IMG MODAL */
-.modal {
+.presentation p {
+    opacity: 0;
     display: none;
-    position: fixed;
-    z-index: 1;
-    padding-top: 100px; 
-    left: 0;
-    top: 0;
-    width: 100%; 
-    height: 100%; 
-    overflow: auto; 
-    background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0,0.9); 
+    transition: all 0.2s ease-in;
 }
 
-/* Modal Content (image) */
-.modal-content {
-    margin: auto;
-    display: block;
-    width: 80%;
-}
-
-/* Caption of Modal Image */
-#caption {
-    margin: auto;
-    display: block;
-    width: 80%;
-    max-width: 700px;
-    text-align: center;
-    color: #ccc;
-    padding: 10px 0;
-    height: 150px;
-}
-
-.itemFooterImg {
-    flex-flow: row;
+.presentation p.selected {
     display: flex;
-    padding: 2rem;
+    opacity: 1;
+    height: 20rem;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.7rem;
+    line-height: 33px;
+    margin: 0px;
+    color: #000000;
 }
 
-/* Add Animation */
-.modal-content, #caption {  
-    -webkit-animation-name: zoom;
-    -webkit-animation-duration: 0.6s;
-    animation-name: zoom;
-    animation-duration: 0.6s;
+.presentation span {
+    display: inline-flex;
+    border: 3px solid #CDCCD1;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-@-webkit-keyframes zoom {
-    from {-webkit-transform:scale(0)} 
-    to {-webkit-transform:scale(1)}
+.experiences {
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
-@keyframes zoom {
-    from {transform:scale(0)} 
-    to {transform:scale(1)}
+.experiences ul {
+    padding: 0rem;
+    overflow-y: scroll;
+    max-height: 35vh;
 }
 
-/* The Close Button */
-.close {
-    position: absolute;
-    top: 15px;
-    right: 35px;
-    color: #f1f1f1;
-    font-size: 40px;
-    font-weight: bold;
-    transition: 0.3s;
+.experiencebox {
+    display: flex;
+    padding-bottom: 1rem;
 }
 
-.close:hover,
-.close:focus {
-    color: #bbb;
-    text-decoration: none;
+.experiencebox div {
+    padding-left: 3rem;
+    width: 25rem;
+}
+
+.experiencebox .date {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 21px;
+    color: #CDCCD1;
+    margin: 0rem;
+    width: 10rem;
+}
+
+.experiencebox div .titre {  
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.2rem;
+    line-height: 26px;
+    color: #000000;
+    padding-bottom: 1rem;
+    margin: 0rem;
+}
+
+.experiencebox div .description {
+        
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.3rem;
+    color: #000000;
+    margin: 0rem;
+}
+
+.ruler { 
+    border: 3px solid #CDCCD1;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    height: 0px;
+    width: 10rem;
+    display: inline-flex;
+    margin-right: 1rem;
+    transition: all 0.4s ease-in;
+}
+
+.infobox {
+    margin-left: 8rem;
+}
+
+.infobox button {
+    display: flex;
+    transition: all 0.4s ease-in;
+    align-items: center;
+    background: none;
+    border: none;
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 33px;
+    color: #CDCCD1;
+    padding-bottom:4rem;
     cursor: pointer;
 }
 
-/* 100% Image Width on Smaller Screens */
-@media only screen and (max-width: 700px){
-    .modal-content {
-    width: 100%;
-    }
+.infobox button:hover {
+    transform: scale(130%) translateX(11%);
 }
-@media (max-width: 62rem) {
-    .imgHeader {
-        max-width: -moz-available;          /* WebKit-based browsers will ignore this. */
-        max-width: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
-        max-width: fill-available;
-        width: unset;
-    }
-    article {
-        width: calc(100vw);
-    }
-    .articleHeader {
-        flex-flow: column;
-        display: flex;
-    }
-    article.h2Context {
-        margin-top: 1rem;
-    }
-    .h1Article {
-        font-size: 4vw;
-    }
-    .h2Title {
-        font-size: 4vw;
-        text-align: center
-    }
-    .imgTitle {
-        align-self: center;
-        max-width: 80%;
-        padding: 2rem;
-    }
-    .itemFooterImg {
-        flex-flow: row;
-        display: flex;
-        padding: 2rem;
-    }
-    .item {
-        flex-flow: column;
-    }
+
+.infobox button:hover .ruler {
+    border: 3px solid #000000;
+}
+
+.infobox button:hover {
+    color: #000000;
+}
+
+.infobox button.selected {
+    color: #000000;
+    transform: scale(130%) translateX(11%);
+}
+
+.infobox button.selected .ruler{
+    border: 3px solid #000000;
+
+}
+
+.chevron {
+    font-size: 4rem;
+    color: #CDCCD1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.4s ease-in;
+}
+
+.chevron:hover {
+    transform: scale(130%)
+}
+
+.profilebox {
+    display: flex;
+    flex-flow: row;
+    margin: 5rem 0rem 10rem 8rem;
+}
+
+.about-img {
+    width: 13rem;
+    height: 13rem;
+    position: relative;
+    top: 3rem;
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 8px;
+}
+
+.aboutbox {
+    display: flex;
+}
+
+.aboutbox div {
+    margin-left: 4rem;
+}
+
+.aboutbox div h1 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: 70px;
+    padding:0px;
+    margin:0px;
+    color: #000000;
+}
+
+.aboutbox div h2 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.8rem;
+    padding:0px;
+    margin:0px;
+    line-height: 33px;
+    color: #000000;
+}
+
+.aboutbox div p {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 33px;
+    padding:0px;
+    margin:0px;
+}
+
+.iconbox {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1rem;
+    justify-content: space-between;
+    max-width: 17rem;
+}
+
+.iconLink {
+    position: relative;
+    overflow:hidden;
+    width: 2.5rem;
+    height: 2.5rem;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: 5px solid #CDCCD1;
+    border-radius: 1rem;
+}
+
+.iconLink:before {
+    content:"";
+    position: absolute;
+    width:80px;
+    height:80px;
+    background:#3C2317;
+    transform:translateY(4rem) rotate(0deg);
+    border-radius:40%;
+    z-index: -1;
+    opacity: 0;
+    transition: all 1s;
+
+}
+
+.iconLink:hover:before {
+    animation: fillin 2s ease-in-out;
+    transition: none;
+    opacity: 1;
+}
+
+.iconElem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#projets > h1{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.9rem;
+    line-height: 70px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    margin-left: 5rem;
+}
+
+#projets {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+}
+
+#projets a {
+    display: flex;
+    flex-direction: row;
+    height: 40vh;
+    background-color: #3C2317;
+    border-radius: 1rem;
+    padding: 2rem;
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+}
+
+#projets a:nth-child(2n) {
+    margin-left: 6rem;
+    margin-right: 1rem;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+}
+
+#projets a:nth-child(2n+1) {
+    margin-left: 1rem;
+    margin-right: 6rem;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+}
+
+#projets a .projecttext h1 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 1.8rem;
+    line-height: 33px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(255, 255, 255, 0.25);
+    margin: 0rem;
+}
+
+#projets a .projecttext h2 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.2rem;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-top: 0rem;
+}
+
+#projets a .projecttext p {
+    margin: 0rem;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.2rem;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+#projets a .projecttext {
+    min-width: 40%;
+    padding-right: 2rem;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+
+#projets a .imgHeader {
+    max-width: 50%;
+    filter: drop-shadow(-4px -4px 4px rgba(255, 255, 255, 0.25));
+    border-radius: 8px;
+}
+
+#projets a .secondImg {
+    filter: drop-shadow(-4px -4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 8px;
+    position: relative;
+    display: block;
+    left: -50%;
+    bottom: -45%;
+    height: 60%;
+    max-width: 55%;
+}
+
+#projets a .projecttext .techno-info {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 
-@font-face {
-    font-family: nrd;
-    src: url("/assets/fonts/Fira Code Retina Nerd Font Complete.ttf") format('truetype');
+#projets a .projecttext .techno-link {
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: #CDCCD1;
+    border: #CDCCD1;
+    padding: 0.5rem;
+    border-radius: 0.8rem;
+    font-weight: 700;
+    transition: transform .2s; /* Animation */
+    width: auto;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
 }
 
-.nrd {
-    font-family: "nrd";
-}
 
-.nrd.nf-mdi-test_tube::after {
-    content: "ﭧ";
-}
+@keyframes fillin {
+    0% {
 
+        transform:translateY(4rem) rotate(0deg);
+    }
+    100% {
+        transform:translateY(0rem) rotate(360deg);
+    }
+}

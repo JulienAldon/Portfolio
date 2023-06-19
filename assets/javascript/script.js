@@ -31,32 +31,11 @@ window.addEventListener('load', (event) => {
         modal.style.display = "none";
     }
     
-    var contactMe = document.getElementById("contactMe");
+    var contactMe = document.getElementById("mail-button");
     var copy = document.getElementById("copy");
     contactMe.onclick = function() {
-        if (contactMe.innerHTML == "<span>Contactez moi</span>") {
-            contactMe.innerHTML = "julien.aldon@wanadoo.fr"
-            copyStringToClipboard("julien.aldon@wanadoo.fr");
-            copy.classList.add('active');
-            contactMe.classList.add('clicked');
-            window.setTimeout(() => {
-                copy.classList.remove('active');
-            }, 2000);
-        } else {
-            contactMe.innerHTML = "<span>Contactez moi</span>";
-            copy.classList.remove('active');
-            contactMe.classList.remove('clicked');
-        }
+        copyStringToClipboard("julien.aldon@wanadoo.fr")
     }
-    window.onscroll = function(ev) {
-        var header = document.getElementsByClassName('h2Context')[0];
-        if (window.scrollY > 0) {
-            header.classList.add("scroll");
-        } else {
-            header.classList.remove("scroll");
-    
-        }
-    };
 });
 
 function copyStringToClipboard (str) {

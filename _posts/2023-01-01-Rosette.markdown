@@ -1,38 +1,40 @@
 ---
 permalink:      /rosette
-layout:         article
+layout:         project
 title:          "Rosette-restaurant.fr"
 date:           2023-01-01
 description:    "Rosette-restaurant.fr est un site web pour le restaurant Rosette situé au coeur de Clichy ! Il à été réalisé en quelques semaine sur mon temps libre. La difficulté dans ce projet était de garantir à un utilisateur non technique la possibilité de modifier le contenu du site comme le menu par exemple. Grâce à Jekyll, une page est décrite par quelques variables textuelles, il ne manque plus qu'à les mettre à jour."
-images:         [
-    "/assets/images/ressources/Rosette/homepage.webp",
-    "/assets/images/ressources/Rosette/presentation.webp",
-    "/assets/images/ressources/Rosette/table.webp",
-    "/assets/images/ressources/Rosette/adresse.webp",
-]
 
-images-title:   [
-    "Page d'accueil de rosette.",
-    "Page de présentation des gérants : Camille & Arthur.",
-    "Page correspondant à la description de la table.",
-    "Page recuillant les informations de contact comme l'adresse du restaurant.",
-]
+images:
+    - img: "/assets/images/ressources/Rosette/table.webp"
+      alt: "Cette page correspond à la description de la table."
+    - img: "/assets/images/ressources/Rosette/homepage.webp"
+      alt: "La page d'accueil de rosette."
+    - img: "/assets/images/ressources/Rosette/presentation.webp"
+      alt: "Cette page présente des gérants : Camille & Arthur."
+    - img: "/assets/images/ressources/Rosette/adresse.webp"
+      alt: "Cette page reccueil les informations de contact comme l'adresse du restaurant."
 
-icons:          ["fa-solid fa-vial", "fa-brands fa-square-github"]
-icons-title:    ["Fait avec Jekyll", "Hosté sur Github Pages"]
-made-by:        "Réalisé par <a href='https://github.com/JulienAldon'>Julien Aldon</a> et <a href='https://nohit.studio/'>Bruno Durand</a>"
-homepages:      [
-    "https://github.com/JulienAldon/Rosette-clichy",
-    "https://www.rosette-restaurant.fr",
-]
-homepages-title: [
-    'Lien vers le github',
-    'Lien vers le site web',
-]
-homepages-icons: [
-    'fab fa-github',
-    'fa-solid fa-globe',
-]
+technos: 
+    - tech: "Jekyll"
+      url: "https://jekyllrb.com/"
+    - tech: "HTML"
+      url: "https://developer.mozilla.org/en-US/docs/Web/HTML"
+    - tech: "CSS"
+      url: "https://developer.mozilla.org/en-US/docs/Web/CSS"
+    - tech: "Javascript"
+      url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+
+made-by: "Réalisé par <a rel='author' target='_blank' href='https://github.com/JulienAldon'>Julien Aldon</a> et <a href='https://nohit.studio/ rel='author' target='_blank'>Bruno Durand</a>"
+
+homepages:
+    - url: "https://github.com/JulienAldon/Rosette-clichy"
+      alt: "Lien vers le github"
+      icon: "fab fa-github"
+    - url: "https://www.rosette-restaurant.fr"
+      alt: "Lien vers le site web"
+      icon: "fa-solid fa-globe"
+
 excerpt_separator: <!--more-->
 google-seo-data-markup: |
     <script type="application/ld+json">
@@ -50,11 +52,12 @@ google-seo-data-markup: |
     }
     </script>
 ---
-## Site Internet Rosette
-### Pour le restaurant Rosette à Clichy
-Rosette-restaurant.fr est un site web pour le restaurant Rosette situé au coeur de Clichy ! Il à été réalisé en quelques semaine sur mon temps libre. La difficulté dans ce projet était de garantir à un utilisateur non technique la possibilité de modifier le contenu du site comme le menu par exemple. Grâce à Jekyll, une page est décrite par quelques variables textuelles, il ne manque plus qu'à les mettre à jour.
-
+# Site Internet Rosette
+## Pour le restaurant Rosette à Clichy
+Rosette-restaurant.fr est un site web pour le restaurant Rosette situé au coeur de Clichy ! Il à été réalisé en quelques semaine sur mon temps libre. 
 <!--more-->
+La difficulté dans ce projet était de garantir à un utilisateur non technique la possibilité de modifier le contenu du site comme le menu par exemple. Grâce à Jekyll, une page est décrite par quelques variables textuelles, il ne manque plus qu'à les mettre à jour.
+
 Le site est fait à l'aide de Jekyll, HTML, CSS & Javascript, une attention particulière à été apportée pour permettre une modification du site par une personne non technique. Un `Readme.md` avec un guide est disponible, et l'integralité du moteur de templating est utilisé afin de simplifier l'écriture de nouvelles pages. Une partie des optimisations SEO ont été faites, il en manque encore quelques unes.
 
 Le site est hébergé sur Github pages en raison de la gratuité de l'hébergement et pour l'integration des actions github avec Jekyll.

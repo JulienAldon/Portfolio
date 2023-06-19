@@ -27,6 +27,8 @@ website_image: https://julien.aldon.fr/assets/images/ressources/ThisPortFolio/Ho
 website_image_alt: "Portfolio réalisé en HTML CSS avec Jelyll."
 # baseurl: "/Port-Folio/" # the subpath of your site, e.g. /blog
 url: "https://julien.aldon.fr" # the base hostname & protocol for your site, e.g. http://example.com
+linkedin_url: "https://www.linkedin.com/in/julien-aldon/"
+github_url: "https://github.com/JulienAldon"
 github_username:  JulienAldon
 
 # Build settings

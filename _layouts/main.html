@@ -1,25 +1,77 @@
 {% include headHome.html %}
-<body style="max-width: 100vw; min-height: 100vh">
 {% include modal.html %}
-{% include header.html %}
-{% include sommaire.html %}
-{% for post in site.posts %}
-<article>
-    <a href="{{ post.url }}">
-        <h2 id="{{ post.title }}">{{ post.title }}</h2>
-    </a>
-    <header class="articleHeader">
-        <img alt="{{ post.images-title[0] }}" class="img imgHeader" src="{{ post.images[0] }}">
-        <section>
+<body style="max-width: 100vw; min-height: 100vh">
+<main class="about">
+    <section>
+        <div class="profilebox">
+            <img class="about-img img" src="/assets/images/ressources/about.webp" alt="Photo de Julien Aldon">
+            <div class="aboutbox">
+                <div>
+                    <nav class="iconbox">
+                        <a rel="external" target="_blank" href="{{ site.linkedin_url }}" class="iconLink"><i class="iconElem fa-brands fa-linkedin"></i></a>
+                        <a rel="external" target="_blank" href="{{ site.github_url }}" class="iconLink"><i class="iconElem fa-brands fa-github"></i></a>
+                        <a href="mailto:{{ site.email }}"id="mail-button" class="iconLink"><i class="iconElem fa-solid fa-envelopes-bulk"></i></a>
+                    </nav>
+                    <p>Hello, moi c'est</p>
+                    <h1>Julien Aldon</h1>
+                    <h2>Je suis developpeur Web et Python</h2>
+                </div>
+            </div>
+        </div>
+        <div class="infobox">
+            <button class="sectionSwitch selected"><span class="ruler"></span>Un peu d'information sur moi</button>
+            <button class="sectionSwitch"><span class="ruler"></span>Mes expériences</button>
+            <button class="sectionSwitch"><span class="ruler"></span>Mes projets</button>
+        </div>
+        <div class="chevron">
+            <a href="#projets"><i class="fa-solid fa-chevron-down"></i></a>
+        </div>
+    </section>
+    <aside>
+        <article class="presentation">
+            <p id="pres-textbox" class="selected">
+                {{ page.presentation }}
+            </p>
+            <p id="exp-textbox">
+                {{ page.experience }}
+            </p>
+            <p id="proj-textbox">
+                {{ page.projet }}
+            </p>
+            <span></span>
+        </article>
+        <article class="experiences">
+            <ul>
+                {% for elem in page.experiences %}
+                <li class="experiencebox">
+                    <h2 class="date">{{ elem.date }}</h2>
+                    <div>
+                        <h2 class="titre">{{ elem.titre }}</h2>
+                        <p class="description">{{ elem.description }}</p>
+                    </div>
+                </li>
+                {% endfor %}
+            </ul>
+        </article>
+    </aside>
+</main>
+<section id="projets">
+    <h1>Mes réalisations et projets personnels</h1>
+    {% for post in site.posts %}
+    <a id="{{ post.titre }}" href="{{ post.url }}">
+        <div class="projecttext">
             {{ post.excerpt }}
-        </section>
-    </header>
-</article>
-    {% endfor %}
+            <div class="techno-info">
+                {% for techno in post.technos %}
+                    <label class="techno-link" rel="external" target="_blank" href="{{ techno.url }}">{{ techno.tech }}</label>
+                {% endfor %}
+            </div>
+        </div>
+        <img alt="{{ post.images-title[0] }}" class="img imgHeader" src="{{ post.images[0].img }}">
+        <img alt="{{ post.images-title[1] }}" class="img secondImg" src="{{ post.images[1].img }}">
+    </a>
+    {% endfor %}    
+</section>
 
-
-{% include footer.html %}
+<!-- {% include footer.html %} -->
 </body>
-
-<script>
-</script>

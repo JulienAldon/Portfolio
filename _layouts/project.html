@@ -1,0 +1,26 @@
+{% include headPage.html %}
+{% include modal.html %}
+<body class="project">
+    {% include projectHeader.html %}
+    <div class="main">
+        <article class="textbox">
+            <div class="content">
+                {{ content }}
+            </div>
+            <div class="techno-info">
+                {% for techno in page.technos %}
+                    <a class="techno-link" rel="external" target="_blank" href="{{ techno.url }}">{{techno.tech}}</a>
+                {% endfor %}
+            </div>
+            <div class="made-by">
+                {{ page.made-by }}
+            </div>
+            {% include contact.html %}
+        </article>
+        <aside class="img-box">
+            <img class="img main-img" alt="{{ page.images[0].alt }}" src="{{ page.images[0].img }}">
+            <img class="img secondary-img" alt="{{ page.images[1].alt }}" src="{{ page.images[1].img }}">
+        </aside>
+    </div>
+</body>
+<!-- {% include footer.html %} -->

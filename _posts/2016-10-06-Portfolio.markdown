@@ -1,46 +1,37 @@
 ---
 permalink:      /portfolio
-layout:         article
+layout:         project
 title:          "Portfolio de Julien Aldon"
 date:           2016-10-06
 description:    "Ce Portfolio à été réalisé entièrement en html & css natif (avec une petite touche de Javascript). Jekyll est utilisé comme moteur de templating. Il permet de structurer les pages de manière plus simple. Ce portfolio décrit tous les projets que j'ai réalisé et que je souhaite mettre en avant, principalement des projet web, de logiciels lourd ou encore de jeu vidéo."
-images:         [
-    "/assets/images/ressources/ThisPortFolio/Main.webp",
-    "/assets/images/ressources/ThisPortFolio/Main.webp",
-    "/assets/images/ressources/ThisPortFolio/Article.webp",
-    "/assets/images/ressources/ThisPortFolio/Home.webp"
-]
-images-title:   [
-    "Page principale, les projets sont tous listés sur cette page.",
-    "Tous les projets.",
-    "Page d'un projet.",
-    "Les projets sont listés du plus ancien au plus récent.",
-]
-icons:          [
-    "nrd nf-mdi-test_tube",
-    "fa-brands fa-js",
-    "fa-brands fa-html5",
-    "fa-brands fa-css3-alt"
-]
-icons-title:    [
-    "Jekyll",
-    "Javascript",
-    "HTML5",
-    "CSS",
-]
-made-by:        "Le prochain design du portfolio sera réalisé par <a href=''>Lisa Glaziou</a> et integré par <a href='https://github.com/JulienAldon'>Julien Aldon</a>"
-homepages:      [
-    "https://github.com/JulienAldon/Port-Folio",
-    "https://julien.aldon.fr",
-]
-homepages-title: [
-    'Lien vers le github',
-    'Lien vers le site'
-]
-homepages-icons: [
-    'fab fa-github',
-    'fa fa-globe'
-]
+images:
+    - img: "/assets/images/ressources/ThisPortFolio/Main.webp"
+      alt: "Page principale, les projets sont tous listés sur cette page."
+    - img: "/assets/images/ressources/ThisPortFolio/Main.webp"
+      alt: "Tous les projets."
+    - img: "/assets/images/ressources/ThisPortFolio/Article.webp"
+      alt: "Page d'un projet."
+    - img: "/assets/images/ressources/ThisPortFolio/Home.webp"
+      alt: "Les projets sont listés du plus ancien au plus récent."
+
+technos: 
+    - tech: "Jekyll"
+      url: "https://jekyllrb.com/"
+    - tech: "HTML"
+      url: "https://developer.mozilla.org/en-US/docs/Web/HTML"
+    - tech: "CSS"
+      url: "https://developer.mozilla.org/en-US/docs/Web/CSS"
+    - tech: "Javascript"
+      url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+
+homepages:
+    - url: "https://github.com/JulienAldon/Port-Folio"
+      alt: "Lien vers le github"
+    - url: "https://julien.aldon.fr"
+      alt: "Lien vers le site"
+
+made-by: "Le design du portfolio est réalisé par <a rel='nofollow' target='_blank' href='https://www.linkedin.com/in/lisa-glaziou-2044251b8/'>Lisa Glaziou</a> et integré par <a rel='nofollow' target='_blank' href='https://github.com/JulienAldon'>Julien Aldon</a>"
+
 google-seo-data-markup: |
     <script type="application/ld+json">
     {
@@ -58,10 +49,10 @@ google-seo-data-markup: |
     </script>
 excerpt_separator: <!--more-->
 ---
-## Mon port folio
-### pour mettre en avant mon travail
-Ce portfolio a été réalisé entièrement en HTML & CSS natif (avec une petite touche de Javascript). Jekyll est utilisé comme moteur de templating. Il permet de structurer les pages de manière plus simple. Ce portfolio décrit tous les projets que j'ai réalisé et que je souhaite mettre en avant, principalement des projets en web, de logiciels lourd ou encore de jeu vidéo.
-<!--more-->
+# Mon port folio
+## pour mettre en avant mon travail
+Ce portfolio a été réalisé entièrement en HTML & CSS natif (avec une petite touche de Javascript). Jekyll est utilisé comme moteur de templating. <!--more-->
+Il permet de structurer les pages de manière plus simple. Ce portfolio décrit tous les projets que j'ai réalisé et que je souhaite mettre en avant, principalement des projets en web, de logiciels lourd ou encore de jeu vidéo.
 
 Jekyll me permet d'ajouter de nouveaux projets à ce portfolio sans avoir à copier-coller du code html dans un seul et même gros fichier HTML. Grâce à cette technologie, je peux écrire simplement mon contenu dans un fichier markdown pour ajouter une nouvelle page ou nouvel un article. 
 
