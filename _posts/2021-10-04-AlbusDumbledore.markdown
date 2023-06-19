@@ -5,6 +5,8 @@ title:          "Albus Dumbledore"
 date:           2021-10-4
 description:    "Le thème de la piscine Epitech Lyon de 2021 était Harry Potter, nous avons donc mis en place un site à afficher sur les télévisions de l'école pour garder le compte des points des maisons."
 images:
+    - img: "/assets/images/ressources/Albus/AlbusResponsive.webp"
+      alt: "Vue tablette de l'application."
     - img: "/assets/images/ressources/Albus/Albus.webp"
       alt: "Outil de décompte des points pour la piscine epitech sur le thème Harry potter : Albus dumbledore."
     - img: "/assets/images/ressources/Albus/AlbusPoints.webp"

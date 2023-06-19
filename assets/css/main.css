@@ -13,6 +13,7 @@ a {
 
 .about {
     display: flex;
+    min-height: 100vh;
 }
 
 .about section {
@@ -365,7 +366,7 @@ a {
     object-position: left top;
     filter: drop-shadow(-4px -4px 4px rgba(255, 255, 255, 0.25));
     border-radius: 8px;
-    width: 90%;
+    width: 80%;
     position: relative;
     top: 0rem;
     height: 100%;
@@ -379,9 +380,9 @@ a {
     border-radius: 8px;
     position: relative;
     left: 0rem;
-    height: 60%;
+    /* height: 60%; */
     max-width: 100%;
-    bottom: 60%;
+    bottom: 55%;
 }
 
 #projets a .projecttext .techno-info {
@@ -438,10 +439,37 @@ a {
         margin-top: 4rem;
         margin-bottom: 3rem;
     }
+    .about section {
+        width: 100%;
+    }
+    .about aside {
+        width: 100%;
+    }
+    .about {
+        flex-direction: column;
+    }
+    .presentation {
+        margin-top: 2rem;
+    }
+    .chevron {
+        display: none;
+    }
     
 }
 
 @media screen and (max-width: 1060px) {
+    .profilebox {
+        margin: 2rem 0rem 1rem 2rem;
+    }
+
+    .infobox {
+        margin-left: 2rem;
+        margin-top: 5rem;
+    }
+
+    .infobox button {
+        font-size: 20px;
+    }
     #projets {
         display: flex;
         flex-direction: column;
@@ -483,6 +511,7 @@ a {
         align-items: center;
     }
     #projets a .imgHeader { 
+        margin-top: 2rem;
         width: 20rem;
         display: flex;
         position:unset;
@@ -490,11 +519,10 @@ a {
 
     #projets a .secondImg {
         width: 20rem;
-        position: unset;
-        bottom: unset;
-        left: unset;
+        position: relative;
+        bottom: 7rem;
+        left: 4rem;
         height: 100%;
-        max-width: unset;
     }
 }
 
@@ -515,4 +543,52 @@ a {
         margin-top: 2rem;
         margin-bottom: 2rem;
     }
+    .about-img {
+        position: unset;
+        order: 2;
+        justify-self: center;
+        margin-top: 2rem;
+    }
+    .profilebox {
+        margin: 2rem 0rem 0rem 0rem;
+        flex-flow: column;
+        align-items: center;
+    }
+    .sectionSwitch {
+        display: flex;
+        flex-flow: column;
+    }
+    .infobox {
+        align-items: center;
+        display: flex;
+        flex-flow: column;
+        margin-left: 0rem;
+    }
+    .infobox button:hover {
+        transform: unset;
+    }
+    
+    .infobox button.selected {
+        color: #000000;
+        transform: unset;
+    }
+    
+    .presentation {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    .experiences {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    .presentation p.selected {
+        overflow-y: scroll;
+    }
+    #projets a .secondImg {
+        left: 1rem;
+    }
+    .aboutbox div {
+        margin-left: 2rem;
+        margin-right: 2rem;
+      }
 }

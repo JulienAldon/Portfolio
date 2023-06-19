@@ -6,7 +6,7 @@ date:           2022-01-12
 description:    "Outil de planification de session pour l'intranet Epitech. L'outil créé des sessions d'une activité donnée et enregistre les apprenants liés à la promotion sélectionnée. EEplanner sert à simplifier la planifification des événements en masse pour les activités d'émmargement. L'outil s'inscrit dans le processus d'émmargement d'epitech MSC."
 
 images:
-    - img: "/assets/images/ressources/EventPlanner/EventPlannerVue.webp"
+    - img: "/assets/images/ressources/EventPlanner/EventPlannerLight.webp"
       alt: "Vue principale du logiciel avec GTK."
     - img: "/assets/images/ressources/EventPlanner/EventPlannerEnCour.webp"
       alt: "Une barre de chargement se remplit au fur et à mesure de la réalisation des tâches."

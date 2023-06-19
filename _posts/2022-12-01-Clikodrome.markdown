@@ -6,8 +6,10 @@ date:           2022-01-12
 description:    "Clikodrome est un outil faisant le lien entre une source de donnée (l'intranet epitech) et l'API d'edusign. Le processus d'emargement Epitech MSC (Bac +5 Alternance) dépend de cet outil pour envoyer les mails de signature aux apprenant une fois leur carte scannée. L'idée étant de simplifier la vie de la pédagogie en automatisant le plus de tâches possibles."
 
 images:
+    - img: "/assets/images/ressources/Clikodrome/demo_responsive.webp"
+      alt: "Affichage en vue tablette."
     - img: "/assets/images/ressources/Clikodrome/demo_sessions.webp"
-      alt: "Liste de toutes les sessions, depuis cette vue, les sessions du jour peuvent être ajoutés."
+      alt: "Liste de toutes les sessions, depuis cette vue, les sessions du jour peuvent être ajoutés."    
     - img: "/assets/images/ressources/Clikodrome/demo_session.webp"
       alt: "Information concernant une session."
     - img: "/assets/images/ressources/Clikodrome/demo_remote.webp"

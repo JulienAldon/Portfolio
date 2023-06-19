@@ -18,7 +18,7 @@
             </div>
         </div>
         <div class="infobox">
-            <button class="sectionSwitch selected"><span class="ruler"></span>Un peu d'information sur moi</button>
+            <button class="sectionSwitch selected"><span class="ruler"></span>Un peu d'informations sur moi</button>
             <button class="sectionSwitch"><span class="ruler"></span>Mes expériences</button>
             <button class="sectionSwitch"><span class="ruler"></span>Mes projets</button>
         </div>
@@ -67,8 +67,8 @@
                 </div>
             </div>
             <div class="img-container">
-                <img alt="{{ post.images-title[0] }}" class="img imgHeader" src="{{ post.images[0].img }}">
-                <img alt="{{ post.images-title[1] }}" class="img secondImg" src="{{ post.images[1].img }}">
+                <img alt="{{ post.images[0].alt }}" class="img imgHeader" src="{{ post.images[0].img }}">
+                <img alt="{{ post.images[1].alt }}" class="img secondImg" src="{{ post.images[1].img }}">
             </div>
         </a>
     {% endfor %}    
