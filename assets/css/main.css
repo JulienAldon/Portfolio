@@ -380,7 +380,6 @@ a {
     border-radius: 8px;
     position: relative;
     left: 0rem;
-    /* height: 60%; */
     max-width: 100%;
     bottom: 55%;
 }
@@ -454,6 +453,10 @@ a {
     .chevron {
         display: none;
     }
+    #projets a .secondImg {
+        height: 60%;
+
+    }
     
 }
 
@@ -523,6 +526,8 @@ a {
         bottom: 7rem;
         left: 4rem;
         height: 100%;
+        height: 60%;
+
     }
 }
 
