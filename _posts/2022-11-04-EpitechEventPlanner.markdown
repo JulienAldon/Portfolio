@@ -44,6 +44,8 @@ google-seo-data-markup: |
         "description": "Outil de planification de session pour l'intranet Epitech. L'outil créé des sessions d'une activité donnée et enregistre les apprenants liés à la promotion sélectionnée. EEplanner sert à simplifier la planifification des événements en masse pour les activités d'émmargement. L'outil s'inscrit dans le processus d'émmargement d'epitech MSC."
     }
     </script>
+color: dark-chocolate
+
 ---
 # Outil de planification d'événements
 ## Pour l'intranet EPITECH

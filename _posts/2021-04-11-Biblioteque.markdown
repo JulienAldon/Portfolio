@@ -7,10 +7,10 @@ description:    "La bibliothèque de la maison est si grande que l'on est incapa
 images:
     - img: "/assets/images/ressources/HomeBiblio/Books.webp"
       alt: "Vue des livres elle permet de filtrer, chercher et editer des entrées de livres dans la base de donnée."
-    - img: "/assets/images/ressources/HomeBiblio/Films.webp"
-      alt: "Vue des filmes elle permet de filtrer, chercher et editer des entrées de films dans la base de donnée."
     - img: "/assets/images/ressources/HomeBiblio/Home.webp"
       alt: "Page d'accueil du site."
+    - img: "/assets/images/ressources/HomeBiblio/Films.webp"
+      alt: "Vue des filmes elle permet de filtrer, chercher et editer des entrées de films dans la base de donnée."
     - img: "/assets/images/ressources/HomeBiblio/About.webp"
       alt: "Page à propos du site."
 
@@ -49,6 +49,7 @@ google-seo-data-markup: |
         "description": "La bibliothèque de la maison est si grande que l'on est incapable de dire avec certitude si on possède tel ou tel livre ou film. On a alors décidé de créer une base de données regroupant tous les livres et les films présents. Cette base de données peut être parcouru sur le navigateur grâce à une interface web réalisée avec VueJS."
     }
     </script>
+color: dark-chocolate
 
 ---
 # Outil de gestion de base de donnée de livres

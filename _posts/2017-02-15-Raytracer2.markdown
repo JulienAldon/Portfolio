@@ -5,12 +5,12 @@ title:          "Raytracer 2"
 date:           2017-02-15
 description:    "Ce Projet Raytracer a été réalisé en C dans le cadre de ma première année à Epitech, en groupe de 4 personnes. L'objectif du projet était de pouvoir afficher une scène composée d'objet 3D simples (cubes, sphères, cônes...) et complexes (Thor, mesh...), décrit dans un fichier de configuration, grâce à la méthode du raytracing."
 images:
+    - img: "/assets/images/ressources/Raytracer/raytracer2_screen2.webp"
+      alt: "Trois sphères réfléchissantes quatre plan quadrillés autours formant une boite."
     - img: "/assets/images/ressources/Raytracer/raytracer2_screen.webp"
       alt: "Rendu du raytracer2 : quatre cylindres rouges, quatre sphères réfléchissantes, deux plans quadrillés."
     - img: "/assets/images/ressources/Raytracer/raytracer2_screen1.webp"
       alt: "Un plan quadrillé noir et blanc, quatre sphères, une bleu peu réfléchissante, une verte peu réfléchissante, une rouge moyennement  réfléchissante, enfin une completement réfléchissante."
-    - img: "/assets/images/ressources/Raytracer/raytracer2_screen2.webp"
-      alt: "Trois sphères réfléchissantes quatre plan quadrillés autours formant une boite."
     - img: "/assets/images/ressources/Raytracer/raytracer2_screen3.webp"
       alt: "Cone rouge, cone bleu, sphère, plan, imbriqués."
 
@@ -41,6 +41,8 @@ google-seo-data-markup: |
     }
     </script>
 excerpt_separator: <!--more-->
+color: dark-chocolate
+
 ---
 # Modélisation 3D 
 ## À l'aide du Raytracing

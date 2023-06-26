@@ -49,6 +49,7 @@ google-seo-data-markup: |
         "description": "Ce projet concentre tout le processus d'emargement Epitech MSC (Bac +5 Alternance). L'idée étant de simplifier la vie de la pédagogie en automatisant le plus de tâches et en introduisant des éléments d'UX importants."
     }
     </script>
+color: dark-chocolate
 ---
 # Client facilitant l'usage d'edusign
 ## Pour la pédagogie Epitech MSC

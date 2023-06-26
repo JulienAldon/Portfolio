@@ -48,6 +48,8 @@ google-seo-data-markup: |
     }
     </script>
 excerpt_separator: <!--more-->
+color: dark-chocolate
+
 ---
 # Mon port folio
 ## pour mettre en avant mon travail

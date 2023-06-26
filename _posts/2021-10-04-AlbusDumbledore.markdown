@@ -50,6 +50,8 @@ google-seo-data-markup: |
         "description": "Le thème de la piscine Epitech Lyon de 2021 était Harry Potter, nous avons donc mis en place un site à afficher sur les télévisions de l'école pour garder le compte des points des maisons."
     }
     </script>
+color: dark-chocolate
+
 ---
 # Outil de gestion des points de maisons
 ## Pour la Piscine EPITECH

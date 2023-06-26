@@ -5,14 +5,14 @@ title:          "Publify.alpha"
 date:           2021-05-27
 description:    "Publify Alpha est la seconde iteration d'un projet réalisé en Python utilisant l'API spotify pour simplifier la gestion de playlists publiques et collaboratives. Cet outil regroupe publify, radio et statify, un outil permettant la génération de stats & graphiques à partir des données de collaboration des playlists. Les besoins ont évolués c'est pourquoi un outil supplémentaire à été ajouté à la collection."
 images:
+    - img: "/assets/images/ressources/Publify/v2/statify.webp"
+      alt: "Génère des graphiques de collaboration en fonction du temps pour les playlists collaboratives."
     - img: "/assets/images/ressources/Publify/v2/home.webp"
       alt: "Page d'accueil de publify."
     - img: "/assets/images/ressources/Publify/v2/Radio.webp"
       alt: "Scanify permet de créer des playlist de découvertes avec une playlist donnée."
     - img: "/assets/images/ressources/Publify/v2/publify.webp"
       alt: "Crée un lien entre une playlist collaborative et publique, Le lien apparait dans la liste, on peut synchroniser les playlists."
-    - img: "/assets/images/ressources/Publify/v2/statify.webp"
-      alt: "Génère des graphiques de collaboration en fonction du temps pour les playlists collaboratives."
 
 technos:
     - tech: "Python"
@@ -47,6 +47,7 @@ google-seo-data-markup: |
         "description": "Publify Alpha est la seconde iteration d'un projet réalisé en Python utilisant l'API spotify pour simplifier la gestion de playlists publiques et collaboratives. Cet outil regroupe publify, radio et statify, un outil permettant la génération de stats & graphiques à partir des données de collaboration des playlists. Les besoins ont évolués c'est pourquoi un outil supplémentaire à été ajouté à la collection."
     }
     </script>
+color: dark-chocolate
 
 ---
 # Outil de gestion de playlist Spotify

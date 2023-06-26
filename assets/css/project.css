@@ -26,8 +26,8 @@
 }
 
 .img-box {
-    padding-right: 12rem;
     max-width: 55vw;
+    max-height: 80vh;
 }
 
 .textbox h1 {
@@ -112,21 +112,25 @@ a {
 }
 
 .main-img {
+    object-fit: contain;
+    object-position: left top;
+    width: 80%;
+    position: relative;
+    top: 0rem;
     max-width: 50vw;
+    
     filter: drop-shadow(-4px -4px 4px rgba(255, 255, 255, 0.25));
     border-radius: 8px;
 }
 
 .secondary-img {
+    position: relative;
+    left: 0rem;
+    max-width: 100%;
+    bottom: 70%;
+
     filter: drop-shadow(-4px -4px 4px rgba(0, 0, 0, 0.25));
     border-radius: 8px;
-    position: absolute;
-    left: 44.48%;
-    right: 5%;
-    top: 49.07%;
-    bottom: 0%;
-    width: 970px;
-    height: 550px;
 }
 
 .navigation {
@@ -139,8 +143,9 @@ a {
     z-index: 0;
 }
 
-.navigation div a{
-    margin-left: 4.3rem;
+.navigation div {
+    width: 15rem;
+    justify-content: space-between;
 }
 
 .navigation h1 {
@@ -209,3 +214,55 @@ a {
     flex-flow: row;
 }
 
+
+@media screen and (max-width: 1500px) {
+    .navigation h1 {
+        margin-left:unset;
+    }
+    
+    .navigation div a{
+        margin-left: 0px;
+    }
+    
+}
+
+@media screen and (max-width: 1060px) {
+    .navigation h1 {
+        display: none;
+    }
+    .main {
+        flex-flow: column;
+    }
+    .textbox {
+        max-width: unset;
+    }
+    .img-box {
+        max-width: unset;
+        padding-top: 2rem;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        flex-flow: column;
+    }
+    .secondary-img {
+        bottom: 10%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .textbox {
+        padding-left: 1.5rem;
+        padding-right: 1rem;
+        margin-right: 0.5rem;
+    }
+    .techno-info {
+        flex-wrap: wrap;
+    }
+    .techno-link {
+        margin-bottom: 1rem;
+    }
+    .navigation {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+}

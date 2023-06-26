@@ -57,7 +57,7 @@
 <section id="projets">
     <h1>Mes réalisations et projets personnels</h1>
     {% for post in site.posts %}
-        <a id="{{ post.titre }}" href="{{ post.url }}">
+        <a class="{{ post.color }}" id="{{ post.titre }}" href="{{ post.url }}">
             <div class="projecttext">
                 {{ post.excerpt }}
                 <div class="techno-info">

@@ -30,21 +30,4 @@ window.addEventListener('load', (event) => {
     span.onclick = function() { 
         modal.style.display = "none";
     }
-    
-    var contactMe = document.getElementById("mail-button");
-    var copy = document.getElementById("copy");
-    contactMe.onclick = function() {
-        copyStringToClipboard("julien.aldon@wanadoo.fr")
-    }
 });
-
-function copyStringToClipboard (str) {
-    var el = document.createElement('textarea');
-    el.value = str;
-    el.setAttribute('readonly', '');
-    el.style = {position: 'absolute', left: '-9999px'};
-    document.body.appendChild(el);
-    el.select();
-    document.execCommand('copy');
-    document.body.removeChild(el);
-}
