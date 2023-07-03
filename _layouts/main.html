@@ -18,9 +18,9 @@
             </div>
         </div>
         <div class="infobox">
-            <button class="sectionSwitch selected"><span class="ruler"></span>Un peu d'informations sur moi</button>
-            <button class="sectionSwitch"><span class="ruler"></span>Mes expériences</button>
-            <button class="sectionSwitch"><span class="ruler"></span>Mes projets</button>
+            <a href="#pres-textbox" class="sectionSwitch selected"><span class="ruler"></span>Un peu d'informations sur moi</a href="">
+            <a href="#experiences" class="sectionSwitch"><span class="ruler"></span>Mes expériences</a href="">
+            <a href="#projets" class="sectionSwitch"><span class="ruler"></span>Mes projets</button>
         </div>
         <div class="chevron">
             <a href="#projets"><i class="fa-solid fa-chevron-down"></i></a>
@@ -31,15 +31,9 @@
             <p id="pres-textbox" class="selected">
                 {{ page.presentation }}
             </p>
-            <p id="exp-textbox">
-                {{ page.experience }}
-            </p>
-            <p id="proj-textbox">
-                {{ page.projet }}
-            </p>
             <span></span>
         </article>
-        <article class="experiences">
+        <article id="experiences" class="experiences">
             <ul>
                 {% for elem in page.experiences %}
                 <li class="experiencebox">
@@ -56,6 +50,7 @@
 </main>
 <section id="projets">
     <h1>Mes réalisations et projets personnels</h1>
+    <div>
     {% for post in site.posts %}
         <a class="{{ post.color }}" id="{{ post.titre }}" href="{{ post.url }}">
             <div class="projecttext">
@@ -72,6 +67,7 @@
             </div>
         </a>
     {% endfor %}    
+    </div>
 </section>
 
 <!-- {% include footer.html %} -->

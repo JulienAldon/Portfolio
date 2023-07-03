@@ -128,13 +128,13 @@ a {
     margin-left: 8rem;
 }
 
-.infobox button {
+.infobox a {
     display: flex;
     transition: all 0.4s ease-in;
     align-items: center;
     background: none;
     border: none;
-    
+    max-width: 70%;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
@@ -145,24 +145,24 @@ a {
     cursor: pointer;
 }
 
-.infobox button:hover {
+.infobox a:hover {
     transform: scale(130%) translateX(11%);
 }
 
-.infobox button:hover .ruler {
+.infobox a:hover .ruler {
     border: 3px solid #000000;
 }
 
-.infobox button:hover {
+.infobox a:hover {
     color: #000000;
 }
 
-.infobox button.selected {
+.infobox a.selected {
     color: #000000;
     transform: scale(130%) translateX(11%);
 }
 
-.infobox button.selected .ruler{
+.infobox a.selected .ruler{
     border: 3px solid #000000;
 
 }
@@ -295,34 +295,44 @@ a {
 #projets {
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    align-items: center;
+    justify-content: center;
 }
 
-#projets a {
+#projets div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#projets div a {
     display: flex;
     flex-direction: row;
-    max-height: 55vh;
-    max-width: 40vw;
+    height: 30rem;
+    max-width: 40%;
     border-radius: 1rem;
     padding: 2rem;
     box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
 }
 
-#projets a:nth-child(2n) {
-    margin-left: 6rem;
+#projets div a:nth-child(2n) {
+    margin-left: 1rem;
+    margin-right: 0rem;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+}
+
+#projets div a:nth-child(2n+1) {
+    margin-left: 0rem;
     margin-right: 1rem;
     margin-top: 4rem;
     margin-bottom: 3rem;
 }
 
-#projets a:nth-child(2n+1) {
-    margin-left: 1rem;
-    margin-right: 6rem;
-    margin-top: 4rem;
-    margin-bottom: 3rem;
-}
-
-#projets a .projecttext h1 {
+#projets div a .projecttext h1 {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 800;
@@ -333,7 +343,7 @@ a {
     margin: 0rem;
 }
 
-#projets a .projecttext h2 {
+#projets div a .projecttext h2 {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 600;
@@ -343,7 +353,7 @@ a {
     margin-top: 0rem;
 }
 
-#projets a .projecttext p {
+#projets div a .projecttext p {
     margin: 0rem;
     font-family: 'Raleway';
     font-style: normal;
@@ -353,7 +363,7 @@ a {
     color: #FFFFFF;
 }
 
-#projets a .projecttext {
+#projets div a .projecttext {
     min-width: 30%;
     padding-right: 1rem;
     margin-right: 1rem;
@@ -362,7 +372,7 @@ a {
     overflow-y: auto;
 }
 
-#projets a .imgHeader {
+#projets div a .imgHeader {
     object-fit: contain;
     object-position: left top;
     filter: drop-shadow(-4px -4px 4px rgba(255, 255, 255, 0.25));
@@ -376,7 +386,7 @@ a {
 .img-container {
 }
 
-#projets a .secondImg {
+#projets div a .secondImg {
     filter: drop-shadow(-4px -4px 4px rgba(0, 0, 0, 0.25));
     border-radius: 8px;
     position: relative;
@@ -386,7 +396,7 @@ a {
     bottom: 15rem;
 }
 
-#projets a .projecttext .techno-info {
+#projets div a .projecttext .techno-info {
     margin-top: 2rem;
     display: flex;
     flex-direction: row;
@@ -394,7 +404,7 @@ a {
 }
 
 
-#projets a .projecttext .techno-link {
+#projets div a .projecttext .techno-link {
     text-decoration: none;
     color: #3C2317;
     background-color: #CDCCD1;
@@ -408,10 +418,8 @@ a {
     margin-bottom: 1rem;
 }
 
-
 @keyframes fillin {
     0% {
-
         transform:translateY(4rem) rotate(0deg);
     }
     100% {
@@ -419,47 +427,50 @@ a {
     }
 }
 
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1400px) {
     #projets {
         display: flex;
         flex-direction: column;
-        /* grid-template-columns: ; */
-        /* grid-template-rows: 1; */
+        margin: auto;
     }
 
-    #projets a:nth-child(2n) {
-        margin-left: 6rem;
-        margin-right: 6rem;
+    #projets div a:nth-child(2n) {
+        margin-left: 0rem;
+        margin-right: 0rem;
         margin-top: 4rem;
         margin-bottom: 3rem;
     }
     
-    #projets a:nth-child(2n+1) {
-        margin-left: 6rem;
-        margin-right: 6rem;
+    #projets div a:nth-child(2n+1) {
+        margin-left: 0rem;
+        margin-right: 0rem;
         margin-top: 4rem;
         margin-bottom: 3rem;
     }
+
     .about section {
         width: 100%;
     }
+
     .about aside {
         width: 100%;
     }
+
     .about {
         flex-direction: column;
     }
+
     .presentation {
         margin-top: 2rem;
     }
+
     .chevron {
         display: none;
     }
-    #projets a .secondImg {
-        height: 60%;
 
+    #projets div a .secondImg {
+        height: 60%;
     }
-    
 }
 
 @media screen and (max-width: 1060px) {
@@ -472,109 +483,127 @@ a {
         margin-top: 5rem;
     }
 
-    .infobox button {
+    .infobox a {
         font-size: 20px;
     }
+
     #projets {
         display: flex;
         flex-direction: column;
-        /* grid-template-columns: ; */
-        /* grid-template-rows: 1; */
+        margin: 0px;
+        width: 100%;
+        padding: 0px;
     }
 
-    #projets a:nth-child(2n) {
-        margin-left: 1rem;
-        margin-right: 1rem;
+    #projets div {
+        display: flex;
+        flex-direction: column;
+        /* padding: 1rem; */
+    }
+
+    #projets div a {
+        width: 100%;
+        max-width: unset;
+    }
+
+    #projets div a:nth-child(2n) {
+        margin-left: 0rem;
+        margin-right: 0rem;
         margin-top: 2rem;
         margin-bottom: 2rem;
     }
     
-    #projets a:nth-child(2n+1) {
-        margin-left: 1rem;
-        margin-right: 1rem;
+    #projets div a:nth-child(2n+1) {
+        margin-left: 0rem;
+        margin-right: 0rem;
         margin-top: 2rem;
         margin-bottom: 2rem;
     }
 
     #projets > h1{
         margin-left: 1.2rem;
+        width: 100vw;
     }
     
-    #projets a {
-        display: flex;
-        flex-direction: column;
-        padding: 1rem;
-        height: unset;
-    }
-    #projets a .projecttext {
+    #projets div a .projecttext {
         min-height: 15rem;
         padding-right: 0px;
+        display: flex;
+        flex-direction: row;
     }
-    #projets a .img-container {
+
+    #projets div a .img-container {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    #projets a .imgHeader { 
+
+    #projets div a .imgHeader { 
         margin-top: 2rem;
         width: 20rem;
         display: flex;
         position:unset;
     }
 
-    #projets a .secondImg {
+    #projets div a .secondImg {
         width: 20rem;
         position: relative;
-        bottom: 7rem;
-        left: 4rem;
+        bottom: -3rem;
+        left: -19rem;
         height: 60%;
-
     }
 }
 
 @media screen and (max-width: 600px) {
-    #projets a:nth-child(2n) {
+    #projets div a:nth-child(2n) {
         margin-left: 0rem;
         margin-right: 0rem;
         margin-top: 2rem;
         margin-bottom: 2rem;
     }
-    #projets a .projecttext {
+
+    #projets div a .projecttext {
         min-height: 15rem;
         padding-right: 0px;
     }
-    #projets a:nth-child(2n+1) {
+
+    #projets div a:nth-child(2n+1) {
         margin-left: 0rem;
         margin-right: 0rem;
         margin-top: 2rem;
         margin-bottom: 2rem;
     }
+
     .about-img {
         position: unset;
         order: 2;
         justify-self: center;
         margin-top: 2rem;
     }
+
     .profilebox {
         margin: 2rem 0rem 0rem 0rem;
         flex-flow: column;
         align-items: center;
     }
+
     .sectionSwitch {
         display: flex;
         flex-flow: column;
     }
+
     .infobox {
         align-items: center;
         display: flex;
         flex-flow: column;
         margin-left: 0rem;
     }
-    .infobox button:hover {
+
+    .infobox a:hover {
         transform: unset;
     }
     
-    .infobox button.selected {
+    .infobox a.selected {
         color: #000000;
         transform: unset;
     }
@@ -583,18 +612,22 @@ a {
         margin-left: 2rem;
         margin-right: 2rem;
     }
+
     .experiences {
         margin-left: 2rem;
         margin-right: 2rem;
     }
+
     .presentation p.selected {
         overflow-y: scroll;
     }
-    #projets a .secondImg {
+
+    #projets div a .secondImg {
         left: 1rem;
     }
+
     .aboutbox div {
         margin-left: 2rem;
         margin-right: 2rem;
-      }
+    }
 }

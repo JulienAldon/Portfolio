@@ -188,7 +188,7 @@ a {
 }
 
 .iconLink:hover:before {
-    animation: fillin 6s ease-in-out;
+    animation: fillin 2s ease-in-out;
     transition: none;
     opacity: 1;
 }
