@@ -283,7 +283,7 @@ a {
     align-items: center;
 }
 
-#projets > h1{
+.project-title {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
@@ -416,6 +416,7 @@ a {
     width: auto;
     margin-right: 1rem;
     margin-bottom: 1rem;
+    max-height: 1.5rem;
 }
 
 @keyframes fillin {
@@ -435,7 +436,7 @@ a {
     }
 
     #projets div a:nth-child(2n) {
-        margin-left: 0rem;
+        margin-left: 1rem;
         margin-right: 0rem;
         margin-top: 4rem;
         margin-bottom: 3rem;
@@ -443,7 +444,7 @@ a {
     
     #projets div a:nth-child(2n+1) {
         margin-left: 0rem;
-        margin-right: 0rem;
+        margin-right: 1rem;
         margin-top: 4rem;
         margin-bottom: 3rem;
     }
@@ -490,6 +491,7 @@ a {
     #projets {
         display: flex;
         flex-direction: column;
+        flex-wrap: unset;
         margin: 0px;
         width: 100%;
         padding: 0px;
@@ -498,13 +500,18 @@ a {
     #projets div {
         display: flex;
         flex-direction: column;
+        flex-wrap: nowrap;
         /* padding: 1rem; */
     }
 
     #projets div a {
-        width: 100%;
+        display: flex;
+        height: unset;
+        width: 90vw;
+        padding:5vw;
         max-width: unset;
     }
+
 
     #projets div a:nth-child(2n) {
         margin-left: 0rem;
@@ -520,16 +527,17 @@ a {
         margin-bottom: 2rem;
     }
 
-    #projets > h1{
-        margin-left: 1.2rem;
+    .project-title {
+        margin: 0px;
         width: 100vw;
+        font-size: 2rem;
     }
     
     #projets div a .projecttext {
         min-height: 15rem;
         padding-right: 0px;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
     }
 
     #projets div a .img-container {
@@ -548,13 +556,16 @@ a {
     #projets div a .secondImg {
         width: 20rem;
         position: relative;
-        bottom: -3rem;
-        left: -19rem;
+        bottom: 6rem;
+        left: 1rem;
         height: 60%;
     }
 }
 
 @media screen and (max-width: 600px) {
+    .aboutbox div h1 {
+        font-size: 3rem;
+    }
     #projets div a:nth-child(2n) {
         margin-left: 0rem;
         margin-right: 0rem;
@@ -565,6 +576,19 @@ a {
     #projets div a .projecttext {
         min-height: 15rem;
         padding-right: 0px;
+    }
+    #projets div a {
+        display: flex;
+        height: unset;
+        flex-direction: column;
+        width: 90vw;
+        padding:5vw;
+    }
+
+    .project-title {
+        font-size: 2rem;
+        margin:0px;
+        text-align: center;
     }
 
     #projets div a:nth-child(2n+1) {
@@ -624,10 +648,28 @@ a {
 
     #projets div a .secondImg {
         left: 1rem;
+        top: -3rem;
+    }
+
+    #projets div a .imgHeader {
+        width: 80vw;
     }
 
     .aboutbox div {
         margin-left: 2rem;
         margin-right: 2rem;
+    }
+
+    .experiences ul {
+        max-height:65vh;
+    }
+
+    #pres-textbox {
+        padding-bottom: 2rem;
+    }
+
+    .iconbox {
+        max-width: none;
+        justify-content: space-around;
     }
 }
