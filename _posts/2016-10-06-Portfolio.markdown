@@ -7,7 +7,7 @@ description:    "Ce Portfolio à été réalisé entièrement en html & css nati
 images:
     - img: "/assets/images/ressources/ThisPortFolio/Main.webp"
       alt: "Page principale, les projets sont tous listés sur cette page."
-    - img: "/assets/images/ressources/ThisPortFolio/Main.webp"
+    - img: "/assets/images/ressources/ThisPortFolio/Home.webp"
       alt: "Tous les projets."
     - img: "/assets/images/ressources/ThisPortFolio/Article.webp"
       alt: "Page d'un projet."
