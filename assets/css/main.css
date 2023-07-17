@@ -295,9 +295,6 @@ a {
 #projets {
     display: flex;
     flex-wrap: wrap;
-    width: 90%;
-    margin-left: 5%;
-    margin-right: 5%;
     align-items: center;
     justify-content: center;
 }
@@ -385,8 +382,8 @@ a {
     border-radius: 8px;
     max-width: 80%;
     position: relative;
-    top: 0rem;
-    max-height: 100%;
+    top: 5rem;
+    max-height: 55%;
 }
 
 
@@ -397,7 +394,7 @@ a {
     left: 0rem;
     max-width: 100%;
     max-height: 16rem;
-    bottom: 10rem;
+    bottom: 2.5rem;
 }
 
 #projets div a .projecttext .techno-info {
@@ -545,22 +542,22 @@ a {
 
     #projets div a .img-container {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
     }
 
     #projets div a .imgHeader { 
         margin-top: 2rem;
-        width: 20rem;
+        width: 80%;
         display: flex;
         position:unset;
     }
 
     #projets div a .secondImg {
-        width: 20rem;
-        position: relative;
-        bottom: 6rem;
-        left: 1rem;
+        /* width: 20rem; */
+        /* position: relative; */
+        /* bottom: 6rem; */
+        left: 0rem;
         height: 60%;
     }
 }
@@ -650,12 +647,14 @@ a {
     }
 
     #projets div a .secondImg {
-        left: 1rem;
-        top: -3rem;
+        left: 2.5rem;
+        top: -7rem;
+        max-width: 80%;
     }
 
     #projets div a .imgHeader {
-        width: 80vw;
+        max-width: 60%;
+        margin-left:10%;
     }
 
     .aboutbox div {

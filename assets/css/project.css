@@ -22,7 +22,7 @@
     padding-left: 4rem;
     padding-right: 1rem;
     margin-right: 3rem;
-    max-width: 34vw;
+    max-width: 45%;
 }
 
 .img-box {
@@ -114,10 +114,9 @@ a {
 .main-img {
     object-fit: contain;
     object-position: left top;
-    width: 80%;
     position: relative;
     top: 0rem;
-    max-width: 50vw;
+    max-width: 60%;
     
     filter: drop-shadow(-4px -4px 4px rgba(255, 255, 255, 0.25));
     border-radius: 8px;
@@ -125,10 +124,9 @@ a {
 
 .secondary-img {
     position: relative;
-    left: 0rem;
-    max-width: 100%;
-    bottom: 70%;
-
+    left: 0px;
+    max-width: 80%;
+    bottom: 20%;
     filter: drop-shadow(-4px -4px 4px rgba(0, 0, 0, 0.25));
     border-radius: 8px;
 }
@@ -224,6 +222,13 @@ a {
         margin-left: 0px;
     }
     
+    .secondary-img {
+        bottom: 10%;
+        max-width: 80%;
+    }
+    .main-img {
+        max-width: 60%;
+    }
 }
 
 @media screen and (max-width: 1060px) {
@@ -243,9 +248,19 @@ a {
         display: flex;
         align-items: center;
         flex-flow: column;
+        max-height: unset;
+        position: relative;
     }
     .secondary-img {
-        bottom: 10%;
+        position: absolute;
+        bottom: -15%;
+        left:10%;
+    }
+    .main-img {
+        max-width: 60%;
+        display: flex;
+        align-self: flex-start;
+        margin-left: 10%;
     }
 }
 
