@@ -44,7 +44,6 @@ a {
 .presentation p.selected {
     display: flex;
     opacity: 1;
-    height: 20rem;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 500;
@@ -52,6 +51,7 @@ a {
     line-height: 33px;
     margin: 0px;
     color: #000000;
+    padding: 2rem;
 }
 
 .presentation span {
@@ -75,6 +75,7 @@ a {
     display: flex;
     padding-bottom: 1rem;
 }
+
 
 .experiencebox div {
     padding-left: 3rem;
@@ -141,7 +142,8 @@ a {
     font-size: 28px;
     line-height: 33px;
     color: #CDCCD1;
-    padding-bottom:4rem;
+    margin-bottom: 4rem;
+    margin-top: 4rem;
     cursor: pointer;
 }
 
@@ -199,7 +201,7 @@ a {
     display: flex;
 }
 
-.aboutbox div {
+.aboutbox > div {
     margin-left: 4rem;
 }
 
@@ -268,7 +270,6 @@ a {
     z-index: -1;
     opacity: 0;
     transition: all 1s;
-
 }
 
 .iconLink:hover:before {
@@ -404,7 +405,6 @@ a {
     flex-wrap: wrap;
 }
 
-
 #projets div a .projecttext .techno-link {
     text-decoration: none;
     color: #3C2317;
@@ -418,6 +418,179 @@ a {
     margin-right: 1rem;
     margin-bottom: 1rem;
     max-height: 1.5rem;
+}
+
+.text-box{
+	display: inline-block;
+	position: relative;
+    top: 11%;
+    left: 73%;
+}
+
+.text-box h2{
+	display: inline-block;
+	position: absolute;
+	top: -100px;
+	transform: rotateX(-90deg);
+	opacity: 0;
+	animation-timing-function: ease;
+}
+
+.text-box h2:nth-child(1){
+	animation: rollDown 10s forwards infinite;
+}
+
+.text-box h2:nth-child(2){
+	animation: rollDown2 10s forwards infinite;
+}
+
+.text-box h2:nth-child(3){
+	animation: rollDown3 10s forwards infinite;
+}
+
+.text-box h2:nth-child(4){
+	animation: rollDown4 10s forwards infinite;
+}
+
+.text-box h2:nth-child(5){
+	animation: rollDown5 10s forwards infinite;
+}
+
+.text-box h2:nth-child(6){
+	animation: rollDown6 10s forwards infinite;
+}
+
+
+@keyframes rollDown {
+	0%{
+		top: -100px;
+		transform: rotateX(-90deg);
+	}
+	4%{
+		top: -74px;
+		transform: rotateX(0deg);
+		opacity: 1;
+	}
+	8%{
+		top: -74px;
+		transform: rotateX(0deg);
+		opacity: 1;
+	}
+	12%{
+		top: -50px;
+		transform: rotateX(30deg);
+		opacity: 0;
+	}
+}
+
+@keyframes rollDown2 {
+	16%{
+		top: -100px;
+		transform: rotateX(-90deg);
+	}
+	20%{
+		top: -74px;
+		transform: rotateX(0deg);
+		opacity: 1;
+	}
+	24%{
+		top: -74px;
+		transform: rotateX(0deg);
+		opacity: 1;
+	}
+	28%{
+		top: -50px;
+		transform: rotateX(30deg);
+		opacity: 0;
+	}
+}
+
+@keyframes rollDown3 {
+	32%{
+		top: -100px;
+		transform: rotateX(-90deg);
+	}
+	36%{
+		top: -74px;
+		transform: rotateX(0deg);
+		opacity: 1;
+	}
+	40%{
+		top: -74px;
+		transform: rotateX(0deg);
+		opacity: 1;
+	}
+	44%{
+		top: -50px;
+		transform: rotateX(30deg);
+		opacity: 0;
+	}
+}
+
+@keyframes rollDown4 {
+	48%{
+		top: -100px;
+		transform: rotateX(-90deg);
+	}
+	52%{
+		top: -74px;
+		transform: rotateX(0deg);
+		opacity: 1;
+	}
+	56%{
+		top: -74px;
+		transform: rotateX(0deg);
+		opacity: 1;
+	}
+	60%{
+		top: -50px;
+		transform: rotateX(30deg);
+		opacity: 0;
+	}
+}
+
+@keyframes rollDown5 {
+	64%{
+		top: -100px;
+		transform: rotateX(-90deg);
+	}
+	68%{
+		top: -74px;
+		transform: rotateX(0deg);
+		opacity: 1;
+	}
+	72%{
+		top: -74px;
+		transform: rotateX(0deg);
+		opacity: 1;
+	}
+	76%{
+		top: -50px;
+		transform: rotateX(30deg);
+		opacity: 0;
+	}
+}
+
+@keyframes rollDown6 {
+	80%{
+		top: -100px;
+		transform: rotateX(-90deg);
+	}
+	84%{
+		top: -74px;
+		transform: rotateX(0deg);
+		opacity: 1;
+	}
+	88%{
+		top: -74px;
+		transform: rotateX(0deg);
+		opacity: 1;
+	}
+	92%{
+		top: -50px;
+		transform: rotateX(30deg);
+		opacity: 0;
+	}
 }
 
 @keyframes fillin {
@@ -554,18 +727,21 @@ a {
     }
 
     #projets div a .secondImg {
-        /* width: 20rem; */
-        /* position: relative; */
-        /* bottom: 6rem; */
         left: 0rem;
         height: 60%;
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
+    .text-box{
+        left: 25%;
+        top: 30%;
+    }
+
     .aboutbox div h1 {
         font-size: 3rem;
     }
+
     #projets div a:nth-child(2n) {
         margin-left: 0rem;
         margin-right: 0rem;
@@ -579,10 +755,10 @@ a {
     }
     #projets div a {
         display: flex;
-        height: unset;
         flex-direction: column;
         width: 90vw;
-        padding:5vw;
+        padding: 5vw;
+        max-width: unset;
     }
 
     .project-title {
@@ -647,14 +823,17 @@ a {
     }
 
     #projets div a .secondImg {
-        left: 2.5rem;
-        top: -7rem;
-        max-width: 80%;
+        left: -1rem;
+        top: 2rem;
+        max-width: 40%;
     }
 
     #projets div a .imgHeader {
-        max-width: 60%;
+        max-width: 30%;
         margin-left:10%;
+        position: relative;
+        top: -2rem;
+        left: 3rem;
     }
 
     .aboutbox div {

@@ -3,14 +3,14 @@ permalink:      /portfolio
 layout:         project
 title:          "Portfolio de Julien Aldon"
 date:           2016-10-06
-description:    "Ce Portfolio à été réalisé entièrement en html & css natif (avec une petite touche de Javascript). Jekyll est utilisé comme moteur de templating. Il permet de structurer les pages de manière plus simple. Ce portfolio décrit tous les projets que j'ai réalisé et que je souhaite mettre en avant, principalement des projet web, de logiciels lourd ou encore de jeu vidéo."
+description:    "Ce Portfolio a été réalisé entièrement en html & css natif (avec une petite touche de Javascript). Jekyll est utilisé comme moteur de templating. Jekyll permet de structurer les pages du site simplement. Ce portfolio décrit tous les projets que j'ai réalisés et que je souhaite mettre en avant."
 images:
     - img: "/assets/images/ressources/ThisPortFolio/Main.webp"
       alt: "Page principale, les projets sont tous listés sur cette page."
     - img: "/assets/images/ressources/ThisPortFolio/Home.webp"
-      alt: "Tous les projets."
+      alt: "Page contenant la liste de tous les projets."
     - img: "/assets/images/ressources/ThisPortFolio/Article.webp"
-      alt: "Page d'un projet."
+      alt: "Page contenant un simple projet et sa description."
     - img: "/assets/images/ressources/ThisPortFolio/Home.webp"
       alt: "Les projets sont listés du plus ancien au plus récent."
 
@@ -44,7 +44,7 @@ google-seo-data-markup: |
             "name": "Julien Aldon",
             "url": "https://julien.aldon.fr"
         },
-        "description": "Ce Portfolio à été réalisé entièrement en html & css natif (avec une petite touche de Javascript). Jekyll est utilisé comme moteur de templating. Il permet de structurer les pages de manière plus simple. Ce portfolio décrit tous les projets que j'ai réalisé et que je souhaite mettre en avant, principalement des projet web, de logiciels lourd ou encore de jeu vidéo."
+        "description": "Ce Portfolio a été réalisé entièrement en html & css natif (avec une petite touche de Javascript). Jekyll est utilisé comme moteur de templating. Jekyll permet de structurer les pages du site simplement. Ce portfolio décrit tous les projets que j'ai réalisés et que je souhaite mettre en avant."
     }
     </script>
 excerpt_separator: <!--more-->
@@ -54,7 +54,7 @@ color: dark-chocolate
 # Mon port folio
 ## pour mettre en avant mon travail
 Ce portfolio a été réalisé entièrement en HTML & CSS natif (avec une petite touche de Javascript). Jekyll est utilisé comme moteur de templating. <!--more-->
-Il permet de structurer les pages de manière plus simple. Ce portfolio décrit tous les projets que j'ai réalisé et que je souhaite mettre en avant, principalement des projets en web, de logiciels lourd ou encore de jeu vidéo.
+Il permet de structurer les pages de manière plus simple. Ce portfolio décrit tous les projets que j'ai réalisés et que je souhaite mettre en avant, principalement des projets en web, de logiciels lourd ou encore de jeu vidéo.
 
 Jekyll me permet d'ajouter de nouveaux projets à ce portfolio sans avoir à copier-coller du code html dans un seul et même gros fichier HTML. Grâce à cette technologie, je peux écrire simplement mon contenu dans un fichier markdown pour ajouter une nouvelle page ou nouvel un article. 
 

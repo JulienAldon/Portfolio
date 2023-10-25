@@ -3,7 +3,7 @@ permalink:      /rosette
 layout:         project
 title:          "Rosette-restaurant.fr"
 date:           2023-01-01
-description:    "Rosette-restaurant.fr est un site web pour le restaurant Rosette situé au coeur de Clichy ! Il à été réalisé en quelques semaine sur mon temps libre. La difficulté dans ce projet était de garantir à un utilisateur non technique la possibilité de modifier le contenu du site comme le menu par exemple. Grâce à Jekyll, une page est décrite par quelques variables textuelles, il ne manque plus qu'à les mettre à jour."
+description:    "Rosette-restaurant.fr est un site web pour le restaurant Rosette situé au cœur de Clichy ! Il a été réalisé en quelques semaines sur mon temps libre. La difficulté dans ce projet était de garantir à un utilisateur non-technique la possibilité de modifier le contenu du site comme le menu par exemple. Grâce à Jekyll, une page est décrite par quelques variables textuelles, il ne manque plus qu'à les mettre à jour."
 
 images:
     - img: "/assets/images/ressources/Rosette/table.webp"
@@ -48,17 +48,17 @@ google-seo-data-markup: |
             "name": "Julien Aldon",
             "url": "https://julien.aldon.fr"
         },
-        "description": "Rosette-restaurant.fr est un site web pour le restaurant Rosette situé au coeur de Clichy ! Il à été réalisé en quelques semaine sur mon temps libre. La difficulté dans ce projet était de garantir à un utilisateur non technique la possibilité de modifier le contenu du site comme le menu par exemple. Grâce à Jekyll, une page est décrite par quelques variables textuelles, il ne manque plus qu'à les mettre à jour."
+        "description": "Rosette-restaurant.fr est un site web pour le restaurant Rosette situé au cœur de Clichy ! Il a été réalisé en quelques semaines sur mon temps libre. La difficulté dans ce projet était de garantir à un utilisateur non-technique la possibilité de modifier le contenu du site comme le menu par exemple. Grâce à Jekyll, une page est décrite par quelques variables textuelles, il ne manque plus qu'à les mettre à jour."
     }
     </script>
 color: dark-chocolate
 ---
 # Site Internet Rosette
 ## Pour le restaurant Rosette à Clichy
-Rosette-restaurant.fr est un site web pour le restaurant Rosette situé au coeur de Clichy ! Il à été réalisé en quelques semaine sur mon temps libre. 
+Rosette-restaurant.fr est un site web pour le restaurant Rosette situé au cœur de Clichy ! Il a été réalisé en quelques semaines sur mon temps libre.
 <!--more-->
-La difficulté dans ce projet était de garantir à un utilisateur non technique la possibilité de modifier le contenu du site comme le menu par exemple. Grâce à Jekyll, une page est décrite par quelques variables textuelles, il ne manque plus qu'à les mettre à jour.
+La difficulté dans ce projet était de garantir à un utilisateur non-technique la possibilité de modifier le contenu du site comme le menu par exemple. Grâce à Jekyll, une page est décrite par quelques variables textuelles, il ne manque plus qu'à les mettre à jour.
 
-Le site est fait à l'aide de Jekyll, HTML, CSS & Javascript, une attention particulière à été apportée pour permettre une modification du site par une personne non technique. Un `Readme.md` avec un guide est disponible, et l'integralité du moteur de templating est utilisé afin de simplifier l'écriture de nouvelles pages. Une partie des optimisations SEO ont été faites, il en manque encore quelques unes.
+Le site est fait à l'aide de Jekyll, HTML, CSS & JavaScript, une attention particulière à été apportée pour permettre une modification du site par une personne non-technique. Un `Readme.md` avec un guide est disponible, et l'intégralité du moteur de templating est utilisé afin de simplifier l'écriture de nouvelles pages. Une partie des optimisations SEO ont été faites, il en manque encore quelques-unes.
 
-Le site est hébergé sur Github pages en raison de la gratuité de l'hébergement et pour l'integration des actions github avec Jekyll.
+Le site est hébergé sur Github pages en raison de la gratuité de l'hébergement et pour l'intégration des actions github avec Jekyll.

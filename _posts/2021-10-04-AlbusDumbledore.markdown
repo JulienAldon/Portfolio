@@ -58,7 +58,7 @@ color: dark-chocolate
 Le thème de la piscine Epitech Lyon de 2021 était Harry Potter, nous avons donc mis en place un site à afficher sur les télévisions de l'école pour garder le compte des points des maisons.
 <!--more-->
 
-Il à été developpé dans le cadre de mon travail en tant qu'accompagnateur pédagogique EPITECH Lyon (APE).
+Il a été développé dans le cadre de mon travail en tant qu'accompagnateur pédagogique EPITECH Lyon (APE).
 L'outil permet d'ajouter, retirer, et voir le compte de point des différentes maisons : Gryffindor, Hufflepuff, Slytherin, Ravenclaw
 
-Des activités étaient organisés autour, et des stickers étaient offerts en fonction des points rapportés à la maison.
+Des activités étaient organisées autour, et des stickers étaient offerts en fonction des points rapportés à la maison.

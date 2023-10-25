@@ -3,7 +3,7 @@ permalink:      /epitecheventplanner
 layout:         project
 title:          "Epitech Event Planner"
 date:           2022-01-12
-description:    "Outil de planification de session pour l'intranet Epitech. L'outil créé des sessions d'une activité donnée et enregistre les apprenants liés à la promotion sélectionnée. EEplanner sert à simplifier la planifification des événements en masse pour les activités d'émmargement. L'outil s'inscrit dans le processus d'émmargement d'epitech MSC."
+description:    "Outil de planification de session pour l'intranet Epitech. L'outil créé des sessions d'une activité donnée et enregistre les apprenants liés à la promotion sélectionnée. EEplanner sert à simplifier la planification des événements en masse pour les activités d'émargement. L'outil s'inscrit dans le processus d'émargement d'Epitech MSC."
 
 images:
     - img: "/assets/images/ressources/EventPlanner/EventPlannerLight.webp"
@@ -41,7 +41,7 @@ google-seo-data-markup: |
             "name": "Julien Aldon",
             "url": "https://julien.aldon.fr"
         },
-        "description": "Outil de planification de session pour l'intranet Epitech. L'outil créé des sessions d'une activité donnée et enregistre les apprenants liés à la promotion sélectionnée. EEplanner sert à simplifier la planifification des événements en masse pour les activités d'émmargement. L'outil s'inscrit dans le processus d'émmargement d'epitech MSC."
+        "description": "Outil de planification de session pour l'intranet Epitech. L'outil créé des sessions d'une activité donnée et enregistre les apprenants liés à la promotion sélectionnée. EEplanner sert à simplifier la planification des événements en masse pour les activités d'émargement. L'outil s'inscrit dans le processus d'émargement d'Epitech MSC."
     }
     </script>
 color: dark-chocolate
@@ -51,11 +51,11 @@ color: dark-chocolate
 ## Pour l'intranet EPITECH
 Outil de planification d'événements pour l'intranet Epitech. L'outil créé des sessions d'une activité donnée et enregistre les apprenants liés à la promotion sélectionnée.
 <!--more-->
-EEplanner sert à simplifier la planification des événements en masse pour les activités d'émargement. L'outil s'inscrit dans le processus d'émargement d'epitech MSC.
-EEplanner fait partie des 3 outils servant au suivi des présences MSC, il automatise l'instanciation et l'inscription des promotions aux activités d'émargement. Etoken & L'intranet Epitech : sert à scanner les cartes apprenant et stocker le statut de présence des apprenants. Clikodrome : récupère le statut de présence des apprenants depuis l'intranet et demande à l'API edusign d'envoyer les mails de présence.
+EEplanner sert à simplifier la planification des événements en masse pour les activités d'émargement. L'outil s'inscrit dans le processus d'émargement d'Epitech MSC.
+EEplanner fait partie des 3 outils servant au suivi des présences MSC, il automatise l'instanciation et l'inscription des promotions aux activités d'émargement. Etoken & L'intranet Epitech : sert à scanner les cartes apprenant et stocker le statut de présence des apprenants. Clikodrome : récupère le statut de présence des apprenants depuis l'intranet et demande à l'API Edusign d'envoyer les mails de présence.
 
-Le projet est réalisé avec GTK en python, c'est la première fois que je manipule Glade pour la création de l'interface. L'interface, le CLI et le modèle sont trois parties distinctes de l'application, et ne sont pas interdépendantes.
+Le projet est réalisé avec GTK en python, c'est la première fois que je manipule Glade pour la création de l'interface. L'interface, le CLI et le modèle sont trois parties distinctes de l'application, et ne sont pas interdépendants.
 
 L'outil contient un wrapper sur l'intranet EPITECH **(interface)** permettant à d'autres membres de l'équipe pédagogique
-de developper des outils autour de ce dernier. Ce Wrapper est disponible sur Pypi : <a href="https://pypi.org/project/yawaei/0.0.8/">Yawaei</a>. L'outil également est fourni avec un **GUI (Graphical User Interface)** et un **CLI (Command Line Interface)**.
-Tout le nécessaire pour installer le programme est fournit dans le dépôt. Le dépôt à un Makefile permettant d'installer l'application avec pip, sinon, il est possible de build pour ubuntu & debian (.deb) ainsi que pour Archlinux (PKGBUILD).
+de développer des outils autour de ce dernier. Ce Wrapper est disponible sur Pypi : <a href="https://pypi.org/project/yawaei/0.0.8/">Yawaei</a>. L'outil également est fourni avec un **GUI (Graphical User Interface)** et un **CLI (Command Line Interface)**.
+Tout le nécessaire pour installer le programme est fourni dans le dépôt. Le dépôt à un Makefile permettant d'installer l'application avec pip, sinon, il est possible de build pour ubuntu & debian (.deb) ainsi que pour Archlinux (PKGBUILD).

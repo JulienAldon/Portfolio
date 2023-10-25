@@ -3,7 +3,7 @@ permalink:      /jammee
 layout:         project
 title:          "JAMMEE"
 date:           2021-01-01
-description:    "JAMMEE est un logiciel de Musique assistée par ordinateur (MAO) dans le navigateur réalisé avec python Django(backend), Javascript React (front end), et javascript natif (pour les calculs audio). À la base du projet, nous voulions utiliser la cible de compilation webassembly pour nous permettre d'écrire le code des calculs audio en C++ ou C et ainsi gagner en performance."
+description:    "JAMMEE est un logiciel de Musique assistée par ordinateur (MAO) dans le navigateur. Réalisé avec python Django (backend), JavaScript React (front end), et JavaScript natif (pour les calculs audio). À la base du projet, nous voulions utiliser la cible de compilation webassembly pour nous permettre d'écrire le code des calculs audio en C++ ou C et ainsi gagner en performance."
 
 images:
     - img: "/assets/images/ressources/JAMMEE/responsive.webp"
@@ -47,7 +47,7 @@ google-seo-data-markup: |
             "name": "Julien Aldon",
             "url": "https://julien.aldon.fr"
         },
-        "description": "JAMMEE est un logiciel de Musique assistée par ordinateur (MAO) dans le navigateur réalisé avec python Django(backend), Javascript React (front end), et javascript natif (pour les calculs audio). À la base du projet, nous voulions utiliser la cible de compilation webassembly pour nous permettre d'écrire le code des calculs audio en C++ ou C et ainsi gagner en performance."
+        "description": "JAMMEE est un logiciel de Musique assistée par ordinateur (MAO) dans le navigateur. Réalisé avec python Django (backend), JavaScript React (front end), et JavaScript natif (pour les calculs audio). À la base du projet, nous voulions utiliser la cible de compilation webassembly pour nous permettre d'écrire le code des calculs audio en C++ ou C et ainsi gagner en performance."
     }
     </script>
 color: dark-chocolate
@@ -55,8 +55,8 @@ color: dark-chocolate
 ---
 # Logiciel de M.A.O. dans le navigateur
 ## (Musique Assistée par Ordinateur)
-JAMMEE est un logiciel de Musique assistée par ordinateur (MAO) dans le navigateur
+JAMMEE est un logiciel de Musique assistée par ordinateur (MAO) dans le navigateur.
 <!--more-->
-réalisé avec python Django(backend), Javascript React (front end), et javascript natif pour les calculs audio, à l'aide de l'api Webaudio. À la base du projet, nous voulions utiliser la cible de compilation webassembly pour nous permettre d'écrire le code des calculs audio en C++ ou C et ainsi gagner en performance.
-Projet de fin d’étude <em>EIP</em> (Epitech Innovative Project) réalisé sur trois ans (de la 3ème année à la 5ème année) en groupe de 8 personnes. 
-JAMMEE se destine à un public novice apeuré par la complexité d'un logiciel moderne (Ableton, FL studio...). Il devait à la base accueillir une interface simple et évolutive en fonction du niveau de l'utilisateur, cette idée à été écartée en cours de projet par manque de temps pour la réaliser. Si nous devions reprendre le projet, l'interface adaptative est une idée que l'on doit garder.
+Réalisé avec python Django (backend), JavaScript React (frontend), et JavaScript natif pour les calculs audio, à l'aide de l'api WebAudio. À la base du projet, nous voulions utiliser la cible de compilation WebAssembly pour nous permettre d'écrire le code des calculs audio en C++ ou C et ainsi gagner en performance.
+Projet de fin d’études <em>EIP</em> (Epitech Innovative Project) réalisé sur trois ans (de la 3e année à la 5e année) en groupe de 8 personnes. 
+JAMMEE se destine à un public novice apeuré par la complexité d'un logiciel moderne (Ableton, FL studio...). Il devait à la base accueillir une interface simple et évolutive en fonction du niveau de l'utilisateur, cette idée a été écartée en cours de projet par manque de temps pour la réaliser. Si nous devions reprendre le projet, l'interface adaptative est une idée que l'on doit garder.

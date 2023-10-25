@@ -50,6 +50,6 @@ Ce Projet Raytracer a été réalisé en C dans le cadre de ma première année 
 <!--more-->
 L'objectif du projet était de pouvoir afficher une scène composée d'objet 3D simples (cubes, sphères, cônes...) et complexes (Thor, mesh...), décrit dans un fichier de configuration, grâce à la méthode du raytracing. 
 
-Le fichier de configuration permet de definir une scene en précisant, le type de forme, les dimmensions et sa position par rapport au centre (offset). On peu également y ajouter des effets comme la réflexion, les lumières et les ombres. Nous voulions ajouter la réfraction et la diffraction de la lumière et potentiellement pouvoir ajouter de la texture aux objets.
+Le fichier de configuration permet de définir une scène en précisant, le type de forme, les dimensions et sa position par rapport au centre (offset). On peut également y ajouter des effets comme la réflexion, les lumières et les ombres. Nous voulions ajouter la réfraction et la diffraction de la lumière et potentiellement pouvoir ajouter de la texture aux objets.
 
-Ce projet m'a permis d'en apprendre d'avantage sur les méthodes de rendu 3D et mathématiques cachés derière tout ça.
+Ce projet m'a permis d'en apprendre davantage sur les méthodes de rendu 3D et mathématiques cachés derière tout ça.

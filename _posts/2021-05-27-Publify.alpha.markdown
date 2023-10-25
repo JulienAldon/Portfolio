@@ -3,7 +3,7 @@ permalink:      /publify/alpha
 layout:         project
 title:          "Publify.alpha"
 date:           2021-05-27
-description:    "Publify Alpha est la seconde iteration d'un projet réalisé en Python utilisant l'API spotify pour simplifier la gestion de playlists publiques et collaboratives. Cet outil regroupe publify, radio et statify, un outil permettant la génération de stats & graphiques à partir des données de collaboration des playlists. Les besoins ont évolués c'est pourquoi un outil supplémentaire à été ajouté à la collection."
+description:    "Publify Alpha est la seconde itération d'un projet réalisé en Python utilisant l'API spotify pour simplifier la gestion de playlists publique et collaboratives. Cet outil regroupe publify, radio et statify, un outil permettant la génération de stats & graphiques à partir des données de collaboration des playlists. Les besoins ont évolué, c'est pourquoi un outil supplémentaire a été ajouté à la collection."
 images:
     - img: "/assets/images/ressources/Publify/v2/statify.webp"
       alt: "Génère des graphiques de collaboration en fonction du temps pour les playlists collaboratives."
@@ -44,7 +44,7 @@ google-seo-data-markup: |
             "name": "Julien Aldon",
             "url": "https://julien.aldon.fr"
         },
-        "description": "Publify Alpha est la seconde iteration d'un projet réalisé en Python utilisant l'API spotify pour simplifier la gestion de playlists publiques et collaboratives. Cet outil regroupe publify, radio et statify, un outil permettant la génération de stats & graphiques à partir des données de collaboration des playlists. Les besoins ont évolués c'est pourquoi un outil supplémentaire à été ajouté à la collection."
+        "description": "Publify Alpha est la seconde itération d'un projet réalisé en Python utilisant l'API spotify pour simplifier la gestion de playlists publique et collaboratives. Cet outil regroupe publify, radio et statify, un outil permettant la génération de stats & graphiques à partir des données de collaboration des playlists. Les besoins ont évolué, c'est pourquoi un outil supplémentaire a été ajouté à la collection."
     }
     </script>
 color: dark-chocolate
@@ -52,17 +52,17 @@ color: dark-chocolate
 ---
 # Outil de gestion de playlist Spotify
 ## Ensembles d'outils destinés à la gestion de playlists spotify
-Publify Alpha est la seconde iteration d'un projet réalisé en Python utilisant l'API spotify pour simplifier la gestion de playlists publiques et collaboratives.
+Publify Alpha est la seconde itération d'un projet réalisé en Python utilisant l'API spotify pour simplifier la gestion de playlists publique et collaboratives.
 <!--more-->
-Cet outil regroupe publify, radio et statify, un outil permettant la génération de stats & graphiques à partir des données de collaboration des playlists. Les besoins ont évolués c'est pourquoi un outil supplémentaire à été ajouté à la collection.
-L'application contient trois outils : 
+Cet outil regroupe publify, radio et statify, un outil permettant la génération de statistiques & graphiques à partir des données de collaboration des playlists. Les besoins ont évolué, c'est pourquoi un outil supplémentaire a été ajouté à la collection.
+L'application contient trois outils :
 
 Le premier outil synchronise une playlist publique et une playlist collaborative, cette action supprime les doublons dans la playlist publique nouvellement synchronisée.
 
-Le second outil créé une nouvelle playlist avec toutes les nouvelles sorties des 7 derniers jours des artistes présents dans la playlist selectionnée.
+Le second outil créé une nouvelle playlist avec toutes les nouvelles sorties des 7 derniers jours des artistes présents dans la playlist sélectionnée.
 
-Le troisième outil affiche les statistiques de contribution pour une playlist collaborative selectionnée.
+Le troisième outil affiche les statistiques de contribution pour une playlist collaborative sélectionnée.
 
-Au moment où j'ai voulu déployer l'outil, j'ai décidé de refaire l'integralitée du site avec des technologies différentes : FastAPI et Preact.
+Au moment où j'ai voulu déployer l'outil, j'ai décidé de refaire l'intégralité du site avec des technologies différentes : FastAPI et Preact.
 
 Une première version éxiste et est disponible <a href="/2021/01/13/Publify.old">ici</a>

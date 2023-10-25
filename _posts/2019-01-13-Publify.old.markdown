@@ -3,7 +3,7 @@ permalink:      /publify/old
 layout:         project
 title:          "Publify.old"
 date:           2019-01-13
-description:    "Publify.old est la première version d'un projet réalisé en Python : publify, utilisant l'API spotify pour simplifier la gestion de playlists publiques et collaboratives."
+description:    "Publify.old est la première version d'un projet réalisé en Python : publify, utilisant l'API spotify pour simplifier la gestion de playlists publique et collaboratives."
 images:
     - img: "/assets/images/ressources/Publify/publify_link.webp"
       alt: "L'outil publify permet d'ajouter un lien entre deux playlists (collaboratives et publique)."
@@ -44,7 +44,7 @@ google-seo-data-markup: |
             "name": "Julien Aldon",
             "url": "https://julien.aldon.fr"
         },
-        "description": "Publify.old est la première version d'un projet réalisé en Python : publify, utilisant l'API spotify pour simplifier la gestion de playlists publiques et collaboratives."
+        "description": "Publify.old est la première version d'un projet réalisé en Python : publify, utilisant l'API spotify pour simplifier la gestion de playlists publique et collaboratives."
     }
     </script>
 color: dark-chocolate
@@ -59,4 +59,4 @@ Dans cette version, l'application contient deux outils :
 - Le premier outil synchronise une playlist publique et une playlist collaborative, cette action supprime les doublons dans la playlist publique nouvellement synchronisée.
 - Le second outil crée une nouvelle playlist avec toutes les nouvelles sorties des 7 derniers jours des artistes présents dans la playlist sélectionnée.
 
-Une seconde version à été réalisé plus tard. Disponible <a href="/2021/05/27/Publify.alpha.html">ici</a>
+Une seconde version a été réalisée plus tard. Disponible <a href="/2021/05/27/Publify.alpha.html">ici</a>

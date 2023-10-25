@@ -3,7 +3,7 @@ permalink:      /escapethevolcano
 layout:         project
 title:          "Escape The Volcano"
 date:           2020-07-28
-description:    "Escape The Volcano est un jeu vidéo en 2D, sur le thème cyberpunk. Un campement de robots se retrouve sans matériel pour maintenir les réparations, le plus courageux d'entre eux décide de monter une équipe pour sauter dans le mystérieux volcan et aller chercher le trésor : des composants mécaniques. Durant la partie vous, contrôlez une équipe de robots, votre but est de surmonter les obstacles se présentant à vous, trouver le chemin vers le trésor, puis sortir du volcan. Le tout en essuyant le moins de pertes possible évidement !"
+description:    "Escape The Volcano est un jeu vidéo en 2D, sur le thème cyberpunk. Un campement de robots se retrouve sans matériel pour maintenir les réparations, le plus courageux d'entre eux décide de monter une équipe pour sauter dans le mystérieux volcan et aller chercher le trésor : des composants mécaniques. Durant la partie, vous, contrôlez une équipe de robots, votre but est de surmonter les obstacles se présentant à vous, trouver le chemin vers le trésor, puis sortir du volcan. Le tout en essuyant le moins de pertes possibles évidemment !"
 images:
     - img: "/assets/images/ressources/ETV/Menu.webp"
       alt: "Menu du jeu Escape the volcano."
@@ -40,7 +40,7 @@ google-seo-data-markup: |
             "name": "Julien Aldon",
             "url": "https://julien.aldon.fr"
         },
-        "description": "Escape The Volcano est un jeu vidéo en 2D, sur le thème cyberpunk. Un campement de robots se retrouve sans matériel pour maintenir les réparations, le plus courageux d'entre eux décide de monter une équipe pour sauter dans le mystérieux volcan et aller chercher le trésor : des composants mécaniques. Durant la partie vous, contrôlez une équipe de robots, votre but est de surmonter les obstacles se présentant à vous, trouver le chemin vers le trésor, puis sortir du volcan. Le tout en essuyant le moins de pertes possible évidement !"
+        "description": "Escape The Volcano est un jeu vidéo en 2D, sur le thème cyberpunk. Un campement de robots se retrouve sans matériel pour maintenir les réparations, le plus courageux d'entre eux décide de monter une équipe pour sauter dans le mystérieux volcan et aller chercher le trésor : des composants mécaniques. Durant la partie, vous, contrôlez une équipe de robots, votre but est de surmonter les obstacles se présentant à vous, trouver le chemin vers le trésor, puis sortir du volcan. Le tout en essuyant le moins de pertes possibles évidemment !"
     }
     </script>
 color: dark-chocolate
@@ -49,15 +49,15 @@ color: dark-chocolate
 # Jeu vidéo
 ## Réalisé avec Unity
 Escape The Volcano est un jeu vidéo en 2D, sur le thème cyberpunk. <!--more-->
-Un campement de robots se retrouve sans matériel pour maintenir les réparations, le plus courageux d'entre eux décide de monter une équipe pour sauter dans le mystérieux volcan et aller chercher le trésor : des composants mécaniques. Durant la partie vous, contrôlez une équipe de robots, votre but est de surmonter les obstacles se présentant à vous, trouver le chemin vers le trésor, puis sortir du volcan. Le tout en essuyant le moins de pertes possible évidement !
+Un campement de robots se retrouve sans matériel pour maintenir les réparations, le plus courageux d'entre eux décide de monter une équipe pour sauter dans le mystérieux volcan et aller chercher le trésor : des composants mécaniques. Durant la partie, vous, contrôlez une équipe de robots, votre but est de surmonter les obstacles se présentant à vous, trouver le chemin vers le trésor, puis sortir du volcan. Le tout en essuyant le moins de pertes possibles évidemment !
 
 En quatrième année, en Russie, j'ai eu l'occasion de suivre des cours de game design à l'université SPB SUT.
-Nous avions à définir les mecaniques, l'histoire, le thème d'un jeu à l'aide de mots aléatoirement choisis.
+Nous avions à définir les mécaniques, l'histoire, le thème d'un jeu à l'aide de mots aléatoirement choisis.
 Pour ma part, j'ai tiré au sort les mots suivants :
-- Volcano : Le jeu comporte un volcan.
-- Cyberpunk : Les personnages et les graphismes sont inspirés du genre cyberpunk.
-- Cross-platform : Le jeu doit être adapté pour au moins deux plateformes (Android / PC).
-- RPG : Composants de RPG : personnages, statistiques, archétypes...
+- Volcano : le jeu comporte un volcan.
+- Cyberpunk : les personnages et les graphismes sont inspirés du genre cyberpunk.
+- Cross-platform : le jeu doit être adapté pour au moins deux plateformes (Android / PC).
+- RPG : composants de RPG : personnages, statistiques, archétypes...
             
 ### Le but du jeu
 - Créer son équipe de robots.
@@ -67,4 +67,4 @@ Pour ma part, j'ai tiré au sort les mots suivants :
 
 Le thème cyberpunk se retrouve dans les graphismes du jeu. L'aspect RPG est évoqué par les statistiques des personnages robots que nous recrutons. Les robots que nous recrutons peuvent être gardés sur plusieurs parties ce qui instaure une continuité entre les parties.
 
-Le jeu se veut "simple" dans ses contrôles pour laisser une possibilité de cross-platform entre PC et mobile. Le jeu est également disponible sur linux, mac et windows. Une fois que les mécaniques du jeu on été pensées, j'ai décidé de réaliser un prototype en python puis avec le moteur unity.
+Le jeu se veut "simple" dans ses contrôles pour laisser une possibilité de cross-platform entre PC et mobile. Le jeu est également disponible sur linux, mac et windows. Une fois que les mécaniques du jeu ont été imaginées, j'ai décidé de réaliser un prototype en python puis avec le moteur unity.
