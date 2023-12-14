@@ -6,11 +6,11 @@ date:           2023-11-11
 description:    "Application bureau qui permet de scanner les cartes des apprenants pour l'émargement à epitech Lyon"
 
 images:
-    - img: "/assets/images/ressources/Clicoscan/sessions.png"
+    - img: "/assets/images/ressources/Clicoscan/sessions.webp"
       alt: "La liste des sessions."
-    - img: "/assets/images/ressources/Clicoscan/session.png"
+    - img: "/assets/images/ressources/Clicoscan/session.webp"
       alt: "Une session permet de scanner les cartes étudiantes avec NFC."
-    - img: "/assets/images/ressources/Clicoscan/oauth2.png"
+    - img: "/assets/images/ressources/Clicoscan/oauth2.webp"
       alt: "Connection oauth2 avec Office 365."
 
 technos: 
