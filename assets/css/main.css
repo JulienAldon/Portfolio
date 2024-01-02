@@ -29,7 +29,7 @@ a {
 .presentation {
     margin-left: 20%;
     margin-right: 20%;
-    margin-top:8.3rem;
+    margin-top:5rem;
     display: flex;
     flex-flow: column;
     padding-bottom: 3rem;
@@ -247,7 +247,7 @@ a {
 
 .iconLink {
     position: relative;
-    overflow:hidden;
+    overflow: hidden;
     width: 2.5rem;
     height: 2.5rem;
     font-size: 1.2rem;
@@ -260,22 +260,21 @@ a {
 }
 
 .iconLink:before {
-    content:"";
+    content: "";
     position: absolute;
     width:80px;
     height:80px;
     background:#3C2317;
     transform:translateY(4rem) rotate(0deg);
-    border-radius:40%;
+    animation: fillout 2s;
+    border-radius: 40%;
     z-index: -1;
-    opacity: 0;
     transition: all 1s;
 }
 
 .iconLink:hover:before {
-    animation: fillin 2s ease-in-out;
+    animation: fillin 2s;
     transition: none;
-    opacity: 1;
 }
 
 .iconElem {
@@ -591,6 +590,15 @@ a {
 		transform: rotateX(30deg);
 		opacity: 0;
 	}
+}
+
+@keyframes fillout {
+    from {
+        transform:translateY(0rem) rotate(360deg);
+    }
+    to {
+        transform:translateY(4rem) rotate(0deg);
+    }
 }
 
 @keyframes fillin {

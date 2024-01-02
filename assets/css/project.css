@@ -178,23 +178,30 @@ a {
     height:80px;
     background:#BE8C68;
     transform:translateY(4rem) rotate(0deg);
+    animation: fillout 2s ease-in-out;
     border-radius:40%;
     z-index: -1;
-    opacity: 0;
     transition: all 2s;
-
 }
 
 .iconLink:hover:before {
     animation: fillin 2s ease-in-out;
     transition: none;
-    opacity: 1;
 }
 
 .iconElem {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@keyframes fillout {
+    from {
+        transform:translateY(0rem) rotate(360deg);
+    }
+    to {
+        transform:translateY(4rem) rotate(0deg);
+    }
 }
 
 @keyframes fillin {
