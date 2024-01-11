@@ -23,5 +23,5 @@ experiences:
     titre: "Stage à Adecco IT Services"
     description: "Équipe de capacity management, developpement d'une application pour générer des prévisions de charge."
 
-presentation: "Diplomé du programme grandes écoles Epitech en 2021, j'occupe mon temps grâce à des projets personnels divers : des applications web, des scripts pour faciliter mon travail, ou encore des petits jeux. L'ensemble de mes projets sont dans la section projet, ou sur mon github."
+presentation: "Diplomé du programme grandes écoles Epitech en 2021, j'occupe mon temps grâce à des projets personnels divers. Des applications web & bureau, des scripts pour faciliter mon travail, ou encore des petits jeux. L'ensemble de mes projets sont détaillés dans la section projet, ou sur mon github."
 ---
