@@ -1,56 +1,60 @@
 ---
-permalink:      /epitecheventplanner
-layout:         project
-title:          "Epitech Event Planner"
-date:           2022-01-12
-description:    "Outil de planification de session pour l'intranet Epitech. L'outil créé des sessions d'une activité donnée et enregistre les apprenants liés à la promotion sélectionnée. EEplanner sert à simplifier la planification des événements en masse pour les activités d'émargement. L'outil s'inscrit dans le processus d'émargement d'Epitech MSC."
+permalink: /epitecheventplanner
+layout: project
+title: "Epitech Event Planner"
+date: 2022-01-12
+description: "Outil de planification de session pour l'intranet Epitech. L'outil crée des sessions d'une activité donnée et enregistre les apprenants liés à la promotion sélectionnée. EEplanner sert à simplifier la planification des événements en masse pour les activités d'émargement. L'outil s'inscrit dans le processus d'émargement d'Epitech MSC."
 
 images:
-    - img: "/assets/images/ressources/EventPlanner/EventPlannerLight.webp"
-      alt: "Vue principale du logiciel avec GTK."
-    - img: "/assets/images/ressources/EventPlanner/EventPlannerEnCour.webp"
-      alt: "Une barre de chargement se remplit au fur et à mesure de la réalisation des tâches."
-    - img: "/assets/images/ressources/EventPlanner/EventPlannerError.webp"
-      alt: "Certaines erreurs peuvent survenir durant l'utilisation de l'outil."
-    - img: "/assets/images/ressources/EventPlanner/EventPlannerFinished.webp"
-      alt: "Une fois le travail termniné, l'application."
+  - img: "/assets/images/ressources/EventPlanner/EventPlannerLight.webp"
+    alt: "Vue principale du logiciel avec GTK."
+  - img: "/assets/images/ressources/EventPlanner/EventPlannerEnCour.webp"
+    alt: "Une barre de chargement se remplit au fur et à mesure de la réalisation des tâches."
+  - img: "/assets/images/ressources/EventPlanner/EventPlannerError.webp"
+    alt: "Certaines erreurs peuvent survenir durant l'utilisation de l'outil."
+  - img: "/assets/images/ressources/EventPlanner/EventPlannerFinished.webp"
+    alt: "Une fois le travail termniné, l'application."
 
 technos:
-    - tech: "Python"
-      url: "https://www.python.org/"
-    - tech: "PyGTK"
-      url: "https://wiki.python.org/moin/PyGtk"
+  - tech: "Python"
+    url: "https://www.python.org/"
+  - tech: "PyGTK"
+    url: "https://wiki.python.org/moin/PyGtk"
 
 homepages:
-    - url: "https://github.com/JulienAldon/EpitechEventPlanner"
-      alt: "Lien vers le github"
-      icon: "fab fa-github"
+  - url: "https://github.com/JulienAldon/EpitechEventPlanner"
+    alt: "Lien vers le github"
+    icon: "fab fa-github"
 
 made-by: "Réalisé par <a rel='author' target='_blank' href='https://github.com/JulienAldon'>Julien Aldon</a>"
 
 excerpt_separator: <!--more-->
 google-seo-data-markup: |
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Article",
-        "headline": "Epitech Event Planner",
-        "image": "https://julien.aldon.fr/assets/images/ressources/EventPlanner/EventPlannerVue.webp",
-        "author": {
-            "@type": "Person",
-            "name": "Julien Aldon",
-            "url": "https://julien.aldon.fr"
-        },
-        "description": "Outil de planification de session pour l'intranet Epitech. L'outil créé des sessions d'une activité donnée et enregistre les apprenants liés à la promotion sélectionnée. EEplanner sert à simplifier la planification des événements en masse pour les activités d'émargement. L'outil s'inscrit dans le processus d'émargement d'Epitech MSC."
-    }
-    </script>
+  <script type="application/ld+json">
+  {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Epitech Event Planner",
+      "image": "https://julien.aldon.fr/assets/images/ressources/EventPlanner/EventPlannerVue.webp",
+      "author": {
+          "@type": "Person",
+          "name": "Julien Aldon",
+          "url": "https://julien.aldon.fr"
+      },
+      "description": "Outil de planification de session pour l'intranet Epitech. L'outil crée des sessions d'une activité donnée et enregistre les apprenants liés à la promotion sélectionnée. EEplanner sert à simplifier la planification des événements en masse pour les activités d'émargement. L'outil s'inscrit dans le processus d'émargement d'Epitech MSC."
+  }
+  </script>
 color: dark-chocolate
-
 ---
+
 # Outil de planification d'événements
+
 ## Pour l'intranet EPITECH
-Outil de planification d'événements pour l'intranet Epitech. L'outil créé des sessions d'une activité donnée et enregistre les apprenants liés à la promotion sélectionnée.
+
+Outil de planification d'événements pour l'intranet Epitech. L'outil crée des sessions d'une activité donnée et enregistre les apprenants liés à la promotion sélectionnée.
+
 <!--more-->
+
 EEplanner sert à simplifier la planification des événements en masse pour les activités d'émargement. L'outil s'inscrit dans le processus d'émargement d'Epitech MSC.
 EEplanner fait partie des 3 outils servant au suivi des présences MSC, il automatise l'instanciation et l'inscription des promotions aux activités d'émargement. Etoken & L'intranet Epitech : sert à scanner les cartes apprenant et stocker le statut de présence des apprenants. Clikodrome : récupère le statut de présence des apprenants depuis l'intranet et demande à l'API Edusign d'envoyer les mails de présence.
 
