@@ -60,4 +60,4 @@ Jekyll me permet d'ajouter de nouveaux projets à ce portfolio sans avoir à cop
 
 Grâce à Github Pages & les actions, le site est régénéré automatiquement lorsque l'on pousse une modification dans le dépôt github et bénéficie d'un hébergement gratuit.
 
-Ce portfolio me sert également pour faire des tests de SEO, j'ai essayé d'optimiser la recherche pour que le site soit un des premiers résultats lorsque l'on cherche mon nom/prénom.
+Ce portfolio me sert également de plateforme expérimentale pour faire des tests, par exemple sur le référencement.
