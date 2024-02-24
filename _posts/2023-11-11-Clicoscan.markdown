@@ -3,7 +3,7 @@ permalink:      /clicoscan
 layout:         project
 title:          "Clicoscan"
 date:           2023-11-11
-description:    "Application bureau qui permet de scanner les cartes des apprenants pour l'émargement à epitech Lyon"
+description:    "Application bureau qui permet de scanner les cartes des élèves pour l'émargement à epitech Lyon."
 
 images:
     - img: "/assets/images/ressources/Clicoscan/sessions.webp"
@@ -41,14 +41,14 @@ google-seo-data-markup: |
             "name": "Julien Aldon",
             "url": "https://julien.aldon.fr"
         },
-        "description": ""
+        "description": "Cet outil fait parti d'un ensemble avec Clikodrome, il permet de remplir une feuille de présence pour une session donnée avec la possibilitée de scanner les cartes nfc des élèves."
     }
     </script>
 color: dark-chocolate
 ---
 # Clicoscan
 ## Outils de scan des cartes NFC
-Cet outil fait parti d'un ensemble avec Clikodrome, il permet de remplir une feuille de présence pour une session donnée avec la possibilitée de scanner les cartes nfc des apprenants.
+Cet outil fait parti d'un ensemble avec Clikodrome, il permet de remplir une feuille de présence pour une session donnée avec la possibilitée de scanner les cartes nfc des élèves.
 <!--more-->
 
 Les outils nécéssaires pour la mise en place de cette solutions sont les suivants : 
