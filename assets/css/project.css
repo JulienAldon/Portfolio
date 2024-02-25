@@ -1,7 +1,7 @@
 .project {
   display: flex;
   flex-flow: column;
-  background-color: #3c2317;
+  background-color: var(--bg-1);
 }
 
 .main {
@@ -16,7 +16,7 @@
 }
 
 .textbox {
-  color: #f5f5f5;
+  color: var(--fg-1);
   padding-left: 4rem;
   padding-right: 1rem;
   margin-right: 3rem;
@@ -52,10 +52,10 @@
   margin-top: 2rem;
   padding-left: 1rem;
   padding-right: 1rem;
-  border: solid 5px #cdccd1;
+  border: solid 5px var(--fg-2);
   border-radius: 1rem;
   background-color: transparent;
-  color: #cdccd1;
+  color: var(--fg-2);
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
@@ -64,7 +64,7 @@
 }
 
 a {
-  color: #f5f5f5;
+  color: var(--fg-1);
   text-decoration: none;
 }
 
@@ -76,9 +76,9 @@ a {
 
 .techno-link {
   text-decoration: none;
-  color: #3c2317;
-  background-color: #cdccd1;
-  border: #cdccd1;
+  color: var(--bg-1);
+  background-color: var(--fg-2);
+  border: var(--fg-2);
   padding: 0.5rem;
   border-radius: 0.8rem;
   font-weight: 700;
@@ -130,8 +130,8 @@ a {
 }
 
 .navigation {
-  background-color: #3c2317;
-  color: #cdccd1;
+  background-color: var(--bg-1);
+  color: var(--fg-2);
   display: flex;
   justify-content: space-between;
   margin-left: 4rem;
@@ -146,7 +146,7 @@ a {
 
 .navigation h1 {
   font-family: "Raleway";
-  color: #f5f5f5;
+  color: var(--fg-1);
   font-style: normal;
   font-weight: 700;
   font-size: 50px;
@@ -165,7 +165,7 @@ a {
   align-items: center;
   margin-top: 2.3rem;
   cursor: pointer;
-  border: 5px solid #cdccd1;
+  border: 5px solid var(--fg-2);
   border-radius: 1rem;
 }
 
@@ -174,7 +174,7 @@ a {
   position: absolute;
   width: 80px;
   height: 80px;
-  background: #be8c68;
+  background: var(--bg-2);
   transform: translateY(4rem) rotate(0deg);
   animation: fillout 2s ease-in-out;
   border-radius: 40%;
@@ -252,18 +252,10 @@ a {
     align-items: center;
     flex-flow: column;
     max-height: unset;
-    position: relative;
   }
   .secondary-img {
-    position: absolute;
-    bottom: -15%;
-    left: 10%;
   }
   .main-img {
-    max-width: 60%;
-    display: flex;
-    align-self: flex-start;
-    margin-left: 10%;
   }
 }
 
