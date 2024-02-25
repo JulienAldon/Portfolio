@@ -36,14 +36,17 @@ google-seo-data-markup: |
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "Article",
-        "headline": "Ce portfolio",
+        "@type": "WebSite",
+        "name": "Mon portfolio",
+        "about": "Portfolio contenant la liste de mes projets réalisés que je souhaite mettre en avant.",
         "image": "https://julien.aldon.fr/assets/images/ressources/ThisPortFolio/Main.wepb",
-        "author": {
+        "creator": {
             "@type": "Person",
             "name": "Julien Aldon",
             "url": "https://julien.aldon.fr"
         },
+        "contributor": "Lisa Glaziou",
+        "url": "https://julien.aldon.fr",
         "description": "Ce Portfolio a été réalisé entièrement en html & css natif (avec une petite touche de Javascript). Jekyll est utilisé comme moteur de templating. Jekyll permet de structurer les pages du site simplement. Ce portfolio décrit tous les projets que j'ai réalisés et que je souhaite mettre en avant."
     }
     </script>

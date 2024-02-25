@@ -39,8 +39,8 @@ google-seo-data-markup: |
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "Article",
-        "headline": "Albus Dumbledore",
+        "@type": "WebSite",
+        "name": "Albus Dumbledore",
         "image": "https://julien.aldon.fr//assets/images/ressources/Albus/Albus.webp",
         "author": {
             "@type": "Person",

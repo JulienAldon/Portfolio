@@ -33,7 +33,7 @@ google-seo-data-markup: |
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "Article",
+        "@type": "SoftwareApplication",
         "headline": "Clicoscan",
         "image": "https://julien.aldon.fr/assets/images/ressources/Clicoscan/session.png",
         "author": {
@@ -41,6 +41,9 @@ google-seo-data-markup: |
             "name": "Julien Aldon",
             "url": "https://julien.aldon.fr"
         },
+        "applicationCategory": "Desktop Application",
+        "availableOnDevice": "windows, linux, macos",
+        "downloadUrl": "https://github.com/JulienAldon/Clicoscan",
         "description": "Cet outil fait parti d'un ensemble avec Clikodrome, il permet de remplir une feuille de présence pour une session donnée avec la possibilitée de scanner les cartes nfc des élèves."
     }
     </script>

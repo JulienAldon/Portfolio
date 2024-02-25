@@ -32,8 +32,8 @@ google-seo-data-markup: |
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "Article",
-        "headline": "Escape The Volcano",
+        "@type": "Game",
+        "name": "Escape The Volcano",
         "image": "https://julien.aldon.fr/assets/images/ressources/ETV/Menu.webp",
         "author": {
             "@type": "Person",

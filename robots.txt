@@ -1,5 +1,5 @@
 User-agent: Googlebot
-Disallow: /assets/images
+Disallow: assets/fonts
 
 User-agent: Google Favicon
 Allow: /

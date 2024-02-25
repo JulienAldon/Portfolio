@@ -39,8 +39,8 @@ google-seo-data-markup: |
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "Article",
-        "headline": "JAMMEE",
+        "@type": "WebSite",
+        "name": "JAMMEE",
         "image": "/assets/images/ressources/JAMMEE/Home.webp",
         "author": {
             "@type": "Person",

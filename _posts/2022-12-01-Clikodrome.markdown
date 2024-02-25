@@ -38,8 +38,8 @@ google-seo-data-markup: |
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "Article",
-        "headline": "Le clikodrome",
+        "@type": "WebSite",
+        "name": "Le clikodrome",
         "image": "https://julien.aldon.fr/assets/images/ressources/Clikodrome/demo_sessions.webp",
         "author": {
             "@type": "Person",

@@ -38,8 +38,8 @@ google-seo-data-markup: |
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "Article",
-        "headline": "Aldon Biblio",
+        "@type": "WebSite",
+        "name": "Aldon Biblio",
         "image": "https://julien.aldon.fr/assets/images/ressources/HomeBiblio/Books.webp",
         "author": {
             "@type": "Person",

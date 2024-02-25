@@ -29,8 +29,9 @@ google-seo-data-markup: |
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "Article",
-        "headline": "Raytracer 2",
+        "@type": "SoftwareApplication",
+        "name": "Raytracer 2",
+        "availableOnDevice": "Linux"
         "image": "https://julien.aldon.fr/assets/images/ressources/Raytracer/raytracer2_screen.webp",
         "author": {
             "@type": "Person",

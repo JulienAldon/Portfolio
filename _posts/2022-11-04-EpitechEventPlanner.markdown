@@ -33,14 +33,17 @@ google-seo-data-markup: |
   <script type="application/ld+json">
   {
       "@context": "https://schema.org",
-      "@type": "Article",
-      "headline": "Epitech Event Planner",
+      "@type": "SoftwareApplication",
+      "Name": "Epitech Event Planner",
       "image": "https://julien.aldon.fr/assets/images/ressources/EventPlanner/EventPlannerVue.webp",
       "author": {
           "@type": "Person",
           "name": "Julien Aldon",
           "url": "https://julien.aldon.fr"
       },
+      "availableOnDevice": "Linux",
+      "applicationCategory": "Desktop Application",
+      "downloadUrl": "https://github.com/JulienAldon/EpitechEventPlanner",
       "description": "Outil de planification de session pour l'intranet Epitech. L'outil crée des sessions d'une activité donnée et enregistre les apprenants liés à la promotion sélectionnée. EEplanner sert à simplifier la planification des événements en masse pour les activités d'émargement. L'outil s'inscrit dans le processus d'émargement d'Epitech MSC."
   }
   </script>

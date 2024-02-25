@@ -32,5 +32,20 @@
     <script type="text/javascript" src="/assets/javascript/textload.js"></script>
     <title>Julien Aldon / Portfolio</title>
     <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "email": "mailto:{{ site.email }}",
+        "image": "{{ site.website_image}}",
+        "jobTitle": "Developer",
+        "name": "Julien Aldon",
+        "url": "https://julien.aldon.fr",
+        "alumniOf": {
+            "@context": "https://schema.org",
+            "@type": "EducationalOrganization",
+            "legalName": "Epitech",
+            "address": "2 rue du professeur charles appleton 69007 Lyon"
+        }
+    }
     </script>
 </head>

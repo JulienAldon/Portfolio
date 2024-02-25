@@ -36,8 +36,8 @@ google-seo-data-markup: |
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "Article",
-        "headline": "Publify.old",
+        "@type": "WebSite",
+        "name": "Publify.old",
         "image": "https://julien.aldon.fr/assets/images/ressources/Publify/publify_home.webp",
         "author": {
             "@type": "Person",

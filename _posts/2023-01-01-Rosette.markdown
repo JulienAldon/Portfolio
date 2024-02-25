@@ -40,8 +40,8 @@ google-seo-data-markup: |
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "Article",
-        "headline": "Rosette-restaurant.fr",
+        "@type": "WebSite",
+        "name": "Rosette-restaurant.fr",
         "image": "https://julien.aldon.fr/assets/images/ressources/Rosette/homepage.webp",
         "author": {
             "@type": "Person",
