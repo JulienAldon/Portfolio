@@ -50,7 +50,6 @@ a {
   line-height: 33px;
   margin: 0px;
   color: #000000;
-  padding: 2rem;
 }
 
 .presentation span {
@@ -187,8 +186,6 @@ a {
 .about-img {
   width: 13rem;
   height: 13rem;
-  position: relative;
-  top: 3rem;
   filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
   border-radius: 8px;
 }
@@ -605,7 +602,7 @@ a {
   }
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1565px) {
   #projets {
     display: flex;
     flex-direction: column;
