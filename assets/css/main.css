@@ -3,12 +3,12 @@
 }
 
 body {
-  background-color: #be8c68;
+  background-color: var(--bg-2);
   margin: 0px;
 }
 
 a {
-  color: #f5f5f5;
+  color: var(--fg-2);
   text-decoration: none;
 }
 
@@ -26,12 +26,13 @@ a {
 }
 
 .presentation {
-  margin-left: 20%;
+  margin-left: 5%;
   margin-right: 20%;
   margin-top: 5rem;
   display: flex;
   flex-flow: column;
   padding-bottom: 3rem;
+  height: 14rem;
 }
 
 .presentation p {
@@ -49,17 +50,18 @@ a {
   font-size: 1.3rem;
   line-height: 33px;
   margin: 0px;
-  color: #000000;
+  margin-bottom: 1.75rem;
+  color: var(--fg-0);
 }
 
 .presentation span {
   display: inline-flex;
-  border: 3px solid #cdccd1;
+  border: 3px solid var(--fg-2);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .experiences {
-  margin-left: 20%;
+  margin-left: 5%;
   margin-right: 20%;
 }
 
@@ -85,7 +87,7 @@ a {
   font-weight: 600;
   font-size: 1rem;
   line-height: 21px;
-  color: #cdccd1;
+  color: var(--fg-2);
   margin: 0rem;
   width: 10rem;
 }
@@ -96,7 +98,7 @@ a {
   font-weight: 700;
   font-size: 1.2rem;
   line-height: 26px;
-  color: #000000;
+  color: var(--fg-0);
   padding-bottom: 1rem;
   margin: 0rem;
 }
@@ -107,12 +109,12 @@ a {
   font-weight: 600;
   font-size: 20px;
   line-height: 1.3rem;
-  color: #000000;
+  color: var(--fg-0);
   margin: 0rem;
 }
 
 .ruler {
-  border: 3px solid #cdccd1;
+  border: 3px solid var(--fg-2);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   height: 0px;
   width: 10rem;
@@ -137,7 +139,7 @@ a {
   font-weight: 700;
   font-size: 28px;
   line-height: 33px;
-  color: #cdccd1;
+  color: var(--fg-2);
   margin-bottom: 4rem;
   margin-top: 4rem;
   cursor: pointer;
@@ -148,25 +150,25 @@ a {
 }
 
 .infobox a:hover .ruler {
-  border: 3px solid #000000;
+  border: 3px solid var(--fg-0);
 }
 
 .infobox a:hover {
-  color: #000000;
+  color: var(--fg-0);
 }
 
 .infobox a.selected {
-  color: #000000;
+  color: var(--fg-0);
   transform: scale(130%) translateX(11%);
 }
 
 .infobox a.selected .ruler {
-  border: 3px solid #000000;
+  border: 3px solid var(--fg-0);
 }
 
 .chevron {
   font-size: 4rem;
-  color: #cdccd1;
+  color: var(--fg-2);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -206,7 +208,7 @@ a {
   line-height: 70px;
   padding: 0px;
   margin: 0px;
-  color: #000000;
+  color: var(--fg-0);
 }
 
 .aboutbox div h2 {
@@ -217,7 +219,7 @@ a {
   padding: 0px;
   margin: 0px;
   line-height: 33px;
-  color: #000000;
+  color: var(--fg-0);
 }
 
 .aboutbox div p {
@@ -248,7 +250,7 @@ a {
   justify-content: center;
   align-items: center;
   cursor: pointer;
-  border: 5px solid #cdccd1;
+  border: 5px solid var(--fg-2);
   border-radius: 1rem;
 }
 
@@ -334,7 +336,7 @@ a {
   font-weight: 800;
   font-size: 1.8rem;
   line-height: 33px;
-  color: #ffffff;
+  color: var(--fg-2);
   text-shadow: 0px 4px 4px rgba(255, 255, 255, 0.25);
   margin: 0rem;
 }
@@ -345,7 +347,7 @@ a {
   font-weight: 600;
   font-size: 1.2rem;
   line-height: 26px;
-  color: #ffffff;
+  color: var(--fg-2);
   margin-top: 0rem;
 }
 
@@ -356,7 +358,8 @@ a {
   font-weight: 600;
   font-size: 1.2rem;
   line-height: 26px;
-  color: #ffffff;
+  color: var(--fg-2);
+  flex: 1;
 }
 
 #projets div a .projecttext {
@@ -370,24 +373,19 @@ a {
 }
 
 #projets div a .imgHeader {
-  object-fit: contain;
-  object-position: left top;
   filter: drop-shadow(-4px -4px 4px rgba(255, 255, 255, 0.25));
   border-radius: 8px;
-  max-width: 80%;
-  position: relative;
-  top: 5rem;
-  max-height: 55%;
+  width: 20vw;
+  max-height: 30vh;
 }
 
 #projets div a .secondImg {
   filter: drop-shadow(-4px -4px 4px rgba(0, 0, 0, 0.25));
   border-radius: 8px;
   position: relative;
-  left: 0rem;
-  max-width: 100%;
-  max-height: 16rem;
-  bottom: 2.5rem;
+  left: 1rem;
+  width: 20vw;
+  top: -4rem;
 }
 
 #projets div a .projecttext .techno-info {
@@ -399,9 +397,9 @@ a {
 
 #projets div a .projecttext .techno-link {
   text-decoration: none;
-  color: #3c2317;
-  background-color: #cdccd1;
-  border: #cdccd1;
+  color: var(--bg-1);
+  background-color: var(--fg-2);
+  border: var(--fg-2);
   padding: 0.5rem;
   border-radius: 0.8rem;
   font-weight: 700;
@@ -426,6 +424,7 @@ a {
   transform: rotateX(-90deg);
   opacity: 0;
   animation-timing-function: ease;
+  width: 5rem;
 }
 
 .text-box h2:nth-child(1) {
@@ -609,6 +608,33 @@ a {
     margin: auto;
   }
 
+  .experiences {
+    margin-left: 10vw;
+    margin-right: 10vw;
+  }
+
+  .experiences ul {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    max-height: unset;
+  }
+
+  .experiencebox div {
+    width: 40vw;
+  }
+
+  .experiencebox .date {
+    width: 15rem;
+  }
+
+  #projets div a .projecttext {
+    flex-direction: row;
+    overflow: hidden;
+    width: 50vw;
+  }
+
   #projets div a:nth-child(2n) {
     margin-left: 1rem;
     margin-right: 0rem;
@@ -637,14 +663,13 @@ a {
 
   .presentation {
     margin-top: 2rem;
+    margin-right: 10vw;
+    margin-left: 10vw;
+    height: unset;
   }
 
   .chevron {
     display: none;
-  }
-
-  #projets div a .secondImg {
-    height: 60%;
   }
 }
 
@@ -707,6 +732,7 @@ a {
 
   #projets div a .projecttext {
     min-height: 15rem;
+    width: 80vw;
     padding-right: 0px;
     display: flex;
     flex-direction: column;
@@ -719,19 +745,39 @@ a {
   }
 
   #projets div a .imgHeader {
-    margin-top: 2rem;
-    width: 80%;
     display: flex;
     position: unset;
+    width: 40vw;
   }
 
   #projets div a .secondImg {
-    left: 0rem;
-    height: 60%;
+    width: 40vw;
   }
 }
 
 @media screen and (max-width: 700px) {
+  .experiences ul {
+    max-height: unset;
+  }
+
+  .experiencebox {
+    flex-flow: column;
+  }
+
+  .experiencebox div {
+    padding-left: 0px;
+    width: unset;
+  }
+
+  .experiencebox div p {
+    text-align: justify;
+  }
+
+  .experiencebox .date {
+    width: unset;
+    font-size: 1.5rem;
+  }
+
   .text-box {
     left: 25%;
     top: 30%;
@@ -756,6 +802,7 @@ a {
     display: flex;
     flex-direction: column;
     width: 90vw;
+    max-height: 60vh;
     padding: 5vw;
     max-width: unset;
   }
@@ -803,13 +850,14 @@ a {
   }
 
   .infobox a.selected {
-    color: #000000;
+    color: var(--fg-0);
     transform: unset;
   }
 
   .presentation {
     margin-left: 2rem;
     margin-right: 2rem;
+    height: unset;
   }
 
   .experiences {
@@ -821,27 +869,28 @@ a {
     overflow-y: scroll;
   }
 
+  #projets div a .img-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+  }
+
   #projets div a .secondImg {
-    left: -1rem;
+    width: 30vw;
+    position: relative;
+    left: -3rem;
     top: 2rem;
-    max-width: 40%;
   }
 
   #projets div a .imgHeader {
-    max-width: 30%;
-    margin-left: 10%;
-    position: relative;
-    top: -2rem;
-    left: 3rem;
+    width: 30vw;
   }
 
   .aboutbox div {
     margin-left: 2rem;
     margin-right: 2rem;
-  }
-
-  .experiences ul {
-    max-height: 65vh;
   }
 
   #pres-textbox {

@@ -1,9 +1,9 @@
 <header class="navigation">
-    <a href="{{ site.url }}" class="iconLink"><i class="fa-solid fa-chevron-left"></i></a>
+    <a aria-label="Retours à la page d'accueil" href="{{ site.url }}" class="iconLink"><i class="fa-solid fa-chevron-left"></i></a>
     <h1>Portfolio - Julien Aldon</h1>
     <div>
-        <a rel="external" target="_blank" href="{{ site.linkedin_url }}" class="iconLink"><i class="iconElem fa-brands fa-linkedin"></i></a>
-        <a rel="external" target="_blank" href="{{ page.homepages[0].url }}" class="iconLink"><i class="iconElem fa-brands fa-github"></i></a>
-        <a class="iconLink"><i class="iconElem fa-solid fa-envelopes-bulk"></i></a>
+        <a aria-label="Mon linkedin" rel="external" target="_blank" href="{{ site.linkedin_url }}" class="iconLink"><i class="iconElem fa-brands fa-linkedin"></i></a>
+        <a aria-label="Mon github" rel="external" target="_blank" href="{{ page.homepages[0].url }}" class="iconLink"><i class="iconElem fa-brands fa-github"></i></a>
+        <a aria-label="Mon adresse email" href="mailto:{{ site.email }}" id="mail-button" class="iconLink"><i class="iconElem fa-solid fa-envelopes-bulk"></i></a>
     </div>
 </header>

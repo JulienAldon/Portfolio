@@ -33,19 +33,26 @@
     <title>Julien Aldon / Portfolio</title>
     <script type="application/ld+json">
     {
+
         "@context": "https://schema.org",
-        "@type": "Person",
-        "email": "mailto:{{ site.email }}",
-        "image": "{{ site.website_image}}",
-        "jobTitle": "Developer",
-        "name": "Julien Aldon",
-        "url": "https://julien.aldon.fr",
-        "alumniOf": {
-            "@context": "https://schema.org",
-            "@type": "EducationalOrganization",
-            "legalName": "Epitech",
-            "address": "2 rue du professeur charles appleton 69007 Lyon"
+        "@type": "ProfilePage",
+        "dateCreated": "2016-10-06T12:00:00",
+        "mainEntity": {
+            "@type": "Person",
+            "email": "mailto:{{ site.email }}",
+            "image": "{{ site.website_image}}",
+            "jobTitle": "Developer",
+            "name": "Julien Aldon",
+            "url": "https://julien.aldon.fr",
+            "alumniOf": {
+                "@context": "https://schema.org",
+                "@type": "EducationalOrganization",
+                "legalName": "Epitech",
+                "address": "2 rue du professeur charles appleton 69007 Lyon"
+            },
+            "description": "Diplomé du programme grandes écoles Epitech en 2021, j'occupe mon temps grâce à des projets personnels divers. Des applications web & bureau, des scripts pour faciliter mon travail, ou encore des petits jeux. Vous pourrez retrouver l'ensemble de mes projets sur ce site, ou sur mon github."
         }
+
     }
     </script>
 </head>

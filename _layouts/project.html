@@ -9,7 +9,7 @@
             </div>
             <div class="techno-info">
                 {% for techno in page.technos %}
-                    <a class="techno-link" rel="external" target="_blank" href="{{ techno.url }}">{{techno.tech}}</a>
+                    <a aria-label="{{ techno.tech }}" class="techno-link" rel="external" target="_blank" href="{{ techno.url }}">{{techno.tech}}</a>
                 {% endfor %}
             </div>
             <div class="made-by">
