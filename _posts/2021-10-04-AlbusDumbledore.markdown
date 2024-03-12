@@ -32,7 +32,7 @@ homepages:
       alt: "Lien vers le site internet albus.owlish.io"
       icon: "fa fa-globe"
 
-made-by: "Réalisé en collaboration avec <a rel='nofollow' target='_blank' href='https://www.linkedin.com/in/arthur-lemaire/'><b>Arthur Lemaire</b></a> et <a rel='nofollow' target='_blank' href='https://www.linkedin.com/in/lorenzo-cecchini/'><b>Neil Cecchini</b></a> pour le frontend et la maquette. API Réalisée par <a rel='nofollow' target='_blank' href='https://github.com/JulienAldon'><b>Julien Aldon</b></a>."
+made-by: "Réalisé en collaboration avec <a rel='nofollow' target='_blank' href='https://www.linkedin.com/in/arthur-lemaire/'><b>Arthur Lemaire</b></a> pour le frontend et la maquette. API Réalisée par <a rel='nofollow' target='_blank' href='https://github.com/JulienAldon'><b>Julien Aldon</b></a>."
 
 excerpt_separator: <!--more-->
 google-seo-data-markup: |
