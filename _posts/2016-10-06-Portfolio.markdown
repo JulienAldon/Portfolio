@@ -54,8 +54,8 @@ excerpt_separator: <!--more-->
 color: dark-chocolate
 
 ---
-# Mon port folio
-## pour mettre en avant mon travail
+## Mon port folio
+### pour mettre en avant mon travail
 Ce portfolio a été réalisé entièrement en HTML & CSS natif (avec une petite touche de Javascript). Jekyll est utilisé comme moteur de templating. <!--more-->
 Il permet de structurer les pages de manière plus simple. Ce portfolio décrit tous les projets que j'ai réalisés et que je souhaite mettre en avant, principalement des projets en web, de logiciels lourd ou encore de jeu vidéo.
 

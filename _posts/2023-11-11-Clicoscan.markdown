@@ -49,8 +49,8 @@ google-seo-data-markup: |
     </script>
 color: dark-chocolate
 ---
-# Clicoscan
-## Outils de scan des cartes NFC
+## Clicoscan
+### Outils de scan des cartes NFC
 Cet outil fait parti d'un ensemble avec Clikodrome, il permet de remplir une feuille de présence pour une session donnée avec la possibilitée de scanner les cartes nfc des élèves.
 <!--more-->
 

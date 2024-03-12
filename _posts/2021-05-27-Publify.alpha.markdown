@@ -50,8 +50,8 @@ google-seo-data-markup: |
 color: dark-chocolate
 
 ---
-# Outil de gestion de playlist Spotify
-## Ensembles d'outils destinés à la gestion de playlists spotify
+## Outil de gestion de playlist Spotify
+### Ensembles d'outils destinés à la gestion de playlists spotify
 Publify Alpha est la seconde itération d'un projet réalisé en Python utilisant l'API spotify pour simplifier la gestion de playlists publique et collaboratives.
 <!--more-->
 Cet outil regroupe publify, radio et statify, un outil permettant la génération de statistiques & graphiques à partir des données de collaboration des playlists. Les besoins ont évolué, c'est pourquoi un outil supplémentaire a été ajouté à la collection.

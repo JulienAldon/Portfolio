@@ -49,8 +49,8 @@ google-seo-data-markup: |
     </script>
 color: dark-chocolate
 ---
-# Outil de gestion de playlist Spotify
-## Synchronisation de playlists collaboratives vers des playlists publiques
+## Outil de gestion de playlist Spotify
+### Synchronisation de playlists collaboratives vers des playlists publiques
 Publify.old est la première version d'un projet réalisé en Python : publify, utilisant l'API spotify pour simplifier la gestion de playlists publique et collaboratives.
 <!--more-->
 Ce projet répond à un besoin que j'avais identifié pendant mes études : partager une playlist collaborative à une connaissance, sans lui donner les droits d'écriture sur la playlist collaborative. L'idée était de synchroniser une playlist publique avec les musiques de la playliste collaborative. L'outil supprime également les doublons automatiquement.

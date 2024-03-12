@@ -50,9 +50,8 @@ google-seo-data-markup: |
 color: dark-chocolate
 ---
 
-# Outil de planification d'événements
-
-## Pour l'intranet EPITECH
+## Outil de planification d'événements
+### Intranet EPITECH
 
 Outil de planification d'événements pour l'intranet Epitech. L'outil crée des sessions d'une activité donnée et enregistre les apprenants liés à la promotion sélectionnée.
 

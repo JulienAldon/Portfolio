@@ -45,8 +45,8 @@ excerpt_separator: <!--more-->
 color: dark-chocolate
 
 ---
-# Modélisation 3D 
-## À l'aide du Raytracing
+## Modélisation 3D 
+### À l'aide du Raytracing
 Ce Projet Raytracer a été réalisé en C dans le cadre de ma première année à Epitech, en groupe de 4 personnes.
 <!--more-->
 L'objectif du projet était de pouvoir afficher une scène composée d'objet 3D simples (cubes, sphères, cônes...) et complexes (Thor, mesh...), décrit dans un fichier de configuration, grâce à la méthode du raytracing. 
