@@ -330,7 +330,7 @@ a {
   margin-bottom: 3rem;
 }
 
-#projets div a .projecttext h1 {
+#projets div a .projecttext h2 {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 800;
@@ -341,7 +341,7 @@ a {
   margin: 0rem;
 }
 
-#projets div a .projecttext h2 {
+#projets div a .projecttext h3 {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 600;
