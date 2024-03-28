@@ -1,0 +1,58 @@
+---
+permalink:      /fefan
+layout:         project
+title:          "Le Fefan"
+date:           2024-03-20
+description:    "Le fefan est un festival de fanfares organise à Villeurbanne, depuis 2022 ou Villeurbanne a été élue capitale de la culture cette année-là, le festival prend place au début du printemps pour faire bouger la ville à un rythme endiablé ! À l'aide d'un autre membre de l'association GIRASOL avec qui on organise le festival, nous avons décidé de créer le site de l'événement."
+
+images:
+    - img: "/assets/images/ressources/Fefan/home.webp"
+      alt: "Page d'accueil du site fefan."
+    - img: "/assets/images/ressources/Fefan/village.webp"
+      alt: "Page le village, presentant les evenements et la programmation autour du village Fefan."
+    - img: "/assets/images/ressources/Fefan/prog.webp"
+      alt: "Page de la programmation complete du festival."
+    - img: "/assets/images/ressources/Fefan/edition.webp"
+      alt: "Page d'une edition precedente."
+
+technos: 
+    - tech: "Next"
+      url: "https://nextjs.org/"
+    - tech: "Strapi"
+      url: "https://strapi.io/"
+
+made-by: "Réalisé par <a rel='author' target='_blank' href='https://github.com/JulienAldon'>Julien Aldon</a>"
+
+homepages:
+    - url: "https://gitlab.com/fefan"
+      alt: "Lien vers le gitlab"
+      icon: "fab fa-github"
+    - url: "https://fefan.fr"
+      alt: "Le site web"
+      icon: "fa-solid fa-globe"
+
+excerpt_separator: <!--more-->
+google-seo-data-markup: |
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "headline": "Le Fefan",
+        "name": "https://julien.aldon.fr/assets/images/ressources/Fefan/home.webp",
+        "author": {
+            "@type": "Person",
+            "name": "Julien Aldon",
+            "url": "https://julien.aldon.fr"
+        },
+        "description": "Le fefan est un festival de fanfares organise à Villeurbanne, depuis 2022 ou Villeurbanne a été élue capitale de la culture cette année-là, le festival prend place au début du printemps pour faire bouger la ville à un rythme endiablé ! À l'aide d'un autre membre de l'association GIRASOL avec qui on organise le festival, nous avons décidé de créer le site de l'événement."
+    }
+    </script>
+color: dark-chocolate
+---
+## Le Fefan
+### Festival de fanfares
+
+Le fefan est un festival de fanfares organise à Villeurbanne, depuis 2022 ou Villeurbanne a été élue capitale de la culture cette année-là, le festival prend place au début du printemps pour faire bouger la ville à un rythme endiablé ! À l'aide d'un autre membre de l'association GIRASOL avec qui on organise le festival, nous avons décidé de créer le site de l'événement.
+
+<!--more-->
+Le site comporte deux parties, un front (fefan.fr) et un back réalisé avec strapi : il permet de modifier les contenus du site en temps réel tout en nous laissant la possibilité d'implémenter notre propre front avec la technologie que l'on souhaite.
