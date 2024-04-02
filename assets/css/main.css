@@ -309,7 +309,6 @@ a {
 #projets div a {
   display: flex;
   flex-direction: row;
-  max-height: 27rem;
   max-width: 40%;
   border-radius: 1rem;
   padding: 2rem;
