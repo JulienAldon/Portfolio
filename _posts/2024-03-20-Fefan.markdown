@@ -52,7 +52,7 @@ color: dark-chocolate
 ## Le Fefan
 ### Festival de fanfares
 
-Le fefan est un festival de fanfares organise à Villeurbanne, depuis 2022 ou Villeurbanne a été élue capitale de la culture cette année-là, le festival prend place au début du printemps pour faire bouger la ville à un rythme endiablé ! À l'aide d'un autre membre de l'association GIRASOL avec qui on organise le festival, nous avons décidé de créer le site de l'événement.
+Le fefan est un festival de fanfares organise à Villeurbanne, <!--more-->
+depuis 2022 ou Villeurbanne a été élue capitale de la culture cette année-là, le festival prend place au début du printemps pour faire bouger la ville à un rythme endiablé ! À l'aide d'un autre membre de l'association GIRASOL avec qui on organise le festival, nous avons décidé de créer le site de l'événement.
 
-<!--more-->
 Le site comporte deux parties, un front (fefan.fr) et un back réalisé avec strapi : il permet de modifier les contenus du site en temps réel tout en nous laissant la possibilité d'implémenter notre propre front avec la technologie que l'on souhaite.
