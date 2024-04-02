@@ -54,6 +54,8 @@ color: dark-chocolate
 Cet outil fait parti d'un ensemble avec Clikodrome, il permet de remplir une feuille de présence pour une session donnée avec la possibilitée de scanner les cartes nfc des élèves.
 <!--more-->
 
+L'outil clicoscan a été réalisé avec tauri en rust et javascript pour le front. Son but principal est de permettre le scan des cartes étudiantes. Il envoie la feuille de présence au serveur du clikodrome pour lui permettre de valider les présences après la session d'émargement.
+
 Les outils nécéssaires pour la mise en place de cette solutions sont les suivants : 
 - Clikodrome [ici](https://github.com/JulienAldon/Clikodrome)
 - Clicoscan [ici](https://github.com/JulienAldon/Clicoscan)
