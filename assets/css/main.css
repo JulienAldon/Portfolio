@@ -69,6 +69,7 @@ a {
   padding: 0rem;
   overflow-y: scroll;
   max-height: 55vh;
+  scrollbar-color: var(--fg-0) rgba(0,0,0,0);
 }
 
 .experiencebox {
