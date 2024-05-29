@@ -38,7 +38,7 @@ google-seo-data-markup: |
         "@context": "https://schema.org",
         "@type": "WebSite",
         "headline": "Le Fefan",
-        "name": "https://julien.aldon.fr/assets/images/ressources/Fefan/home.webp",
+        "image": "https://julien.aldon.fr/assets/images/ressources/Fefan/home.webp",
         "author": {
             "@type": "Person",
             "name": "Julien Aldon",
