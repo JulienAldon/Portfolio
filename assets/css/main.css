@@ -75,6 +75,12 @@ a {
 .experiencebox {
   display: flex;
   padding-bottom: 1rem;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
+.experiencebox:nth-child(2n + 1) {
+  background: rgba(0, 0, 0, 0.1);
 }
 
 .experiencebox div {
