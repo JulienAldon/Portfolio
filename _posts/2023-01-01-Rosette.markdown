@@ -53,7 +53,7 @@ google-seo-data-markup: |
     </script>
 color: dark-chocolate
 ---
-## Site Internet Rosette
+## Site vitrine Rosette
 ### Pour le restaurant Rosette à Clichy
 Rosette-restaurant.fr est un site web pour le restaurant Rosette situé au cœur de Clichy ! Il a été réalisé en quelques semaines sur mon temps libre.
 <!--more-->

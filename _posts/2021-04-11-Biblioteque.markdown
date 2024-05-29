@@ -52,8 +52,8 @@ google-seo-data-markup: |
 color: dark-chocolate
 
 ---
-## Outil de gestion de base de donnée de livres
-### Pour enregistrer la bibliothèque de la maison
+## HomeBiblio
+### Outil de gestion de bibliothèque.
 La bibliothèque de la maison est si grande que l'on est incapable de dire avec certitude si on possède tel ou tel livre ou film.
 <!--more-->
 On a alors décidé de créer une base de données regroupant tous les livres et les films présents. Cette base de données peut être parcourue sur le navigateur grâce à une interface web réalisé avec VueJS.

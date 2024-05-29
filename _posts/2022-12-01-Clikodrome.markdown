@@ -51,8 +51,8 @@ google-seo-data-markup: |
     </script>
 color: dark-chocolate
 ---
-## Client facilitant l'usage d'edusign
-### Pédagogie Epitech MSC
+## Clikodrome
+### Client facilitant l'utilisation d'edusign pour la pédagogie Epitech MSC
 Clikodrome est un outil faisant le lien entre une source de donnée (l'intranet Epitech) et l'API d'Edusign.
 <!--more-->
 Le processus d'émargement Epitech MSC (Bac +5 Alternance) dépend de cet outil pour envoyer les mails de signature aux apprenants une fois leur carte scannée. L'idée étant de simplifier la vie de la pédagogie en automatisant le plus de tâches possibles.

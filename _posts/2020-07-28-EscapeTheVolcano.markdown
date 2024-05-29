@@ -46,8 +46,8 @@ google-seo-data-markup: |
 color: dark-chocolate
 
 ---
-## Jeu vidéo
-### Réalisé avec Unity
+## Escape The Volcano
+### Jeu vidéo réalisé avec Unity
 Escape The Volcano est un jeu vidéo en 2D, sur le thème cyberpunk. <!--more-->
 Un campement de robots se retrouve sans matériel pour maintenir les réparations, le plus courageux d'entre eux décide de monter une équipe pour sauter dans le mystérieux volcan et aller chercher le trésor : des composants mécaniques. Durant la partie, vous, contrôlez une équipe de robots, votre but est de surmonter les obstacles se présentant à vous, trouver le chemin vers le trésor, puis sortir du volcan. Le tout en essuyant le moins de pertes possibles évidemment !
 

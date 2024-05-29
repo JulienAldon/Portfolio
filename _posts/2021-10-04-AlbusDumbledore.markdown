@@ -53,8 +53,8 @@ google-seo-data-markup: |
 color: dark-chocolate
 
 ---
-## Outil de gestion des points de maisons
-### Pour la Piscine EPITECH
+## Albus Dumbledore
+### Outil de gestion des points de maisons pour la piscine EPITECH
 Le thème de la piscine Epitech Lyon de 2021 était Harry Potter, nous avons donc mis en place un site à afficher sur les télévisions de l'école pour garder le compte des points des maisons.
 <!--more-->
 
