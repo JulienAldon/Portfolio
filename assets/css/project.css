@@ -175,39 +175,20 @@ a {
   height: 80px;
   background: var(--bg-2);
   transform: translateY(4rem) rotate(0deg);
-  animation: fillout 2s ease-in-out;
   border-radius: 40%;
   z-index: -1;
-  transition: all 2s;
+  transition: all 1.5s ease;
 }
 
 .iconLink:hover:before {
-  animation: fillin 2s ease-in-out;
-  transition: none;
+  transform: translateY(0rem) rotate(360deg);
+  transition: all 1.5s ease;
 }
 
 .iconElem {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-@keyframes fillout {
-  from {
-    transform: translateY(0rem) rotate(360deg);
-  }
-  to {
-    transform: translateY(4rem) rotate(0deg);
-  }
-}
-
-@keyframes fillin {
-  0% {
-    transform: translateY(4rem) rotate(0deg);
-  }
-  100% {
-    transform: translateY(0rem) rotate(360deg);
-  }
 }
 
 .navigation div {

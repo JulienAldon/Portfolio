@@ -3,59 +3,62 @@
 <main class="about">
     <section>
         <div class="profilebox">
-            <img class="about-img img" src="/assets/images/ressources/about.webp" alt="Photo de Julien Aldon">
+            <img class="grow about-img img" src="/assets/images/ressources/about.webp" alt="Photo de Julien Aldon">
             <div class="aboutbox">
                 <div>
                     <nav class="iconbox">
-                        <a aria-label="Mon linkedin" rel="external" target="_blank" href="{{ site.linkedin_url }}" class="iconLink"><i class="iconElem fa-brands fa-linkedin"></i></a>
-                        <a aria-label="Mon github" rel="external" target="_blank" href="{{ site.github_url }}" class="iconLink"><i class="iconElem fa-brands fa-github"></i></a>
-                        <a aria-label="Mon adresse email" href="mailto:{{ site.email }}"id="mail-button" class="iconLink"><i class="iconElem fa-solid fa-envelopes-bulk"></i></a>
+                        <a aria-label="Mon linkedin" rel="external" target="_blank" href="{{ site.linkedin_url }}" class="grow iconLink"><i class="iconElem fa-brands fa-linkedin"></i></a>
+                        <a aria-label="Mon github" rel="external" target="_blank" href="{{ site.github_url }}" class="grow iconLink"><i class="iconElem fa-brands fa-github"></i></a>
+                        <a aria-label="Mon adresse email" href="mailto:{{ site.email }}"id="mail-button" class="grow iconLink"><i class="iconElem fa-solid fa-envelopes-bulk"></i></a>
                     </nav>
                     <p>Hello, moi c'est</p>
                     <h1>Julien Aldon</h1>
                     <h2>Je suis developpeur</h2>
                     <div class="text-box">
-                        <h2>Python</h2>
-                        <h2>Javascript</h2>
-                        <h2>C++</h2>
-                        <h2>C#</h2>
-                        <h2>Rust</h2>
-                        <h2>Web</h2>
+                        <h2><a target="_blank" href="/epitecheventplanner">Python</a></h2>
+                        <h2><a target="_blank" href="/biblio">Javascript</a></h2>
+                        <h2><a target="_blank" href="/raytracer">C++</a></h2>
+                        <h2><a target="_blank" href="/escapethevolcano">C#</a></h2>
+                        <h2><a target="_blank" href="/clicoscan">Rust</a></h2>
+                        <h2><a target="_blank" href="/fefan">Web</a></h2>
                     </div>
                 </div>
             </div>
         </div>
         <div class="infobox">
-            <a href="#pres-textbox" class="sectionSwitch selected"><span class="ruler"></span>Un peu d'informations sur moi</a href="">
-            <a href="#experiences" class="sectionSwitch"><span class="ruler"></span>Mes expériences</a href="">
-            <a href="#projets" class="sectionSwitch"><span class="ruler"></span>Mes projets</button>
+            <a href="#pres-textbox" class="sectionSwitch selected"><span class="ruler"></span>Informations</a>
+            <a href="#experiences" class="sectionSwitch"><span class="ruler"></span>Expériences</a>
+            <a href="#projets" class="sectionSwitch"><span class="ruler"></span>Projets</>
         </div>
         <div class="chevron">
             <a href="#projets"><i class="fa-solid fa-chevron-down"></i></a>
         </div>
     </section>
     <aside>
-        <article class="presentation">
+        <!-- <article class="presentation">
             <p id="pres-textbox" class="selected">
                 {{ page.presentation }}
             </p>
             <span></span>
-        </article>
-        <article id="experiences" class="experiences">
-            <ul>
-                {% for elem in page.experiences %}
-                <li class="experiencebox">
-                    <h2 class="date">{{ elem.date }}</h2>
-                    <div>
-                        <h2 class="titre">{{ elem.titre }}</h2>
-                        <p class="description">{{ elem.description }}</p>
-                    </div>
-                </li>
-                {% endfor %}
-            </ul>
-        </article>
+        </article> -->
     </aside>
 </main>
+<section id="experiences"> 
+    <h2 class="project-title">Experiences professionnelles</h2>
+    <article id="experiences" class="experiences">
+        <ul>
+            {% for elem in page.experiences %}
+            <li class="experiencebox">
+                <h2 class="date">{{ elem.date }}</h2>
+                <div>
+                    <h2 class="titre">{{ elem.titre }}</h2>
+                    <p class="description">{{ elem.description }}</p>
+                </div>
+            </li>
+            {% endfor %}
+        </ul>
+    </article>
+</section>
 <section id="projets">
     <h2 class="project-title">Mes réalisations et projets personnels</h2>
     <div>
