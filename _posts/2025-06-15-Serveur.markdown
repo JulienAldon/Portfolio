@@ -24,7 +24,7 @@ google-seo-data-markup: |
         "@context": "https://schema.org",
         "@type": "WebSite",
         "headline": "Mon serveur",
-        "image": "https://julien.aldon.fr/assets/images/ressources/Fefan/boite.webp",
+        "image": "https://julien.aldon.fr/assets/images/ressources/Serveur/boite.webp",
         "author": {
             "@type": "Person",
             "name": "Julien Aldon",

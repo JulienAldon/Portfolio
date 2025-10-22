@@ -36,8 +36,8 @@ google-seo-data-markup: |
     {
         "@context": "https://schema.org",
         "@type": "",
-        "headline": "",
-        "image": "",
+        "headline": "Génération de contrats pour l'AMAP de Croix Luizet",
+        "image": "https://julien.aldon.fr/assets/images/ressources/AmapContractGeneration/ContratMembres.webp",
         "author": {
             "@type": "Person",
             "name": "Julien Aldon",
