@@ -410,8 +410,10 @@ a {
 #projets div a .imgHeader {
   filter: drop-shadow(-4px -4px 4px rgba(255, 255, 255, 0.25));
   border-radius: 8px;
-  width: 20vw;
-  max-height: 30vh;
+  max-width: 20vw;
+  display: flex;
+  justify-self: center;
+  max-height: 20vh;
 }
 
 #projets div a .secondImg {
@@ -419,8 +421,9 @@ a {
   border-radius: 8px;
   position: relative;
   left: 1rem;
-  width: 20vw;
+  max-width: 20vw;
   top: -4rem;
+  max-height: 20vh;
 }
 
 #projets div a .projecttext .techno-info {
@@ -837,7 +840,6 @@ a {
     display: flex;
     flex-direction: column;
     width: 90vw;
-    max-height: 60vh;
     padding: 5vw;
     max-width: unset;
   }
@@ -908,19 +910,23 @@ a {
     display: flex;
     flex-direction: row;
     align-items: center;
-    position: relative;
+    position: unset;
     justify-content: center;
+    padding-top: 2rem;
   }
 
   #projets div a .secondImg {
-    width: 30vw;
-    position: relative;
-    left: -3rem;
-    top: 2rem;
+    width: 50vw;
+    position: unset;
+    left: unset;
+    top: unset;
+    max-height: unset;
   }
 
   #projets div a .imgHeader {
-    width: 30vw;
+    width: 50vw;
+    max-height: unset;
+    padding-right: 1rem
   }
 
   .aboutbox div {
