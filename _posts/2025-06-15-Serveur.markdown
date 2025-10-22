@@ -1,0 +1,46 @@
+---
+permalink:      /serveur
+layout:         project
+title:          "Serveur personnel"
+date:           2025-06-15
+description:    "Serveur personnel construit et managé chez moi."
+
+images:
+    - img: "/assets/images/ressources/Serveur/boite.webp"
+      alt: "Le boitier du serveur."
+    - img: "/assets/images/ressources/Serveur/nextcloud.webp"
+      alt: "Page d'accueil du nextcloud."
+
+technos: 
+    - tech: "ProxMox"
+      url: "https://www.proxmox.com/en/"
+
+made-by: "Réalisé par <a rel='author' target='_blank' href='https://github.com/JulienAldon'>Julien Aldon</a>"
+
+excerpt_separator: <!--more-->
+google-seo-data-markup: |
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "headline": "Mon serveur",
+        "image": "https://julien.aldon.fr/assets/images/ressources/Fefan/boite.webp",
+        "author": {
+            "@type": "Person",
+            "name": "Julien Aldon",
+            "url": "https://julien.aldon.fr"
+        },
+        "description": "Serveur personnel construit et managé chez moi."
+    }
+    </script>
+color: dark-chocolate
+---
+## Mon serveur
+### Avec proxmox
+
+Un besoin récurent dans la famille est de stocker des photos et des backups. <!--more-->
+La solution était de monter un petit serveur personnel pour pouvoir héberger des services chez moi facilement. Ce serveur est composé d'une carte MiniITX, 32go de ram, un processeur i5 pas trop coûteux et une boite en bois réalisé par mon père.
+
+Le serveur accueille un système ProxMox permettant la creation facile et rapide de conteneurs LXC (linux containers) ou de VM (machine virtuelles).
+
+Le serveur sert à heberger une instance nextcloud et le site de l'association dans laquelle je suis actuellement secretaire et responsable des outils informatiques : [Girasol](https://www.helloasso.com/associations/girasol)
