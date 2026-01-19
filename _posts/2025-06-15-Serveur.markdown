@@ -14,6 +14,12 @@ images:
 technos: 
     - tech: "ProxMox"
       url: "https://www.proxmox.com/en/"
+    - tech: "Terraform"
+      url: "https://opentofu.org/"
+    - tech: "Traefik"
+      url: "https://traefik.io/traefik"
+    - tech: "Cloud-init"
+      url: "https://cloud-init.io/"
 
 made-by: "Réalisé par <a rel='author' target='_blank' href='https://github.com/JulienAldon'>Julien Aldon</a>"
 
@@ -38,9 +44,24 @@ color: dark-chocolate
 ## Mon serveur
 ### Avec proxmox
 
-Un besoin récurent dans la famille est de stocker des photos et des backups. <!--more-->
-La solution était de monter un petit serveur personnel pour pouvoir héberger des services chez moi facilement. Ce serveur est composé d'une carte MiniITX, 32go de ram, un processeur i5 pas trop coûteux et une boite en bois réalisé par mon père.
+Un besoin récurent dans la famille est de stocker des photos et des sauvegardes. <!--more-->
+La solution était de monter un petit serveur personnel pour pouvoir héberger des services chez moi facilement.
 
-Le serveur accueille un système ProxMox permettant la creation facile et rapide de conteneurs LXC (linux containers) ou de VM (machine virtuelles).
+Le serveur accueille un système ProxMox permettant la création facile et rapide de conteneurs `LXC` (linux containers) ou de `VM` (machine virtuelles).
+Toute la [configuration](https://gitea.aldon.fr/Mop/terraform) du serveur est géré en `IaC` (infrastructure as code) avec Terraform (`openTofu`). Terraform crée les machines virtuelles et cloud-init initialise leurs applications (scripts de backup, applications, runner). Enfin Terraform génère une configuration Traefik puis la donne au service `gateway` qui s'occupe du routage interne.
 
-Le serveur sert à heberger une instance nextcloud et le site de l'association dans laquelle je suis actuellement secretaire et responsable des outils informatiques : [Girasol](https://www.helloasso.com/associations/girasol)
+Pour les applications que j'ai développés, j'utilise `gitea` pour héberger le code et j'utilise les `act_runner` et `gitea actions` pour déployer automatiquement et lancer les tests.
+
+Le serveur héberge :
+- Une instance [nextcloud](https://nextcloud.aldon.fr)
+- Le site de l'association dans laquelle je suis actuellement secrétaire et responsable des outils informatiques : [Girasol](https://www.helloasso.com/associations/girasol)
+- Une instance [keycloak](https://keycloak.aldon.fr) pour l'IAM
+- Une instance [vaultwarden](https://vaultwarden.aldon.fr) pour la gestion des mots de passe.
+- Une instance [rocket](https://discussion.fefan.fr) pour la discussion instantané au seins de Girasol.
+- Une instance [gitea](https://gitea.aldon.fr)
+- Un service de référencement de bibliothèque [bookshelf](https://bookshelf.aldon.fr)
+
+### Matériel
+- Textorm 32 Go (2x 16 Go) DDR4 3200 MHz CL16 
+- Intel Core i5-12400F (2.5 GHz / 4.4 GHz)
+- Gigabyte H610I DDR4 
