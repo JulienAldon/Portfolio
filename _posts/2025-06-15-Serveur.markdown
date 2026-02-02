@@ -21,6 +21,11 @@ technos:
     - tech: "Cloud-init"
       url: "https://cloud-init.io/"
 
+homepages:
+    - url: "https://gitea.aldon.fr/Mop/terraform"
+      alt: "Lien vers le gitea"
+      icon: "fab fa-github"
+      
 made-by: "Réalisé par <a rel='author' target='_blank' href='https://github.com/JulienAldon'>Julien Aldon</a>"
 
 excerpt_separator: <!--more-->

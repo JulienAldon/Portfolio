@@ -21,11 +21,6 @@ a {
 }
 
 
-
-.about section {
-  width: 50vw;
-}
-
 .about aside {
   width: 50vw;
 }
@@ -112,7 +107,6 @@ a {
   font-style: normal;
   font-weight: 600;
   font-size: 1rem;
-  line-height: 21px;
   color: var(--fg-2);
   margin: 0rem;
   width: 10rem;
@@ -151,6 +145,9 @@ a {
 
 .infobox {
   margin-left: 8rem;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .infobox a {
@@ -166,8 +163,8 @@ a {
   font-size: 28px;
   line-height: 33px;
   color: var(--fg-2);
-  margin-bottom: 4rem;
-  margin-top: 4rem;
+  /* margin-bottom: 4rem; */
+  /* margin-top: 4rem; */
   cursor: pointer;
 }
 
@@ -208,9 +205,10 @@ a {
 }
 
 .profilebox {
+  justify-content: center;
   display: flex;
   flex-flow: row;
-  margin: 5rem 0rem 2rem 8rem;
+  margin-top: 5rem;
 }
 
 .about-img {
@@ -222,6 +220,7 @@ a {
 
 .aboutbox {
   display: flex;
+  flex-direction: row;
 }
 
 .aboutbox > div {
@@ -309,15 +308,12 @@ a {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
-  font-size: 3.9rem;
-  line-height: 70px;
-  margin-left: 5rem;
+  font-size: 3rem;
+  text-align: center;
 }
-
 
 #experiences {
   display: flex;
-  /* flex-wrap: wrap; */
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -326,6 +322,7 @@ a {
 #projets {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
@@ -369,8 +366,8 @@ a {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 800;
-  font-size: 1.8rem;
   line-height: 33px;
+  padding-bottom: 1rem;
   color: var(--fg-2);
   text-shadow: 0px 4px 4px rgba(255, 255, 255, 0.25);
   margin: 0rem;
@@ -391,7 +388,7 @@ a {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 600;
-  font-size: 1.2rem;
+  font-size: 0.8rem;
   line-height: 26px;
   color: var(--fg-2);
   flex: 1;
@@ -451,11 +448,10 @@ a {
 .text-box {
   display: inline-block;
   position: relative;
-  top: 10.5%;
-  left: 75%;
+  margin-top: 2rem;
 }
 
-.text-box h2 {
+.text-box h3 {
   display: inline-block;
   position: absolute;
   top: -100px;
@@ -465,27 +461,27 @@ a {
   width: 5rem;
 }
 
-.text-box h2:nth-child(1) {
+.text-box h3:nth-child(1) {
   animation: rollDown 10s forwards infinite;
 }
 
-.text-box h2:nth-child(2) {
+.text-box h3:nth-child(2) {
   animation: rollDown2 10s forwards infinite;
 }
 
-.text-box h2:nth-child(3) {
+.text-box h3:nth-child(3) {
   animation: rollDown3 10s forwards infinite;
 }
 
-.text-box h2:nth-child(4) {
+.text-box h3:nth-child(4) {
   animation: rollDown4 10s forwards infinite;
 }
 
-.text-box h2:nth-child(5) {
+.text-box h3:nth-child(5) {
   animation: rollDown5 10s forwards infinite;
 }
 
-.text-box h2:nth-child(6) {
+.text-box h3:nth-child(6) {
   animation: rollDown6 10s forwards infinite;
 }
 
@@ -646,6 +642,10 @@ a {
     margin: auto;
   }
 
+  .project-title {
+    font-size: 2rem;
+  }
+
   .experiences {
     margin-left: 10vw;
     margin-right: 10vw;
@@ -661,10 +661,6 @@ a {
 
   .experiencebox div {
     width: 40vw;
-  }
-
-  .experiencebox .date {
-    width: 15rem;
   }
 
   #projets div a .projecttext {
@@ -713,12 +709,19 @@ a {
 
 @media screen and (max-width: 1060px) {
   .profilebox {
-    margin: 2rem 0rem 1rem 2rem;
+    margin-top: 2rem;
+  }
+
+  .aboutbox > div {
+    margin-left: 0.5rem;
+  }
+
+  .about-img {
+    align-items: center;
   }
 
   .infobox {
     margin-left: 2rem;
-    margin-top: 5rem;
   }
 
   .infobox a {
@@ -764,7 +767,6 @@ a {
   }
 
   .project-title {
-    margin: 0px;
     font-size: 2rem;
   }
 
@@ -791,6 +793,10 @@ a {
   #projets div a .secondImg {
     width: 40vw;
   }
+  
+  .aboutbox div h1 {
+    font-size: 3rem;
+  }
 }
 
 @media screen and (max-width: 700px) {
@@ -812,13 +818,12 @@ a {
   }
 
   .experiencebox .date {
+    line-height: 2rem;
     width: unset;
-    font-size: 1.5rem;
   }
 
   .text-box {
-    left: 25%;
-    top: 30%;
+    left: -2rem;
   }
 
   .aboutbox div h1 {
@@ -845,7 +850,7 @@ a {
   }
 
   .project-title {
-    font-size: 2rem;
+    font-size: 1.2rem;
     margin: 0px;
     text-align: center;
   }
@@ -858,14 +863,13 @@ a {
   }
 
   .about-img {
-    position: unset;
+    align-self: center;
     order: 2;
-    justify-self: center;
     margin-top: 2rem;
   }
 
   .profilebox {
-    margin: 2rem 0rem 0rem 0rem;
+    margin-top: 2rem;
     flex-flow: column;
     align-items: center;
   }
@@ -927,6 +931,12 @@ a {
     width: 50vw;
     max-height: unset;
     padding-right: 1rem
+  }
+
+
+  .aboutbox {
+    display: flex;
+    flex-direction: column;
   }
 
   .aboutbox div {
