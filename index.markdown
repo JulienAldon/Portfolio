@@ -4,7 +4,10 @@
 
 layout: main
 experiences:
-  - date: "Février 2024 - Aujourd'hui"
+  - date: "Janvier 2026 - Aujourd'hui"
+    titre: "Équipe PedaTools, Epitech."
+    description: "Développement des outils à destination de la pédagogie au sein de l'équipe PedaTools. On réalise un outil permettant de remplacer l'intranet historique de l'école : My. En plus du maintien de panoramix et d'un outil de gestion de VM sur l'infrastructure de l'école avec Terraform : VM Manager."
+  - date: "Février 2024 - Janvier 2026"
     titre: "Équipe DDOS, Epitech."
     description: "Développement de l'outil Panoramix au sein de l'équipe DDOS. Cet outil est adressé aux équipes pédagogiques pour simplifier la planification des activités sur les intranet de l'école (moodle, intra.epitech...)"
   - date: "Septembre 2021 - Février 2024"
