@@ -341,11 +341,13 @@ a {
 
 #projets div a {
   display: flex;
-  flex-direction: row;
-  max-width: 40%;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
   border-radius: 1rem;
   padding: 2rem;
   box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+
 }
 
 #projets div a:nth-child(2n) {
@@ -386,6 +388,7 @@ a {
 #projets div a .projecttext p {
   margin: 0rem;
   font-family: "Raleway";
+  text-align: justify;
   font-style: normal;
   font-weight: 600;
   font-size: 0.8rem;
@@ -397,11 +400,9 @@ a {
 #projets div a .projecttext {
   min-width: 30%;
   padding-right: 1rem;
-  margin-right: 1rem;
   display: flex;
   flex-direction: column;
   overflow-y: auto;
-  justify-content: flex-start;
 }
 
 #projets div a .imgHeader {
@@ -419,15 +420,17 @@ a {
   position: relative;
   left: 1rem;
   max-width: 20vw;
-  top: -4rem;
   max-height: 20vh;
 }
 
 #projets div a .projecttext .techno-info {
-  margin-top: 2rem;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: flex-start;
+  font-size: 0.7rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 
 #projets div a .projecttext .techno-link {
@@ -440,9 +443,8 @@ a {
   font-weight: 700;
   transition: transform 0.2s; /* Animation */
   width: auto;
-  margin-right: 1rem;
-  margin-bottom: 1rem;
   max-height: 1.5rem;
+  margin-right: 0.2rem;
 }
 
 .text-box {
@@ -663,19 +665,31 @@ a {
     width: 40vw;
   }
 
+  #projets div a {
+    flex-direction: column;
+    height: unset;
+    padding: 5vw;
+    width: 60vw;
+  }
+
   #projets div a .projecttext {
-    flex-direction: row;
+    flex-direction: column;
     overflow: hidden;
     width: 50vw;
   }
 
   #projets div a:nth-child(2n) {
-    margin-left: 1rem;
+    margin-left: 0rem;
     margin-right: 0rem;
     margin-top: 4rem;
     margin-bottom: 3rem;
   }
-
+  
+  #projets div a .secondImg {
+    width: 40vw;
+    top: unset;
+  }
+  
   #projets div a:nth-child(2n + 1) {
     margin-left: 0rem;
     margin-right: 1rem;
@@ -741,15 +755,12 @@ a {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    /* padding: 1rem; */
   }
 
   #projets div a {
-    display: flex;
     height: unset;
-    width: 90vw;
     padding: 5vw;
-    max-width: unset;
+    width: 80vw;
   }
 
   #projets div a:nth-child(2n) {
@@ -771,7 +782,6 @@ a {
   }
 
   #projets div a .projecttext {
-    min-height: 15rem;
     width: 80vw;
     padding-right: 0px;
     display: flex;
@@ -792,6 +802,7 @@ a {
 
   #projets div a .secondImg {
     width: 40vw;
+    top: unset;
   }
   
   .aboutbox div h1 {
@@ -838,13 +849,13 @@ a {
   }
 
   #projets div a .projecttext {
-    min-height: 15rem;
     padding-right: 0px;
   }
+
   #projets div a {
     display: flex;
     flex-direction: column;
-    width: 90vw;
+    /* width: 90vw; */
     padding: 5vw;
     max-width: unset;
   }
@@ -916,7 +927,7 @@ a {
     align-items: center;
     position: unset;
     justify-content: center;
-    padding-top: 2rem;
+    padding-top: 1rem;
   }
 
   #projets div a .secondImg {
