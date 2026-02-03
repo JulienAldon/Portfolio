@@ -68,9 +68,9 @@ a {
 }
 
 .techno-info {
-  margin-top: 2rem;
+  margin-top: 1rem;
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
 }
 
 .techno-link {
@@ -83,7 +83,8 @@ a {
   font-weight: 700;
   transition: transform 0.2s; /* Animation */
   width: auto;
-  margin-right: 1rem;
+  margin-right: 0.2rem;
+  margin-bottom: 0.2rem;
 }
 
 .techno-link:hover {
@@ -245,12 +246,11 @@ a {
     padding-right: 1rem;
     margin-right: 0.5rem;
   }
+
   .techno-info {
     flex-wrap: wrap;
   }
-  .techno-link {
-    margin-bottom: 1rem;
-  }
+  
   .navigation {
     margin-left: 1rem;
     margin-right: 1rem;
