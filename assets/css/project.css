@@ -234,10 +234,6 @@ a {
     flex-flow: column;
     max-height: unset;
   }
-  .secondary-img {
-  }
-  .main-img {
-  }
 }
 
 @media screen and (max-width: 600px) {
